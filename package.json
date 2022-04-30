@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "prettier": "^2.6.2"
+  },
+  "name": "gametest-clgen",
+  "version": "2.0.0",
+  "devDependencies": {},
+  "keywords": [],
+  "main": "scripts/index.js",
+  "scripts": {
+    "test": "node scripts/index.js"
+  },
+  "author": "Jayly",
+  "license": "MIT",
+  "description": "GameTest changelog generator"
+}

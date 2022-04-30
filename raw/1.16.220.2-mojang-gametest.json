@@ -1,0 +1,9 @@
+{
+  "Tags": {
+    "suiteDefault": "suite:default",
+    "suiteBroken": "suite:broken",
+    "suiteAll": "suite:all",
+    "suiteDebug": "suite:debug"
+  },
+  "register": "function () {\n    [native code]\n}"
+}

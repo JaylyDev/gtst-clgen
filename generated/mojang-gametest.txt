@@ -1,0 +1,241 @@
+`mojang-gametest`
+
+== Change Log ==
+=== v1.19.0.29-beta ===
+- Changed `SimulatedPlayer`
+    - Changed element `prototype`
+        - Added property `setRotation`
+        - Added property `setDynamicProperty`
+        - Added property `getDynamicProperty`
+        - Added property `removeDynamicProperty`
+        - Added property `addExperience`
+        - Added property `rotation`
+        - Added property `scoreboard`
+        - Added property `onScreenDisplay`
+        - Removed property `bodyRotation`
+- Changed `Test`
+    - Changed element `prototype`
+        - Added property `rotateVector`
+        - Added property `destroyBlock`
+
+=== v1.18.30.4 ===
+- Changed `SimulatedPlayer`
+    - Changed element `prototype`
+        - Added property `playSound`
+- Changed `Test`
+    - Changed element `prototype`
+        - Added property `getSculkSpreader`
+
+=== v1.18.10.4 ===
+- Added `registerAsync`
+- Changed `SimulatedPlayer`
+    - Changed element `prototype`
+        - Added property `setVelocity`
+        - Added property `teleport`
+        - Added property `teleportFacing`
+        - Added property `runCommand`
+        - Added property `addTag`
+        - Added property `removeTag`
+        - Added property `hasTag`
+        - Added property `getTags`
+        - Added property `getEntitiesFromViewVector`
+        - Added property `getBlockFromViewVector`
+        - Added property `postClientMessage`
+        - Added property `startItemCooldown`
+        - Added property `getItemCooldown`
+        - Added property `breakBlock`
+        - Added property `stopBreakingBlock`
+        - Added property `giveItem`
+        - Added property `setItem`
+        - Added property `setGameMode`
+        - Added property `dimension`
+        - Added property `target`
+        - Added property `viewVector`
+        - Added property `headLocation`
+        - Added property `selectedSlot`
+        - Removed property `selectSlot`
+        - Removed property `destroyBlock`
+        - Removed property `stopDestroyingBlock`
+- Changed `Test`
+    - Changed element `prototype`
+        - Added property `getDimension`
+        - Added property `triggerInternalBlockEvent`
+
+=== v1.18.0.2 ===
+- Changed `Test`
+    - Changed element `prototype`
+        - Added property `idle`
+        - Added property `until`
+
+=== v1.17.40.6 ===
+- Added `SimulatedPlayer`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `hasComponent`
+        - Added property `getComponent`
+        - Added property `getComponents`
+        - Added property `kill`
+        - Added property `getEffect`
+        - Added property `addEffect`
+        - Added property `triggerEvent`
+        - Added property `jump`
+        - Added property `rotateBody`
+        - Added property `setBodyRotation`
+        - Added property `lookAtBlock`
+        - Added property `lookAtEntity`
+        - Added property `lookAtLocation`
+        - Added property `move`
+        - Added property `moveRelative`
+        - Added property `moveToLocation`
+        - Added property `moveToBlock`
+        - Added property `navigateToLocation`
+        - Added property `navigateToLocations`
+        - Added property `navigateToBlock`
+        - Added property `navigateToEntity`
+        - Added property `stopMoving`
+        - Added property `attack`
+        - Added property `attackEntity`
+        - Added property `selectSlot`
+        - Added property `useItemInSlot`
+        - Added property `useItem`
+        - Added property `useItemOnBlock`
+        - Added property `useItemInSlotOnBlock`
+        - Added property `interactWithEntity`
+        - Added property `interactWithBlock`
+        - Added property `interact`
+        - Added property `destroyBlock`
+        - Added property `stopDestroyingBlock`
+        - Added property `stopInteracting`
+        - Added property `stopUsingItem`
+        - Added property `id`
+        - Added property `location`
+        - Added property `velocity`
+        - Added property `nameTag`
+        - Added property `isSneaking`
+        - Added property `bodyRotation`
+        - Added property `headRotation`
+- Changed `GameTestSequence`
+    - Changed element `prototype`
+        - Added property `thenWaitAfter`
+        - Removed property `thenWaitWithDelay`
+- Changed `Test`
+    - Changed element `prototype`
+        - Added property `removeSimulatedPlayer`
+        - Added property `spawnSimulatedPlayer`
+        - Added property `succeedWhenBlockPresent`
+        - Removed property `succeedWhenBlockTypePresent`
+
+=== v1.17.30.4 ===
+- Added `FenceConnectivity`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `north`
+        - Added property `east`
+        - Added property `south`
+        - Added property `west`
+- Added `FluidType`
+    - Added element `lava`
+    - Added element `powderSnow`
+    - Added element `potion`
+- Added `GameTestSequence`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `thenExecute`
+        - Added property `thenExecuteAfter`
+        - Added property `thenExecuteFor`
+        - Added property `thenFail`
+        - Added property `thenIdle`
+        - Added property `thenSucceed`
+        - Added property `thenWait`
+        - Added property `thenWaitWithDelay`
+- Added `RegistrationBuilder`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `batch`
+        - Added property `required`
+        - Added property `requiredSuccessfulAttempts`
+        - Added property `maxAttempts`
+        - Added property `maxTicks`
+        - Added property `setupTicks`
+        - Added property `structureName`
+        - Added property `padding`
+        - Added property `rotateTest`
+        - Added property `tag`
+- Added `Test`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `assertBlockState`
+        - Added property `assertBlockPresent`
+        - Added property `assertCanReachLocation`
+        - Added property `assert`
+        - Added property `assertContainerContains`
+        - Added property `assertContainerEmpty`
+        - Added property `assertEntityState`
+        - Added property `assertEntityHasArmor`
+        - Added property `assertEntityHasComponent`
+        - Added property `assertEntityInstancePresent`
+        - Added property `assertEntityPresent`
+        - Added property `assertEntityPresentInArea`
+        - Added property `assertEntityTouching`
+        - Added property `assertIsWaterlogged`
+        - Added property `assertItemEntityCountIs`
+        - Added property `assertItemEntityPresent`
+        - Added property `assertRedstonePower`
+        - Added property `fail`
+        - Added property `failIf`
+        - Added property `getBlock`
+        - Added property `getFenceConnectivity`
+        - Added property `getTestDirection`
+        - Added property `killAllEntities`
+        - Added property `pressButton`
+        - Added property `print`
+        - Added property `pullLever`
+        - Added property `pulseRedstone`
+        - Added property `relativeBlockLocation`
+        - Added property `relativeLocation`
+        - Added property `rotateDirection`
+        - Added property `runAfterDelay`
+        - Added property `runAtTickTime`
+        - Added property `setBlockPermutation`
+        - Added property `setBlockType`
+        - Added property `setFluidContainer`
+        - Added property `setTntFuse`
+        - Added property `spawn`
+        - Added property `spawnAtLocation`
+        - Added property `spawnItem`
+        - Added property `spawnWithoutBehaviors`
+        - Added property `spawnWithoutBehaviorsAtLocation`
+        - Added property `spreadFromFaceTowardDirection`
+        - Added property `startSequence`
+        - Added property `succeed`
+        - Added property `succeedIf`
+        - Added property `succeedOnTick`
+        - Added property `succeedOnTickWhen`
+        - Added property `succeedWhen`
+        - Added property `succeedWhenBlockTypePresent`
+        - Added property `succeedWhenEntityHasComponent`
+        - Added property `succeedWhenEntityPresent`
+        - Added property `walkTo`
+        - Added property `walkToLocation`
+        - Added property `worldBlockLocation`
+        - Added property `worldLocation`
+- Changed `Tags`
+    - Added element `prototype`
+        - Added property `constructor`
+
+=== v1.17.0.2 ===
+- Changed `Tags`
+    - Added element `suiteDisabled`
+    - Removed element `suiteBroken`
+
+=== v1.16.220.2 ===
+- Added `Tags`
+    - Added element `suiteDefault`
+    - Added element `suiteBroken`
+    - Added element `suiteAll`
+    - Added element `suiteDebug`
+
+=== v1.16.210.5 ===
+- Added `register`
+
+== /Change Log ==
