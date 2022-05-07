@@ -1,0 +1,1278 @@
+{
+   "classes" : [
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "player",
+                     "type" : {
+                        "element_type" : null,
+                        "from_module" : {
+                           "name" : "mojang-minecraft",
+                           "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                           "version" : {
+                              "major" : 0,
+                              "minor" : 1,
+                              "patch" : 0
+                           }
+                        },
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "Player",
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "show",
+               "return_type" : {
+                  "element_type" : null,
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "promise",
+                  "promise_type" : {
+                     "element_type" : null,
+                     "from_module" : {
+                        "name" : "mojang-minecraft-ui",
+                        "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                        "version" : {
+                           "major" : 0,
+                           "minor" : 1,
+                           "patch" : 0
+                        }
+                     },
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "ActionFormResponse",
+                     "valid_range" : null
+                  },
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "text",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "iconPath",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "element_type" : null,
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "string",
+                           "valid_range" : null
+                        },
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "button",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ActionFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "titleText",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "title",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ActionFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "bodyText",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "body",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ActionFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [],
+               "is_constructor" : true,
+               "is_member" : true,
+               "name" : "constructor",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ActionFormData",
+                  "valid_range" : null
+               }
+            }
+         ],
+         "module" : {
+            "name" : "mojang-minecraft-ui",
+            "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+            "version" : {
+               "major" : 0,
+               "minor" : 1,
+               "patch" : 0
+            }
+         },
+         "name" : "ActionFormData",
+         "properties" : [],
+         "type" : {
+            "element_type" : null,
+            "from_module" : {
+               "name" : "mojang-minecraft-ui",
+               "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+               "version" : {
+                  "major" : 0,
+                  "minor" : 1,
+                  "patch" : 0
+               }
+            },
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "ActionFormData",
+            "valid_range" : null
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "player",
+                     "type" : {
+                        "element_type" : null,
+                        "from_module" : {
+                           "name" : "mojang-minecraft",
+                           "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                           "version" : {
+                              "major" : 0,
+                              "minor" : 1,
+                              "patch" : 0
+                           }
+                        },
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "Player",
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "show",
+               "return_type" : {
+                  "element_type" : null,
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "promise",
+                  "promise_type" : {
+                     "element_type" : null,
+                     "from_module" : {
+                        "name" : "mojang-minecraft-ui",
+                        "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                        "version" : {
+                           "major" : 0,
+                           "minor" : 1,
+                           "patch" : 0
+                        }
+                     },
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "MessageFormResponse",
+                     "valid_range" : null
+                  },
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "text",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "button1",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "MessageFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "text",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "button2",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "MessageFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "titleText",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "title",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "MessageFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "bodyText",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "body",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "MessageFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [],
+               "is_constructor" : true,
+               "is_member" : true,
+               "name" : "constructor",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "MessageFormData",
+                  "valid_range" : null
+               }
+            }
+         ],
+         "module" : {
+            "name" : "mojang-minecraft-ui",
+            "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+            "version" : {
+               "major" : 0,
+               "minor" : 1,
+               "patch" : 0
+            }
+         },
+         "name" : "MessageFormData",
+         "properties" : [],
+         "type" : {
+            "element_type" : null,
+            "from_module" : {
+               "name" : "mojang-minecraft-ui",
+               "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+               "version" : {
+                  "major" : 0,
+                  "minor" : 1,
+                  "patch" : 0
+               }
+            },
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "MessageFormData",
+            "valid_range" : null
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "player",
+                     "type" : {
+                        "element_type" : null,
+                        "from_module" : {
+                           "name" : "mojang-minecraft",
+                           "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+                           "version" : {
+                              "major" : 0,
+                              "minor" : 1,
+                              "patch" : 0
+                           }
+                        },
+                        "is_bind_type" : true,
+                        "is_errorable" : false,
+                        "name" : "Player",
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "show",
+               "return_type" : {
+                  "element_type" : null,
+                  "is_bind_type" : false,
+                  "is_errorable" : true,
+                  "name" : "promise",
+                  "promise_type" : {
+                     "element_type" : null,
+                     "from_module" : {
+                        "name" : "mojang-minecraft-ui",
+                        "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                        "version" : {
+                           "major" : 0,
+                           "minor" : 1,
+                           "patch" : 0
+                        }
+                     },
+                     "is_bind_type" : true,
+                     "is_errorable" : false,
+                     "name" : "ModalFormResponse",
+                     "valid_range" : null
+                  },
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "label",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "defaultValue",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "element_type" : null,
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "boolean",
+                           "valid_range" : null
+                        },
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "toggle",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ModalFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "label",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  },
+                  {
+                     "details" : {
+                        "max_value" : 3.402823466385289e+38,
+                        "min_value" : -3.402823466385289e+38
+                     },
+                     "name" : "minimumValue",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "float",
+                        "valid_range" : {
+                           "max" : 2147483647,
+                           "min" : -2147483648
+                        }
+                     }
+                  },
+                  {
+                     "details" : {
+                        "max_value" : 3.402823466385289e+38,
+                        "min_value" : -3.402823466385289e+38
+                     },
+                     "name" : "maximumValue",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "float",
+                        "valid_range" : {
+                           "max" : 2147483647,
+                           "min" : -2147483648
+                        }
+                     }
+                  },
+                  {
+                     "details" : {
+                        "max_value" : 3.402823466385289e+38,
+                        "min_value" : -3.402823466385289e+38
+                     },
+                     "name" : "valueStep",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "float",
+                        "valid_range" : {
+                           "max" : 2147483647,
+                           "min" : -2147483648
+                        }
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "defaultValue",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "element_type" : null,
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "float",
+                           "valid_range" : {
+                              "max" : 2147483647,
+                              "min" : -2147483648
+                           }
+                        },
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "slider",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ModalFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "label",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  },
+                  {
+                     "details" : null,
+                     "name" : "options",
+                     "type" : {
+                        "element_type" : {
+                           "element_type" : null,
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "string",
+                           "valid_range" : null
+                        },
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "array",
+                        "valid_range" : null
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "defaultValueIndex",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "element_type" : null,
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "int32",
+                           "valid_range" : {
+                              "max" : 2147483647,
+                              "min" : -2147483648
+                           }
+                        },
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "dropdown",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ModalFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "label",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  },
+                  {
+                     "details" : null,
+                     "name" : "placeholderText",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  },
+                  {
+                     "details" : {
+                        "default_value" : "null"
+                     },
+                     "name" : "defaultValue",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "optional",
+                        "optional_type" : {
+                           "element_type" : null,
+                           "is_bind_type" : false,
+                           "is_errorable" : false,
+                           "name" : "string",
+                           "valid_range" : null
+                        },
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "textField",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ModalFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "iconPath",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "icon",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ModalFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [
+                  {
+                     "details" : null,
+                     "name" : "titleText",
+                     "type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "string",
+                        "valid_range" : null
+                     }
+                  }
+               ],
+               "is_constructor" : false,
+               "is_member" : true,
+               "is_static" : false,
+               "name" : "title",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ModalFormData",
+                  "valid_range" : null
+               }
+            },
+            {
+               "arguments" : [],
+               "is_constructor" : true,
+               "is_member" : true,
+               "name" : "constructor",
+               "return_type" : {
+                  "element_type" : null,
+                  "from_module" : {
+                     "name" : "mojang-minecraft-ui",
+                     "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                     "version" : {
+                        "major" : 0,
+                        "minor" : 1,
+                        "patch" : 0
+                     }
+                  },
+                  "is_bind_type" : true,
+                  "is_errorable" : false,
+                  "name" : "ModalFormData",
+                  "valid_range" : null
+               }
+            }
+         ],
+         "module" : {
+            "name" : "mojang-minecraft-ui",
+            "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+            "version" : {
+               "major" : 0,
+               "minor" : 1,
+               "patch" : 0
+            }
+         },
+         "name" : "ModalFormData",
+         "properties" : [],
+         "type" : {
+            "element_type" : null,
+            "from_module" : {
+               "name" : "mojang-minecraft-ui",
+               "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+               "version" : {
+                  "major" : 0,
+                  "minor" : 1,
+                  "patch" : 0
+               }
+            },
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "ModalFormData",
+            "valid_range" : null
+         }
+      },
+      {
+         "base_types" : [],
+         "constants" : [],
+         "functions" : [],
+         "module" : {
+            "name" : "mojang-minecraft-ui",
+            "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+            "version" : {
+               "major" : 0,
+               "minor" : 1,
+               "patch" : 0
+            }
+         },
+         "name" : "FormResponse",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "isCanceled",
+               "type" : {
+                  "element_type" : null,
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "boolean",
+                  "valid_range" : null
+               }
+            }
+         ],
+         "type" : {
+            "element_type" : null,
+            "from_module" : {
+               "name" : "mojang-minecraft-ui",
+               "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+               "version" : {
+                  "major" : 0,
+                  "minor" : 1,
+                  "patch" : 0
+               }
+            },
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "FormResponse",
+            "valid_range" : null
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "element_type" : null,
+               "from_module" : {
+                  "name" : "mojang-minecraft-ui",
+                  "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                  "version" : {
+                     "major" : 0,
+                     "minor" : 1,
+                     "patch" : 0
+                  }
+               },
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "FormResponse",
+               "valid_range" : null
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "module" : {
+            "name" : "mojang-minecraft-ui",
+            "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+            "version" : {
+               "major" : 0,
+               "minor" : 1,
+               "patch" : 0
+            }
+         },
+         "name" : "ActionFormResponse",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "isCanceled",
+               "type" : {
+                  "element_type" : null,
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "boolean",
+                  "valid_range" : null
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "selection",
+               "type" : {
+                  "element_type" : null,
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "element_type" : null,
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "uint8",
+                     "valid_range" : {
+                        "max" : 2147483647,
+                        "min" : -2147483648
+                     }
+                  },
+                  "valid_range" : null
+               }
+            }
+         ],
+         "type" : {
+            "element_type" : null,
+            "from_module" : {
+               "name" : "mojang-minecraft-ui",
+               "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+               "version" : {
+                  "major" : 0,
+                  "minor" : 1,
+                  "patch" : 0
+               }
+            },
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "ActionFormResponse",
+            "valid_range" : null
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "element_type" : null,
+               "from_module" : {
+                  "name" : "mojang-minecraft-ui",
+                  "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                  "version" : {
+                     "major" : 0,
+                     "minor" : 1,
+                     "patch" : 0
+                  }
+               },
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "FormResponse",
+               "valid_range" : null
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "module" : {
+            "name" : "mojang-minecraft-ui",
+            "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+            "version" : {
+               "major" : 0,
+               "minor" : 1,
+               "patch" : 0
+            }
+         },
+         "name" : "MessageFormResponse",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "isCanceled",
+               "type" : {
+                  "element_type" : null,
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "boolean",
+                  "valid_range" : null
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "selection",
+               "type" : {
+                  "element_type" : null,
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "element_type" : null,
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "uint8",
+                     "valid_range" : {
+                        "max" : 2147483647,
+                        "min" : -2147483648
+                     }
+                  },
+                  "valid_range" : null
+               }
+            }
+         ],
+         "type" : {
+            "element_type" : null,
+            "from_module" : {
+               "name" : "mojang-minecraft-ui",
+               "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+               "version" : {
+                  "major" : 0,
+                  "minor" : 1,
+                  "patch" : 0
+               }
+            },
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "MessageFormResponse",
+            "valid_range" : null
+         }
+      },
+      {
+         "base_types" : [
+            {
+               "element_type" : null,
+               "from_module" : {
+                  "name" : "mojang-minecraft-ui",
+                  "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+                  "version" : {
+                     "major" : 0,
+                     "minor" : 1,
+                     "patch" : 0
+                  }
+               },
+               "is_bind_type" : true,
+               "is_errorable" : false,
+               "name" : "FormResponse",
+               "valid_range" : null
+            }
+         ],
+         "constants" : [],
+         "functions" : [],
+         "module" : {
+            "name" : "mojang-minecraft-ui",
+            "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+            "version" : {
+               "major" : 0,
+               "minor" : 1,
+               "patch" : 0
+            }
+         },
+         "name" : "ModalFormResponse",
+         "properties" : [
+            {
+               "is_read_only" : true,
+               "name" : "isCanceled",
+               "type" : {
+                  "element_type" : null,
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "boolean",
+                  "valid_range" : null
+               }
+            },
+            {
+               "is_read_only" : true,
+               "name" : "formValues",
+               "type" : {
+                  "element_type" : null,
+                  "is_bind_type" : false,
+                  "is_errorable" : false,
+                  "name" : "optional",
+                  "optional_type" : {
+                     "element_type" : {
+                        "element_type" : null,
+                        "is_bind_type" : false,
+                        "is_errorable" : false,
+                        "name" : "any",
+                        "valid_range" : null
+                     },
+                     "is_bind_type" : false,
+                     "is_errorable" : false,
+                     "name" : "array",
+                     "valid_range" : null
+                  },
+                  "valid_range" : null
+               }
+            }
+         ],
+         "type" : {
+            "element_type" : null,
+            "from_module" : {
+               "name" : "mojang-minecraft-ui",
+               "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+               "version" : {
+                  "major" : 0,
+                  "minor" : 1,
+                  "patch" : 0
+               }
+            },
+            "is_bind_type" : true,
+            "is_errorable" : false,
+            "name" : "ModalFormResponse",
+            "valid_range" : null
+         }
+      }
+   ],
+   "constants" : [],
+   "dependencies" : [
+      {
+         "name" : "mojang-minecraft",
+         "uuid" : "b26a4d4c-afdf-4690-88f8-931846312678",
+         "version" : {
+            "major" : 0,
+            "minor" : 1,
+            "patch" : 0
+         }
+      }
+   ],
+   "enums" : null,
+   "functions" : [],
+   "minecraft_version" : "1.18.30",
+   "name" : "mojang-minecraft-ui",
+   "objects" : [],
+   "uuid" : "2bd50a27-ab5f-4f40-a596-3641627c635e",
+   "version" : {
+      "major" : 0,
+      "minor" : 1,
+      "patch" : 0
+   }
+}
