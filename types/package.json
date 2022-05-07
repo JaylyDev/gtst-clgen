@@ -6,6 +6,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.6.3"
+    "@types/node": "latest",
+    "typescript": "latest"
   }
 }
