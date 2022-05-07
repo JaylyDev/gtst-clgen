@@ -4,7 +4,7 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: JavaScript Debug
+    name: Action
     steps:
       # To use this repository's private action,
       # you must check out the repository
@@ -15,6 +15,3 @@ jobs:
         id: hello
         with:
           who-to-greet: 'Mona the Octocat'
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
