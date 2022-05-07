@@ -3,12 +3,15 @@ on: [push]
 
 jobs:
   build:
-    name: TypeScript Debug
+    name: Action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
         with:
           fetch-depth: 1
       - run: npm install
+        working-directory: ./types
       - run: npm run test
-      - uses: ./types
+        working-directory: ./types
+      - run: npm run build
+        working-directory: ./types

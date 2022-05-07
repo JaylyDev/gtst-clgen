@@ -1,11 +1,12 @@
 {
   "private": true,
   "scripts": {
-    "build": "tsc",
-    "test": "tsc index.ts"
+    "test": "tsc index.ts",
+    "build": "node index.js"
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.6.3"
+    "@types/node": "latest",
+    "typescript": "latest"
   }
 }
