@@ -11,7 +11,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: npm install
-        uses: ./
         run: npm install
       - name: Run Action
         uses: ./ # Uses an action in the root directory
