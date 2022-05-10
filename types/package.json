@@ -1,8 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "test": "tsc index.ts",
-    "build": "node index.js"
+    "test": "node index.js",
+    "compile": "tsc index.ts",
+    "build": "npm run compile && npm run test"
   },
   "license": "MIT",
   "devDependencies": {

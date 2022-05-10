@@ -1,6 +1,7 @@
-import * as fs from "fs"
-import * as path from "path"
-import { docs_raw } from "./typings"
+import * as fs from "fs";
+import * as path from "path";
+import { docs_raw } from "./typings";
+import * as Generator from "./JSONGeneratorWriter";
 
 class modules {
   static "mojang-minecraft": docs_raw = require("./mojang-minecraft.json") ?? JSON.parse(fs.readFileSync(path.join(`${__dirname}/mojang-minecraft.json`)).toString())
@@ -8,11 +9,14 @@ class modules {
   static "mojang-minecraft-ui": docs_raw = require("./mojang-minecraft-ui.json") ?? JSON.parse(fs.readFileSync(path.join(`${__dirname}/mojang-minecraft-ui.json`)).toString())
 }
 
-let jsonout = {}
+const GenerateModules = ["mojang-minecraft", "mojang-gametest", "mojang-minecraft-ui"];
 
-for (let ModuleClass of modules["mojang-minecraft"].classes) for (let properties of ModuleClass.properties) {
-  jsonout[ModuleClass.name] = jsonout[ModuleClass.name] ?? {}
-  jsonout[ModuleClass.name][properties.name] = properties.type.name
-}
+if (!fs.existsSync(path.join(`${__dirname}/dist`))) fs.mkdirSync(path.join(`${__dirname}/dist`))
 
-fs.writeFile(path.join(__dirname) + "/testing.json", JSON.stringify(jsonout, null, 4), () => {})
+Object.keys(GenerateModules).forEach(function (module) {
+  fs.writeFile(
+    path.join(__dirname) + `/dist/${GenerateModules[module]}.json`,
+    Generator.default(modules[GenerateModules[module]]), () => {}
+  );
+  console.log(`[${new Date().toISOString()}] Generated ${GenerateModules[module]}`);
+})

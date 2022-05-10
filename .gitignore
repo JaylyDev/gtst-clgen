@@ -1,2 +1,6 @@
 cache
-types/*.js
+types/*.json
+!types/mojang-*.json
+!types/package.json
+!types/tsconfig.json
+node_modules

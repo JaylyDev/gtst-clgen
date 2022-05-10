@@ -1,0 +1,42 @@
+{
+  "ActionFormData": {
+    "show": "(player: Player): promise",
+    "button": "(text: string, iconPath: optional): ActionFormData",
+    "title": "(titleText: string): ActionFormData",
+    "body": "(bodyText: string): ActionFormData",
+    "constructor": "(): ActionFormData"
+  },
+  "MessageFormData": {
+    "show": "(player: Player): promise",
+    "button1": "(text: string): MessageFormData",
+    "button2": "(text: string): MessageFormData",
+    "title": "(titleText: string): MessageFormData",
+    "body": "(bodyText: string): MessageFormData",
+    "constructor": "(): MessageFormData"
+  },
+  "ModalFormData": {
+    "show": "(player: Player): promise",
+    "toggle": "(label: string, defaultValue: optional): ModalFormData",
+    "slider": "(label: string, minimumValue: float, maximumValue: float, valueStep: float, defaultValue: optional): ModalFormData",
+    "dropdown": "(label: string, options: array, defaultValueIndex: optional): ModalFormData",
+    "textField": "(label: string, placeholderText: string, defaultValue: optional): ModalFormData",
+    "icon": "(iconPath: string): ModalFormData",
+    "title": "(titleText: string): ModalFormData",
+    "constructor": "(): ModalFormData"
+  },
+  "FormResponse": {
+    "isCanceled": "boolean"
+  },
+  "ActionFormResponse": {
+    "isCanceled": "boolean",
+    "selection": "optional"
+  },
+  "MessageFormResponse": {
+    "isCanceled": "boolean",
+    "selection": "optional"
+  },
+  "ModalFormResponse": {
+    "isCanceled": "boolean",
+    "formValues": "optional"
+  }
+}

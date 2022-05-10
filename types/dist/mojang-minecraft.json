@@ -1,0 +1,1161 @@
+{
+  "BlockAreaSize": {
+    "x": "int32",
+    "y": "int32",
+    "z": "int32",
+    "equals": "(other: BlockAreaSize): boolean",
+    "constructor": "(x: int32, y: int32, z: int32): BlockAreaSize"
+  },
+  "BlockLocation": {
+    "x": "int32",
+    "y": "int32",
+    "z": "int32",
+    "equals": "(other: BlockLocation): boolean",
+    "offset": "(x: int32, y: int32, z: int32): BlockLocation",
+    "above": "(): BlockLocation",
+    "blocksBetween": "(other: BlockLocation): array",
+    "constructor": "(x: int32, y: int32, z: int32): BlockLocation"
+  },
+  "BlockPermutation": {
+    "type": "BlockType",
+    "clone": "(): BlockPermutation",
+    "getAllProperties": "(): array",
+    "getProperty": "(propertyName: string): IBlockProperty",
+    "getTags": "(): array",
+    "hasTag": "(tag: string): boolean"
+  },
+  "BlockProperties": {},
+  "IBlockProperty": {
+    "name": "string"
+  },
+  "BlockRaycastOptions": {
+    "maxDistance": "int32",
+    "includePassableBlocks": "boolean",
+    "includeLiquidBlocks": "boolean",
+    "constructor": "(): BlockRaycastOptions"
+  },
+  "BlockType": {
+    "id": "string",
+    "canBeWaterlogged": "boolean",
+    "createDefaultBlockPermutation": "(): BlockPermutation"
+  },
+  "MinecraftBlockTypes": {
+    "getAllBlockTypes": "(): array",
+    "get": "(typeName: string): BlockType"
+  },
+  "Color": {
+    "red": "float",
+    "green": "float",
+    "blue": "float",
+    "alpha": "float",
+    "constructor": "(red: float, green: float, blue: float, alpha: float): Color"
+  },
+  "MinecraftDimensionTypes": {},
+  "Location": {
+    "x": "float",
+    "y": "float",
+    "z": "float",
+    "equals": "(other: Location): boolean",
+    "isNear": "(other: Location, epsilon: float): boolean",
+    "constructor": "(x: float, y: float, z: float): Location"
+  },
+  "MolangVariableMap": {
+    "setColorRGB": "(variableName: string, color: Color): MolangVariableMap",
+    "setColorRGBA": "(variableName: string, color: Color): MolangVariableMap",
+    "setSpeedAndDirection": "(variableName: string, speed: float, direction: Vector): MolangVariableMap",
+    "setVector3": "(variableName: string, vector: Vector): MolangVariableMap",
+    "constructor": "(): MolangVariableMap"
+  },
+  "Vector": {
+    "x": "float",
+    "y": "float",
+    "z": "float",
+    "equals": "(other: Vector): boolean",
+    "length": "(): float",
+    "normalized": "(): Vector",
+    "distance": "(a: Vector, b: Vector): float",
+    "lerp": "(a: Vector, b: Vector, t: float): Vector",
+    "slerp": "(a: Vector, b: Vector, s: float): Vector",
+    "cross": "(a: Vector, b: Vector): Vector",
+    "add": "(a: Vector, b: Vector): Vector",
+    "subtract": "(a: Vector, b: Vector): Vector",
+    "multiply": "(a: Vector, b: variant): Vector",
+    "divide": "(a: Vector, b: variant): Vector",
+    "min": "(a: Vector, b: Vector): Vector",
+    "max": "(a: Vector, b: Vector): Vector",
+    "constructor": "(x: float, y: float, z: float): Vector"
+  },
+  "NumberRange": {
+    "min": "float",
+    "max": "float",
+    "next": "(): float"
+  },
+  "Dimension": {
+    "id": "string",
+    "isEmpty": "(location: BlockLocation): boolean",
+    "getEntitiesAtBlockLocation": "(location: BlockLocation): array",
+    "getBlock": "(location: BlockLocation): Block",
+    "createExplosion": "(location: Location, radius: float, explosionOptions: ExplosionOptions): undefined",
+    "runCommand": "(commandString: string): any",
+    "getEntitiesFromRay": "(location: Location, direction: Vector, options: optional): array",
+    "getBlockFromRay": "(location: Location, direction: Vector, options: optional): Block",
+    "getEntities": "(getEntities: optional): EntityIterator",
+    "getPlayers": "(getPlayers: optional): PlayerIterator",
+    "spawnItem": "(item: ItemStack, location: variant): Entity",
+    "spawnEntity": "(identifier: string, location: variant): Entity",
+    "spawnParticle": "(effectName: string, location: Location, molangVariables: MolangVariableMap): undefined"
+  },
+  "MinecraftItemTypes": {},
+  "Items": {
+    "get": "(itemId: string): ItemType"
+  },
+  "MinecraftEntityTypes": {},
+  "EntityTypes": {
+    "get": "(identifier: string): EntityType",
+    "getAll": "(): EntityTypeIterator"
+  },
+  "MinecraftEffectTypes": {},
+  "Block": {
+    "id": "string",
+    "permutation": "BlockPermutation",
+    "isEmpty": "boolean",
+    "isWaterlogged": "boolean",
+    "dimension": "Dimension",
+    "type": "BlockType",
+    "location": "BlockLocation",
+    "x": "int32",
+    "y": "int32",
+    "z": "int32",
+    "setPermutation": "(permutation: BlockPermutation): undefined",
+    "setType": "(blockType: BlockType): undefined",
+    "getTags": "(): array",
+    "getComponent": "(componentName: string): any",
+    "hasTag": "(tag: string): boolean"
+  },
+  "BlockComponent": {},
+  "BlockInventoryComponent": {
+    "location": "BlockLocation",
+    "container": "BlockInventoryComponentContainer"
+  },
+  "BlockInventoryComponentContainer": {
+    "size": "int32",
+    "emptySlotsCount": "int32",
+    "setItem": "(slot: int32, itemStack: ItemStack): undefined",
+    "getItem": "(slot: int32): ItemStack",
+    "addItem": "(itemStack: ItemStack): undefined",
+    "transferItem": "(fromSlot: int32, toSlot: int32, toContainer: Container): boolean",
+    "swapItems": "(slot: int32, otherSlot: int32, otherContainer: Container): boolean"
+  },
+  "BlockPistonComponent": {
+    "location": "BlockLocation",
+    "attachedBlocks": "array",
+    "isMoving": "boolean",
+    "isExpanded": "boolean",
+    "isExpanding": "boolean",
+    "isRetracted": "boolean",
+    "isRetracting": "boolean"
+  },
+  "BlockLavaContainerComponent": {
+    "location": "BlockLocation",
+    "fillLevel": "int32"
+  },
+  "BlockPotionContainerComponent": {
+    "location": "BlockLocation",
+    "fillLevel": "int32",
+    "setPotionType": "(item: ItemStack): undefined"
+  },
+  "BlockSnowContainerComponent": {
+    "location": "BlockLocation",
+    "fillLevel": "int32"
+  },
+  "BlockWaterContainerComponent": {
+    "location": "BlockLocation",
+    "fillLevel": "int32",
+    "customColor": "Color",
+    "addDye": "(itemType: ItemType): undefined"
+  },
+  "FluidContainer": {},
+  "BlockRecordPlayerComponent": {
+    "setRecord": "(recordItemType: ItemType): undefined",
+    "clearRecord": "(): undefined",
+    "isPlaying": "(): boolean"
+  },
+  "StringBlockProperty": {
+    "name": "string",
+    "value": "string",
+    "validValues": "array"
+  },
+  "IntBlockProperty": {
+    "name": "string",
+    "value": "int32",
+    "validValues": "array"
+  },
+  "BoolBlockProperty": {
+    "name": "string",
+    "value": "boolean",
+    "validValues": "array"
+  },
+  "EnchantmentSlot": {},
+  "EntityEventOptions": {
+    "entities": "array",
+    "entityTypes": "array",
+    "constructor": "(): EntityEventOptions"
+  },
+  "BlockEvent": {
+    "dimension": "Dimension",
+    "block": "Block"
+  },
+  "EntityDataDrivenTriggerEventOptions": {
+    "entities": "array",
+    "entityTypes": "array",
+    "eventTypes": "array",
+    "constructor": "(): EntityDataDrivenTriggerEventOptions"
+  },
+  "WeatherChangeEvent": {
+    "dimension": "string",
+    "raining": "boolean",
+    "lightning": "boolean"
+  },
+  "WeatherChangeEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "PlayerJoinEvent": {
+    "player": "Player"
+  },
+  "PlayerJoinEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "PlayerLeaveEvent": {
+    "playerName": "string"
+  },
+  "PlayerLeaveEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "BeforeChatEvent": {
+    "message": "string",
+    "sender": "Player",
+    "targets": "array",
+    "sendToTargets": "boolean",
+    "cancel": "boolean"
+  },
+  "BeforeChatEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "ChatEvent": {
+    "message": "string",
+    "sender": "Player",
+    "targets": "array",
+    "sendToTargets": "boolean"
+  },
+  "ChatEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "EffectAddEvent": {
+    "entity": "Entity",
+    "effect": "Effect",
+    "effectState": "int32"
+  },
+  "EffectAddEventSignal": {
+    "subscribe": "(callback: closure, options: optional): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "EntityCreateEvent": {
+    "entity": "Entity"
+  },
+  "EntityCreateEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "EntityHitEvent": {
+    "entity": "Entity",
+    "hitEntity": "optional",
+    "hitBlock": "optional"
+  },
+  "EntityHitEventSignal": {
+    "subscribe": "(callback: closure, options: optional): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "TickEvent": {
+    "currentTick": "int32",
+    "deltaTime": "float"
+  },
+  "TickEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "MessageReceiveEvent": {
+    "id": "string",
+    "message": "string",
+    "sourceType": "MessageSourceType"
+  },
+  "ServerMessageSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "BeforeDataDrivenEntityTriggerEvent": {
+    "entity": "Entity",
+    "id": "string",
+    "cancel": "boolean",
+    "modifiers": "array"
+  },
+  "BeforeDataDrivenEntityTriggerEventSignal": {
+    "subscribe": "(callback: closure, options: optional): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "DataDrivenEntityTriggerEvent": {
+    "entity": "Entity",
+    "id": "string",
+    "modifiers": "array"
+  },
+  "DataDrivenEntityTriggerEventSignal": {
+    "subscribe": "(callback: closure, options: optional): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "EntityHurtEvent": {
+    "hurtEntity": "Entity",
+    "damagingEntity": "Entity",
+    "projectile": "Entity",
+    "damage": "int32",
+    "cause": "string"
+  },
+  "EntityHurtEventSignal": {
+    "subscribe": "(callback: closure, options: optional): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "BeforePistonActivateEvent": {
+    "dimension": "Dimension",
+    "block": "Block",
+    "piston": "BlockPistonComponent",
+    "isExpanding": "boolean",
+    "cancel": "boolean"
+  },
+  "BeforePistonActivateEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "PistonActivateEvent": {
+    "dimension": "Dimension",
+    "block": "Block",
+    "piston": "BlockPistonComponent",
+    "isExpanding": "boolean"
+  },
+  "PistonActivateEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "LeverActionEvent": {
+    "dimension": "Dimension",
+    "block": "Block",
+    "isPowered": "boolean"
+  },
+  "LeverActivateEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "BeforeExplosionEvent": {
+    "impactedBlocks": "array",
+    "dimension": "Dimension",
+    "source": "Entity",
+    "cancel": "boolean"
+  },
+  "BeforeExplosionEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "ExplosionEvent": {
+    "impactedBlocks": "array",
+    "dimension": "Dimension",
+    "source": "Entity"
+  },
+  "ExplosionEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "BlockExplodeEvent": {
+    "dimension": "Dimension",
+    "block": "Block",
+    "source": "Entity"
+  },
+  "BlockExplodeEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "BlockPlaceEvent": {
+    "dimension": "Dimension",
+    "block": "Block",
+    "player": "Player"
+  },
+  "BlockPlaceEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "BlockBreakEvent": {
+    "dimension": "Dimension",
+    "block": "Block",
+    "player": "Player",
+    "brokenBlockPermutation": "BlockPermutation"
+  },
+  "BlockBreakEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "BeforeItemDefinitionTriggeredEvent": {
+    "item": "ItemStack",
+    "source": "Entity",
+    "eventName": "string",
+    "cancel": "boolean"
+  },
+  "BeforeItemDefinitionEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "ItemDefinitionTriggeredEvent": {
+    "item": "ItemStack",
+    "source": "Entity",
+    "eventName": "string"
+  },
+  "ItemDefinitionEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "BeforeItemUseEvent": {
+    "item": "ItemStack",
+    "source": "Entity",
+    "cancel": "boolean"
+  },
+  "BeforeItemUseEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "ItemUseEvent": {
+    "item": "ItemStack",
+    "source": "Entity"
+  },
+  "ItemUseEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "BeforeItemUseOnEvent": {
+    "item": "ItemStack",
+    "source": "Entity",
+    "blockFace": "Direction",
+    "faceLocationX": "float",
+    "faceLocationY": "float",
+    "blockLocation": "BlockLocation",
+    "cancel": "boolean"
+  },
+  "BeforeItemUseOnEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "ItemUseOnEvent": {
+    "item": "ItemStack",
+    "source": "Entity",
+    "blockFace": "Direction",
+    "faceLocationX": "float",
+    "faceLocationY": "float",
+    "blockLocation": "BlockLocation"
+  },
+  "ItemUseOnEventSignal": {
+    "subscribe": "(callback: closure): closure",
+    "unsubscribe": "(callback: closure): undefined"
+  },
+  "IEntityComponent": {
+    "id": "string"
+  },
+  "Entity": {
+    "id": "string",
+    "location": "Location",
+    "velocity": "Vector",
+    "dimension": "Dimension",
+    "nameTag": "string",
+    "isSneaking": "boolean",
+    "target": "Entity",
+    "viewVector": "Vector",
+    "headLocation": "Location",
+    "bodyRotation": "float",
+    "hasComponent": "(componentId: string): boolean",
+    "getComponent": "(componentId: string): IEntityComponent",
+    "getComponents": "(): array",
+    "setVelocity": "(velocity: Vector): undefined",
+    "teleport": "(location: Location, dimension: Dimension, xRotation: float, yRotation: float): undefined",
+    "teleportFacing": "(location: Location, dimension: Dimension, facingLocation: Location): undefined",
+    "kill": "(): undefined",
+    "getEffect": "(effectType: EffectType): Effect",
+    "addEffect": "(effectType: EffectType, duration: int32, amplifier: int32, showParticles: boolean): undefined",
+    "triggerEvent": "(eventName: string): undefined",
+    "runCommand": "(commandString: string): any",
+    "addTag": "(tag: string): boolean",
+    "removeTag": "(tag: string): boolean",
+    "hasTag": "(tag: string): boolean",
+    "getTags": "(): array",
+    "getEntitiesFromViewVector": "(options: optional): array",
+    "getBlockFromViewVector": "(options: optional): Block"
+  },
+  "EntityDefinitionFeedItem": {
+    "growth": "float",
+    "item": "string"
+  },
+  "EntityAddRiderComponent": {
+    "id": "string",
+    "entityType": "string",
+    "spawnEvent": "string"
+  },
+  "EntityAgeableComponent": {
+    "id": "string",
+    "duration": "float",
+    "feedItems": "array",
+    "dropItems": "array",
+    "growUp": "Trigger"
+  },
+  "EntityBreathableComponent": {
+    "id": "string",
+    "totalSupply": "int32",
+    "suffocateTime": "int32",
+    "inhaleTime": "float",
+    "breathesAir": "boolean",
+    "breathesWater": "boolean",
+    "breathesLava": "boolean",
+    "breathesSolids": "boolean",
+    "generatesBubbles": "boolean",
+    "breatheBlocks": "array",
+    "nonBreatheBlocks": "array",
+    "setAirSupply": "(value: int16): undefined"
+  },
+  "EntityIterator": {},
+  "EntityQueryOptions": {
+    "location": "optional",
+    "minDistance": "optional",
+    "maxDistance": "optional",
+    "tags": "array",
+    "closest": "optional",
+    "farthest": "optional",
+    "minLevel": "optional",
+    "maxLevel": "optional",
+    "gameMode": "optional",
+    "name": "optional",
+    "minVerticalRotation": "optional",
+    "maxVerticalRotation": "optional",
+    "minHorizontalRotation": "optional",
+    "maxHorizontalRotation": "optional",
+    "type": "optional",
+    "families": "array",
+    "volume": "optional",
+    "scoreOptions": "array",
+    "excludeTypes": "array",
+    "excludeTags": "array",
+    "excludeNames": "array",
+    "excludeFamilies": "array",
+    "excludeGameModes": "array",
+    "constructor": "(): EntityQueryOptions"
+  },
+  "EntityType": {
+    "id": "string"
+  },
+  "EntityTypeIterator": {},
+  "Trigger": {
+    "eventName": "string",
+    "constructor": "(eventName: string): Trigger"
+  },
+  "DefinitionModifier": {
+    "componentGroupsToAdd": "array",
+    "componentGroupsToRemove": "array",
+    "triggers": "array",
+    "constructor": "(): DefinitionModifier"
+  },
+  "EffectType": {
+    "getName": "(): string"
+  },
+  "EntityRaycastOptions": {
+    "maxDistance": "int32",
+    "constructor": "(): EntityRaycastOptions"
+  },
+  "ExplosionOptions": {
+    "source": "Entity",
+    "breaksBlocks": "boolean",
+    "causesFire": "boolean",
+    "allowUnderwater": "boolean",
+    "constructor": "(): ExplosionOptions"
+  },
+  "SoundOptions": {
+    "location": "optional",
+    "volume": "float",
+    "pitch": "float",
+    "constructor": "(): SoundOptions"
+  },
+  "MusicOptions": {
+    "location": "optional",
+    "volume": "float",
+    "fade": "float",
+    "loop": "boolean",
+    "constructor": "(): MusicOptions"
+  },
+  "Events": {
+    "tick": "TickEventSignal",
+    "weatherChange": "WeatherChangeEventSignal",
+    "playerJoin": "PlayerJoinEventSignal",
+    "playerLeave": "PlayerLeaveEventSignal",
+    "effectAdd": "EffectAddEventSignal",
+    "beforeChat": "BeforeChatEventSignal",
+    "chat": "ChatEventSignal",
+    "entityCreate": "EntityCreateEventSignal",
+    "entityHit": "EntityHitEventSignal",
+    "messageReceive": "ServerMessageSignal",
+    "beforeDataDrivenEntityTriggerEvent": "BeforeDataDrivenEntityTriggerEventSignal",
+    "dataDrivenEntityTriggerEvent": "DataDrivenEntityTriggerEventSignal",
+    "entityHurt": "EntityHurtEventSignal",
+    "beforePistonActivate": "BeforePistonActivateEventSignal",
+    "pistonActivate": "PistonActivateEventSignal",
+    "leverActivate": "LeverActivateEventSignal",
+    "beforeExplosion": "BeforeExplosionEventSignal",
+    "explosion": "ExplosionEventSignal",
+    "blockExplode": "BlockExplodeEventSignal",
+    "blockPlace": "BlockPlaceEventSignal",
+    "blockBreak": "BlockBreakEventSignal",
+    "beforeItemDefinitionEvent": "BeforeItemDefinitionEventSignal",
+    "itemDefinitionEvent": "ItemDefinitionEventSignal",
+    "beforeItemUse": "BeforeItemUseEventSignal",
+    "itemUse": "ItemUseEventSignal",
+    "beforeItemUseOn": "BeforeItemUseOnEventSignal",
+    "itemUseOn": "ItemUseOnEventSignal"
+  },
+  "FeedItem": {
+    "effects": "array",
+    "healAmount": "int32",
+    "item": "string"
+  },
+  "FeedItemEffect": {
+    "amplifier": "int32",
+    "chance": "float",
+    "duration": "int32",
+    "name": "string"
+  },
+  "FilterGroup": {},
+  "EntityHealableComponent": {
+    "id": "string",
+    "filters": "FilterGroup",
+    "forceUse": "boolean",
+    "items": "array"
+  },
+  "EntityHealthComponent": {
+    "id": "string",
+    "value": "float",
+    "current": "float",
+    "setCurrent": "(value: float): undefined",
+    "resetToMinValue": "(): undefined",
+    "resetToMaxValue": "(): undefined",
+    "resetToDefaultValue": "(): undefined"
+  },
+  "EntityInventoryComponent": {
+    "id": "string",
+    "additionalSlotsPerStrength": "int32",
+    "canBeSiphonedFrom": "boolean",
+    "containerType": "string",
+    "inventorySize": "int32",
+    "private": "boolean",
+    "restrictToOwner": "boolean",
+    "container": "InventoryComponentContainer"
+  },
+  "InventoryComponentContainer": {
+    "size": "int32",
+    "emptySlotsCount": "int32",
+    "setItem": "(slot: int32, itemStack: ItemStack): undefined",
+    "getItem": "(slot: int32): ItemStack",
+    "addItem": "(itemStack: ItemStack): undefined",
+    "transferItem": "(fromSlot: int32, toSlot: int32, toContainer: Container): boolean",
+    "swapItems": "(slot: int32, otherSlot: int32, otherContainer: Container): boolean"
+  },
+  "EntityItemComponent": {
+    "itemStack": "ItemStack"
+  },
+  "PlayerInventoryComponentContainer": {
+    "size": "int32",
+    "emptySlotsCount": "int32",
+    "setItem": "(slot: int32, itemStack: ItemStack): undefined",
+    "getItem": "(slot: int32): ItemStack",
+    "addItem": "(itemStack: ItemStack): undefined",
+    "transferItem": "(fromSlot: int32, toSlot: int32, toContainer: Container): boolean",
+    "swapItems": "(slot: int32, otherSlot: int32, otherContainer: Container): boolean"
+  },
+  "Container": {
+    "size": "int32",
+    "emptySlotsCount": "int32",
+    "setItem": "(slot: int32, itemStack: ItemStack): undefined",
+    "getItem": "(slot: int32): ItemStack",
+    "addItem": "(itemStack: ItemStack): undefined",
+    "transferItem": "(fromSlot: int32, toSlot: int32, toContainer: Container): boolean",
+    "swapItems": "(slot: int32, otherSlot: int32, otherContainer: Container): boolean"
+  },
+  "EntityLavaMovementComponent": {
+    "id": "string",
+    "value": "float",
+    "current": "float",
+    "setCurrent": "(value: float): undefined",
+    "resetToMinValue": "(): undefined",
+    "resetToMaxValue": "(): undefined",
+    "resetToDefaultValue": "(): undefined"
+  },
+  "EntityLeashableComponent": {
+    "id": "string",
+    "softDistance": "float",
+    "leash": "(leashHolder: Entity): undefined",
+    "unleash": "(): undefined"
+  },
+  "Effect": {
+    "amplifier": "int32",
+    "duration": "int32",
+    "displayName": "string"
+  },
+  "EntityMountTamingComponent": {
+    "id": "string",
+    "setTamed": "(showParticles: boolean): undefined"
+  },
+  "EntityMovementAmphibiousComponent": {
+    "id": "string",
+    "maxTurn": "float"
+  },
+  "EntityMovementBasicComponent": {
+    "id": "string",
+    "maxTurn": "float"
+  },
+  "EntityMovementComponent": {
+    "id": "string",
+    "value": "float",
+    "current": "float",
+    "setCurrent": "(value: float): undefined",
+    "resetToMinValue": "(): undefined",
+    "resetToMaxValue": "(): undefined",
+    "resetToDefaultValue": "(): undefined"
+  },
+  "EntityMovementFlyComponent": {
+    "id": "string",
+    "maxTurn": "float"
+  },
+  "EntityMovementGenericComponent": {
+    "id": "string",
+    "maxTurn": "float"
+  },
+  "EntityMovementGlideComponent": {
+    "id": "string",
+    "maxTurn": "float",
+    "startSpeed": "float",
+    "speedWhenTurning": "float"
+  },
+  "EntityMovementHoverComponent": {
+    "id": "string",
+    "maxTurn": "float"
+  },
+  "EntityMovementJumpComponent": {
+    "id": "string",
+    "maxTurn": "float"
+  },
+  "EntityMovementSkipComponent": {
+    "id": "string",
+    "maxTurn": "float"
+  },
+  "EntityMovementSwayComponent": {
+    "id": "string",
+    "maxTurn": "float",
+    "swayFrequency": "float",
+    "swayAmplitude": "float"
+  },
+  "EntityNavigationClimbComponent": {
+    "id": "string",
+    "isAmphibious": "boolean",
+    "avoidSun": "boolean",
+    "canPassDoors": "boolean",
+    "canOpenDoors": "boolean",
+    "canOpenIronDoors": "boolean",
+    "canBreakDoors": "boolean",
+    "avoidWater": "boolean",
+    "avoidDamageBlocks": "boolean",
+    "canFloat": "boolean",
+    "canSink": "boolean",
+    "canPathOverWater": "boolean",
+    "canPathOverLava": "boolean",
+    "canWalkInLava": "boolean",
+    "avoidPortals": "boolean",
+    "canWalk": "boolean",
+    "canSwim": "boolean",
+    "canBreach": "boolean",
+    "canJump": "boolean",
+    "canPathFromAir": "boolean"
+  },
+  "EntityNavigationFloatComponent": {
+    "id": "string",
+    "isAmphibious": "boolean",
+    "avoidSun": "boolean",
+    "canPassDoors": "boolean",
+    "canOpenDoors": "boolean",
+    "canOpenIronDoors": "boolean",
+    "canBreakDoors": "boolean",
+    "avoidWater": "boolean",
+    "avoidDamageBlocks": "boolean",
+    "canFloat": "boolean",
+    "canSink": "boolean",
+    "canPathOverWater": "boolean",
+    "canPathOverLava": "boolean",
+    "canWalkInLava": "boolean",
+    "avoidPortals": "boolean",
+    "canWalk": "boolean",
+    "canSwim": "boolean",
+    "canBreach": "boolean",
+    "canJump": "boolean",
+    "canPathFromAir": "boolean"
+  },
+  "EntityNavigationFlyComponent": {
+    "id": "string",
+    "isAmphibious": "boolean",
+    "avoidSun": "boolean",
+    "canPassDoors": "boolean",
+    "canOpenDoors": "boolean",
+    "canOpenIronDoors": "boolean",
+    "canBreakDoors": "boolean",
+    "avoidWater": "boolean",
+    "avoidDamageBlocks": "boolean",
+    "canFloat": "boolean",
+    "canSink": "boolean",
+    "canPathOverWater": "boolean",
+    "canPathOverLava": "boolean",
+    "canWalkInLava": "boolean",
+    "avoidPortals": "boolean",
+    "canWalk": "boolean",
+    "canSwim": "boolean",
+    "canBreach": "boolean",
+    "canJump": "boolean",
+    "canPathFromAir": "boolean"
+  },
+  "EntityNavigationGenericComponent": {
+    "id": "string",
+    "isAmphibious": "boolean",
+    "avoidSun": "boolean",
+    "canPassDoors": "boolean",
+    "canOpenDoors": "boolean",
+    "canOpenIronDoors": "boolean",
+    "canBreakDoors": "boolean",
+    "avoidWater": "boolean",
+    "avoidDamageBlocks": "boolean",
+    "canFloat": "boolean",
+    "canSink": "boolean",
+    "canPathOverWater": "boolean",
+    "canPathOverLava": "boolean",
+    "canWalkInLava": "boolean",
+    "avoidPortals": "boolean",
+    "canWalk": "boolean",
+    "canSwim": "boolean",
+    "canBreach": "boolean",
+    "canJump": "boolean",
+    "canPathFromAir": "boolean"
+  },
+  "EntityNavigationHoverComponent": {
+    "id": "string",
+    "isAmphibious": "boolean",
+    "avoidSun": "boolean",
+    "canPassDoors": "boolean",
+    "canOpenDoors": "boolean",
+    "canOpenIronDoors": "boolean",
+    "canBreakDoors": "boolean",
+    "avoidWater": "boolean",
+    "avoidDamageBlocks": "boolean",
+    "canFloat": "boolean",
+    "canSink": "boolean",
+    "canPathOverWater": "boolean",
+    "canPathOverLava": "boolean",
+    "canWalkInLava": "boolean",
+    "avoidPortals": "boolean",
+    "canWalk": "boolean",
+    "canSwim": "boolean",
+    "canBreach": "boolean",
+    "canJump": "boolean",
+    "canPathFromAir": "boolean"
+  },
+  "EntityNavigationWalkComponent": {
+    "id": "string",
+    "isAmphibious": "boolean",
+    "avoidSun": "boolean",
+    "canPassDoors": "boolean",
+    "canOpenDoors": "boolean",
+    "canOpenIronDoors": "boolean",
+    "canBreakDoors": "boolean",
+    "avoidWater": "boolean",
+    "avoidDamageBlocks": "boolean",
+    "canFloat": "boolean",
+    "canSink": "boolean",
+    "canPathOverWater": "boolean",
+    "canPathOverLava": "boolean",
+    "canWalkInLava": "boolean",
+    "avoidPortals": "boolean",
+    "canWalk": "boolean",
+    "canSwim": "boolean",
+    "canBreach": "boolean",
+    "canJump": "boolean",
+    "canPathFromAir": "boolean"
+  },
+  "Player": {
+    "id": "string",
+    "location": "Location",
+    "velocity": "Vector",
+    "dimension": "Dimension",
+    "nameTag": "string",
+    "isSneaking": "boolean",
+    "target": "Entity",
+    "viewVector": "Vector",
+    "headLocation": "Location",
+    "bodyRotation": "float",
+    "name": "string",
+    "selectedSlot": "int32",
+    "hasComponent": "(componentId: string): boolean",
+    "getComponent": "(componentId: string): IEntityComponent",
+    "getComponents": "(): array",
+    "setVelocity": "(velocity: Vector): undefined",
+    "teleport": "(location: Location, dimension: Dimension, xRotation: float, yRotation: float): undefined",
+    "teleportFacing": "(location: Location, dimension: Dimension, facingLocation: Location): undefined",
+    "kill": "(): undefined",
+    "getEffect": "(effectType: EffectType): Effect",
+    "addEffect": "(effectType: EffectType, duration: int32, amplifier: int32, showParticles: boolean): undefined",
+    "triggerEvent": "(eventName: string): undefined",
+    "runCommand": "(commandString: string): any",
+    "addTag": "(tag: string): boolean",
+    "removeTag": "(tag: string): boolean",
+    "hasTag": "(tag: string): boolean",
+    "getTags": "(): array",
+    "getEntitiesFromViewVector": "(options: optional): array",
+    "getBlockFromViewVector": "(options: optional): Block",
+    "postClientMessage": "(id: string, value: string): undefined",
+    "startItemCooldown": "(itemCategory: string, tickDuration: int32): undefined",
+    "getItemCooldown": "(itemCategory: string): int32",
+    "playSound": "(soundID: string, soundOptions: optional): undefined"
+  },
+  "PlayerIterator": {},
+  "EntityRideableComponent": {
+    "id": "string",
+    "seatCount": "int32",
+    "crouchingSkipInteract": "boolean",
+    "interactText": "string",
+    "familyTypes": "array",
+    "controllingSeat": "int32",
+    "pullInEntities": "boolean",
+    "riderCanInteract": "boolean",
+    "seats": "array",
+    "addRider": "(rider: Entity): boolean",
+    "ejectRider": "(rider: Entity): undefined",
+    "ejectRiders": "(): undefined"
+  },
+  "EntityQueryScoreOptions": {
+    "exclude": "boolean",
+    "minScore": "int32",
+    "maxScore": "int32",
+    "objective": "string",
+    "constructor": "(): EntityQueryScoreOptions"
+  },
+  "SculkSpreader": {
+    "addCursorsWithOffset": "(offset: BlockLocation, charge: int32): undefined",
+    "getMaxCharge": "(): int32",
+    "getTotalCharge": "(): int32",
+    "getNumberOfCursors": "(): int32",
+    "getCursorPosition": "(index: int32): BlockLocation"
+  },
+  "Seat": {
+    "position": "Location",
+    "minRiderCount": "int32",
+    "maxRiderCount": "int32",
+    "lockRiderRotation": "float"
+  },
+  "EntityStrengthComponent": {
+    "id": "string",
+    "value": "int32",
+    "max": "int32"
+  },
+  "EntityTameableComponent": {
+    "id": "string",
+    "probability": "float",
+    "tameItems": "array",
+    "tameEvent": "Trigger",
+    "tame": "(): boolean"
+  },
+  "EntityUnderwaterMovementComponent": {
+    "id": "string",
+    "value": "float",
+    "current": "float",
+    "setCurrent": "(value: float): undefined",
+    "resetToMinValue": "(): undefined",
+    "resetToMaxValue": "(): undefined",
+    "resetToDefaultValue": "(): undefined"
+  },
+  "NavigationResult": {
+    "isFullPath": "boolean",
+    "path": "array"
+  },
+  "PitchYawRotation": {
+    "pitch": "float",
+    "yaw": "float"
+  },
+  "ItemStack": {
+    "id": "string",
+    "amount": "int32",
+    "data": "int32",
+    "nameTag": "optional",
+    "hasComponent": "(componentId: string): boolean",
+    "getComponent": "(componentId: string): any",
+    "getComponents": "(): array",
+    "triggerEvent": "(eventName: string): undefined",
+    "setLore": "(loreList: array): undefined",
+    "getLore": "(): array",
+    "constructor": "(itemType: ItemType, amount: int32, data: int32): ItemStack"
+  },
+  "ItemType": {
+    "id": "string"
+  },
+  "EnchantmentType": {
+    "id": "string",
+    "maxLevel": "int32"
+  },
+  "Enchantment": {
+    "type": "EnchantmentType",
+    "level": "int32",
+    "constructor": "(enchantmentType: EnchantmentType, level: int32): Enchantment"
+  },
+  "EnchantmentList": {
+    "slot": "int32",
+    "canAddEnchantment": "(enchantment: Enchantment): boolean",
+    "addEnchantment": "(enchantment: Enchantment): boolean",
+    "removeEnchantment": "(enchantmentType: EnchantmentType): undefined",
+    "hasEnchantment": "(enchantmentType: EnchantmentType): int32",
+    "getEnchantment": "(enchantmentType: EnchantmentType): optional",
+    "constructor": "(enchantmentSlot: int32): EnchantmentList"
+  },
+  "MinecraftEnchantmentTypes": {},
+  "EntityCanClimbComponent": {
+    "id": "string"
+  },
+  "EntityCanFlyComponent": {
+    "id": "string"
+  },
+  "EntityCanPowerJumpComponent": {
+    "id": "string"
+  },
+  "EntityFireImmuneComponent": {
+    "id": "string"
+  },
+  "EntityFloatsInLiquidComponent": {
+    "id": "string"
+  },
+  "EntityIsDyableComponent": {
+    "id": "string"
+  },
+  "EntityIsBabyComponent": {
+    "id": "string"
+  },
+  "EntityIsChargedComponent": {
+    "id": "string"
+  },
+  "EntityIsChestedComponent": {
+    "id": "string"
+  },
+  "EntityIsHiddenWhenInvisibleComponent": {
+    "id": "string"
+  },
+  "EntityIsIgnitedComponent": {
+    "id": "string"
+  },
+  "EntityIsIllagerCaptainComponent": {
+    "id": "string"
+  },
+  "EntityIsSaddledComponent": {
+    "id": "string"
+  },
+  "EntityIsShakingComponent": {
+    "id": "string"
+  },
+  "EntityIsShearedComponent": {
+    "id": "string"
+  },
+  "EntityIsStackableComponent": {
+    "id": "string"
+  },
+  "EntityIsStunnedComponent": {
+    "id": "string"
+  },
+  "EntityIsTamedComponent": {
+    "id": "string"
+  },
+  "EntityWantsJockeyComponent": {
+    "id": "string"
+  },
+  "EntityVariantComponent": {
+    "id": "string",
+    "value": "int32"
+  },
+  "EntitySkinIdComponent": {
+    "id": "string",
+    "value": "int32"
+  },
+  "EntityMarkVariantComponent": {
+    "id": "string",
+    "value": "int32"
+  },
+  "EntityFlyingSpeedComponent": {
+    "id": "string",
+    "value": "float"
+  },
+  "EntityColorComponent": {
+    "id": "string",
+    "value": "int32"
+  },
+  "EntityFrictionModifierComponent": {
+    "id": "string",
+    "value": "float"
+  },
+  "EntityGroundOffsetComponent": {
+    "id": "string",
+    "value": "float"
+  },
+  "EntityScaleComponent": {
+    "id": "string",
+    "value": "float"
+  },
+  "EntityPushThroughComponent": {
+    "id": "string",
+    "value": "float"
+  },
+  "ItemFoodComponent": {
+    "id": "string",
+    "nutrition": "int32",
+    "saturationModifier": "float",
+    "canAlwaysEat": "boolean",
+    "usingConvertsTo": "string"
+  },
+  "ItemEnchantsComponent": {
+    "id": "string",
+    "enchantments": "EnchantmentList",
+    "removeAllEnchantments": "(): undefined"
+  },
+  "ItemDurabilityComponent": {
+    "id": "string",
+    "maxDurability": "int32",
+    "damageRange": "NumberRange",
+    "damage": "int32",
+    "getDamageChance": "(unbreaking: int32): int32"
+  },
+  "ItemCooldownComponent": {
+    "id": "string",
+    "cooldownCategory": "string",
+    "cooldownTicks": "int32",
+    "startCooldown": "(player: Player): undefined"
+  },
+  "World": {
+    "events": "Events",
+    "getDimension": "(dimensionId: string): Dimension",
+    "getPlayers": "(options: optional): PlayerIterator",
+    "broadcastClientMessage": "(id: string, value: string): undefined",
+    "playSound": "(soundID: string, soundOptions: optional): undefined",
+    "queueMusic": "(trackID: string, musicOptions: optional): undefined",
+    "stopMusic": "(): undefined",
+    "playMusic": "(trackID: string, musicOptions: optional): undefined"
+  }
+}
