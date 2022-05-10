@@ -1,7 +1,7 @@
 `mojang-minecraft`
 
 == Change Log ==
-=== v1.19.0.29-beta ===
+=== v1.19.0.31-beta ===
 - Added `BlockHitInformation`
     - Added element `prototype`
         - Added property `constructor`
@@ -20,6 +20,10 @@
         - Added property `constructor`
         - Added property `subscribe`
         - Added property `unsubscribe`
+- Added `CommandResult`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `successCount`
 - Added `DynamicPropertiesDefinition`
     - Added element `prototype`
         - Added property `constructor`
@@ -94,6 +98,11 @@
         - Added property `source`
         - Added property `blockLocation`
 - Added `ItemStopUseOnEventSignal`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `subscribe`
+        - Added property `unsubscribe`
+- Added `LeverActionEventSignal`
     - Added element `prototype`
         - Added property `constructor`
         - Added property `subscribe`
@@ -176,13 +185,19 @@
         - Added property `constructor`
         - Added property `x`
         - Added property `y`
+- Removed `LeverActivateEventSignal`
 - Removed `PitchYawRotation`
+- Removed `SculkSpreader`
 - Changed `BlockProperties`
     - Added element `propaguleStage`
     - Added element `canSummon`
+- Changed `Dimension`
+    - Changed element `prototype`
+        - Added property `runCommandAsync`
 - Changed `Entity`
     - Changed element `prototype`
         - Added property `setRotation`
+        - Added property `runCommandAsync`
         - Added property `setDynamicProperty`
         - Added property `getDynamicProperty`
         - Added property `removeDynamicProperty`
@@ -298,12 +313,6 @@
         - Added property `createDefaultBlockPermutation`
         - Added property `id`
     - Removed element `mangrovePropaguleHanging`
-    - Changed element `sculkShrieker`
-        - Removed property `canBeWaterlogged`
-        - Removed property `canBeWaterlogged`
-    - Changed element `sculkSensor`
-        - Removed property `canBeWaterlogged`
-        - Removed property `canBeWaterlogged`
 - Changed `MinecraftEffectTypes`
     - Added element `darkness`
         - Added property `getName`
@@ -408,6 +417,7 @@
 - Changed `Player`
     - Changed element `prototype`
         - Added property `setRotation`
+        - Added property `runCommandAsync`
         - Added property `setDynamicProperty`
         - Added property `getDynamicProperty`
         - Added property `removeDynamicProperty`

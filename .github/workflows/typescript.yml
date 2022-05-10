@@ -11,7 +11,5 @@ jobs:
           fetch-depth: 1
       - run: npm install
         working-directory: ./types
-      - run: npm run test
-        working-directory: ./types
       - run: npm run build
         working-directory: ./types

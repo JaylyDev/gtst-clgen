@@ -2,20 +2,9 @@
   "FenceConnectivity": {
     "length": 0,
     "name": "FenceConnectivity",
-    "prototype": [
-      "constructor",
-      "north",
-      "east",
-      "south",
-      "west"
-    ]
+    "prototype": ["constructor", "north", "east", "south", "west"]
   },
-  "FluidType": {
-    "water": 0,
-    "lava": 1,
-    "powderSnow": 2,
-    "potion": 3
-  },
+  "FluidType": { "water": 0, "lava": 1, "powderSnow": 2, "potion": 3 },
   "GameTestSequence": {
     "length": 0,
     "name": "GameTestSequence",
@@ -48,6 +37,18 @@
       "tag"
     ]
   },
+  "SculkSpreader": {
+    "length": 0,
+    "name": "SculkSpreader",
+    "prototype": [
+      "constructor",
+      "addCursorsWithOffset",
+      "getTotalCharge",
+      "getNumberOfCursors",
+      "getCursorPosition",
+      "maxCharge"
+    ]
+  },
   "SimulatedPlayer": {
     "length": 0,
     "name": "SimulatedPlayer",
@@ -65,6 +66,7 @@
       "addEffect",
       "triggerEvent",
       "runCommand",
+      "runCommandAsync",
       "addTag",
       "removeTag",
       "hasTag",
@@ -130,9 +132,7 @@
   "Tags": {
     "length": 0,
     "name": "Tags",
-    "prototype": [
-      "constructor"
-    ],
+    "prototype": ["constructor"],
     "suiteDefault": "suite:default",
     "suiteDisabled": "suite:disabled",
     "suiteAll": "suite:all",
@@ -209,12 +209,6 @@
       "worldLocation"
     ]
   },
-  "register": {
-    "length": 0,
-    "name": ""
-  },
-  "registerAsync": {
-    "length": 0,
-    "name": ""
-  }
+  "register": { "length": 0, "name": "" },
+  "registerAsync": { "length": 0, "name": "" }
 }

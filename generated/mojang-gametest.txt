@@ -1,10 +1,19 @@
 `mojang-gametest`
 
 == Change Log ==
-=== v1.19.0.29-beta ===
+=== v1.19.0.31-beta ===
+- Added `SculkSpreader`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `addCursorsWithOffset`
+        - Added property `getTotalCharge`
+        - Added property `getNumberOfCursors`
+        - Added property `getCursorPosition`
+        - Added property `maxCharge`
 - Changed `SimulatedPlayer`
     - Changed element `prototype`
         - Added property `setRotation`
+        - Added property `runCommandAsync`
         - Added property `setDynamicProperty`
         - Added property `getDynamicProperty`
         - Added property `removeDynamicProperty`

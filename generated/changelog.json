@@ -48381,11 +48381,12 @@
         }
       }
     },
-    "1.19.0.29-beta": {
+    "1.19.0.31-beta": {
       "$added": [
         "BlockHitInformation",
         "ButtonPushEvent",
         "ButtonPushEventSignal",
+        "CommandResult",
         "DynamicPropertiesDefinition",
         "EntityHitInformation",
         "ItemCompleteChargeEvent",
@@ -48400,6 +48401,7 @@
         "ItemStopChargeEventSignal",
         "ItemStopUseOnEvent",
         "ItemStopUseOnEventSignal",
+        "LeverActionEventSignal",
         "ProjectileHitEvent",
         "ProjectileHitEventSignal",
         "PropertyRegistry",
@@ -48414,12 +48416,23 @@
         "WorldInitializeEventSignal",
         "XYRotation"
       ],
-      "$removed": ["PitchYawRotation"],
+      "$removed": [
+        "LeverActivateEventSignal",
+        "PitchYawRotation",
+        "SculkSpreader"
+      ],
       "$changed": {
         "BlockProperties": {
           "$added": ["propaguleStage", "canSummon"],
           "$removed": [],
           "$changed": {}
+        },
+        "Dimension": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "prototype": { "$added": ["runCommandAsync"], "$removed": [] }
+          }
         },
         "Entity": {
           "$added": [],
@@ -48428,6 +48441,7 @@
             "prototype": {
               "$added": [
                 "setRotation",
+                "runCommandAsync",
                 "setDynamicProperty",
                 "getDynamicProperty",
                 "removeDynamicProperty",
@@ -48494,16 +48508,6 @@
           ],
           "$removed": ["mangrovePropaguleHanging"],
           "$changed": {
-            "sculkShrieker": {
-              "$added": [],
-              "$removed": ["canBeWaterlogged", "canBeWaterlogged"],
-              "$changed": {}
-            },
-            "sculkSensor": {
-              "$added": [],
-              "$removed": ["canBeWaterlogged", "canBeWaterlogged"],
-              "$changed": {}
-            },
             "muddyMangroveRoots": {
               "$added": ["createDefaultBlockPermutation", "id"],
               "$removed": [],
@@ -48954,6 +48958,7 @@
             "prototype": {
               "$added": [
                 "setRotation",
+                "runCommandAsync",
                 "setDynamicProperty",
                 "getDynamicProperty",
                 "removeDynamicProperty",
@@ -49092,6 +49097,17 @@
           "$changed": {
             "prototype": {
               "$added": ["constructor", "subscribe", "unsubscribe"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "CommandResult": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "successCount"],
               "$removed": [],
               "$changed": {}
             }
@@ -49253,6 +49269,17 @@
           }
         },
         "ItemStopUseOnEventSignal": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "subscribe", "unsubscribe"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "LeverActionEventSignal": {
           "$added": ["name", "prototype"],
           "$removed": [],
           "$changed": {
@@ -49792,8 +49819,8 @@
         }
       }
     },
-    "1.19.0.29-beta": {
-      "$added": [],
+    "1.19.0.31-beta": {
+      "$added": ["SculkSpreader"],
       "$removed": [],
       "$changed": {
         "SimulatedPlayer": {
@@ -49803,6 +49830,7 @@
             "prototype": {
               "$added": [
                 "setRotation",
+                "runCommandAsync",
                 "setDynamicProperty",
                 "getDynamicProperty",
                 "removeDynamicProperty",
@@ -49822,6 +49850,24 @@
             "prototype": {
               "$added": ["rotateVector", "destroyBlock"],
               "$removed": []
+            }
+          }
+        },
+        "SculkSpreader": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": [
+                "constructor",
+                "addCursorsWithOffset",
+                "getTotalCharge",
+                "getNumberOfCursors",
+                "getCursorPosition",
+                "maxCharge"
+              ],
+              "$removed": [],
+              "$changed": {}
             }
           }
         }
@@ -49936,6 +49982,6 @@
         }
       }
     },
-    "1.19.0.29-beta": { "$added": [], "$removed": [], "$changed": {} }
+    "1.19.0.31-beta": { "$added": [], "$removed": [], "$changed": {} }
   }
 }

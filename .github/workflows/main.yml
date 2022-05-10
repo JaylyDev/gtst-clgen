@@ -10,8 +10,8 @@ jobs:
       # you must check out the repository
       - name: Checkout
         uses: actions/checkout@v3
+      - name: npm install
+        uses: ./
+        run: npm install
       - name: Run Action
         uses: ./ # Uses an action in the root directory
-        id: hello
-        with:
-          who-to-greet: 'Mona the Octocat'

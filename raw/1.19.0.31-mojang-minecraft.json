@@ -587,6 +587,14 @@
       "alpha"
     ]
   },
+  "CommandResult": {
+    "length": 0,
+    "name": "CommandResult",
+    "prototype": [
+      "constructor",
+      "successCount"
+    ]
+  },
   "Container": {
     "length": 0,
     "name": "Container",
@@ -640,6 +648,7 @@
       "getBlock",
       "createExplosion",
       "runCommand",
+      "runCommandAsync",
       "getEntitiesFromRay",
       "getBlockFromRay",
       "getEntities",
@@ -785,6 +794,7 @@
       "addEffect",
       "triggerEvent",
       "runCommand",
+      "runCommandAsync",
       "addTag",
       "removeTag",
       "hasTag",
@@ -2107,9 +2117,9 @@
       "player"
     ]
   },
-  "LeverActivateEventSignal": {
+  "LeverActionEventSignal": {
     "length": 0,
-    "name": "LeverActivateEventSignal",
+    "name": "LeverActionEventSignal",
     "prototype": [
       "constructor",
       "subscribe",
@@ -2305,7 +2315,7 @@
     "sculkShrieker": {
       "createDefaultBlockPermutation": "function () {\n    [native code]\n}",
       "id": "minecraft:sculk_shrieker",
-      "canBeWaterlogged": false
+      "canBeWaterlogged": true
     },
     "limeGlazedTerracotta": {
       "createDefaultBlockPermutation": "function () {\n    [native code]\n}",
@@ -3325,7 +3335,7 @@
     "sculkSensor": {
       "createDefaultBlockPermutation": "function () {\n    [native code]\n}",
       "id": "minecraft:sculk_sensor",
-      "canBeWaterlogged": false
+      "canBeWaterlogged": true
     },
     "dioriteStairs": {
       "createDefaultBlockPermutation": "function () {\n    [native code]\n}",
@@ -6138,6 +6148,12 @@
     "prototype": [
       "constructor"
     ],
+    "zombieVillagerV2": {
+      "id": "minecraft:zombie_villager_v2"
+    },
+    "xpOrb": {
+      "id": "minecraft:xp_orb"
+    },
     "tadpole": {
       "id": "minecraft:tadpole"
     },
@@ -6219,6 +6235,15 @@
     "frog": {
       "id": "minecraft:frog"
     },
+    "llamaSpit": {
+      "id": "minecraft:llama_spit"
+    },
+    "cat": {
+      "id": "minecraft:cat"
+    },
+    "bee": {
+      "id": "minecraft:bee"
+    },
     "axolotl": {
       "id": "minecraft:axolotl"
     },
@@ -6227,9 +6252,6 @@
     },
     "zoglin": {
       "id": "minecraft:zoglin"
-    },
-    "husk": {
-      "id": "minecraft:husk"
     },
     "hoglin": {
       "id": "minecraft:hoglin"
@@ -6269,15 +6291,6 @@
     },
     "magmaCube": {
       "id": "minecraft:magma_cube"
-    },
-    "llamaSpit": {
-      "id": "minecraft:llama_spit"
-    },
-    "cat": {
-      "id": "minecraft:cat"
-    },
-    "bee": {
-      "id": "minecraft:bee"
     },
     "pufferfish": {
       "id": "minecraft:pufferfish"
@@ -6324,9 +6337,6 @@
     "cod": {
       "id": "minecraft:cod"
     },
-    "zombieVillagerV2": {
-      "id": "minecraft:zombie_villager_v2"
-    },
     "zombieVillager": {
       "id": "minecraft:zombie_villager"
     },
@@ -6344,6 +6354,9 @@
     },
     "shulkerBullet": {
       "id": "minecraft:shulker_bullet"
+    },
+    "husk": {
+      "id": "minecraft:husk"
     },
     "ghast": {
       "id": "minecraft:ghast"
@@ -6437,9 +6450,6 @@
     },
     "armorStand": {
       "id": "minecraft:armor_stand"
-    },
-    "xpOrb": {
-      "id": "minecraft:xp_orb"
     },
     "tripodCamera": {
       "id": "minecraft:tripod_camera"
@@ -9952,6 +9962,7 @@
       "addEffect",
       "triggerEvent",
       "runCommand",
+      "runCommandAsync",
       "addTag",
       "removeTag",
       "hasTag",
@@ -10125,18 +10136,6 @@
       "clearTitle",
       "updateSubtitle",
       "setActionBar"
-    ]
-  },
-  "SculkSpreader": {
-    "length": 0,
-    "name": "SculkSpreader",
-    "prototype": [
-      "constructor",
-      "addCursorsWithOffset",
-      "getMaxCharge",
-      "getTotalCharge",
-      "getNumberOfCursors",
-      "getCursorPosition"
     ]
   },
   "Seat": {
