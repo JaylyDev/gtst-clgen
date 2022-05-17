@@ -1,14 +1,14 @@
 {
   "dependencies": {
-    "prettier": "^2.6.2",
-    "typescript": "^4.6.4"
+    "prettier": "^2.6.2"
   },
   "name": "gametest-clgen",
   "version": "2.0.0",
   "keywords": [],
   "main": "scripts/index.js",
   "scripts": {
-    "test": "node scripts/index.js"
+    "test": "node scripts/index.js",
+    "types-gen-test": "node scripts/clgen-types.js"
   },
   "author": "Jayly",
   "license": "MIT",

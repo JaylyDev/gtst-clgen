@@ -48381,7 +48381,7 @@
         }
       }
     },
-    "1.19.0.31-beta": {
+    "1.19.0.33-beta": {
       "$added": [
         "BlockHitInformation",
         "ButtonPushEvent",
@@ -49819,7 +49819,7 @@
         }
       }
     },
-    "1.19.0.31-beta": {
+    "1.19.0.33-beta": {
       "$added": ["SculkSpreader"],
       "$removed": [],
       "$changed": {
@@ -49982,6 +49982,64 @@
         }
       }
     },
-    "1.19.0.31-beta": { "$added": [], "$removed": [], "$changed": {} }
-  }
+    "1.19.0.33-beta": { "$added": [], "$removed": [], "$changed": {} }
+  },
+  "mojang-minecraft-server-admin": {
+    "1.19.0.33-beta": {
+      "$added": [
+        "SecretString",
+        "ServerSecrets",
+        "ServerVariables",
+        "secrets",
+        "variables"
+      ],
+      "$removed": [],
+      "$changed": {
+        "SecretString": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "equals"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "ServerSecrets": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "get", "names"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "ServerVariables": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "get", "names"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "secrets": {
+          "$added": ["get", "names"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "variables": {
+          "$added": ["get", "names"],
+          "$removed": [],
+          "$changed": {}
+        }
+      }
+    }
+  },
+  "mojang-net": {}
 }

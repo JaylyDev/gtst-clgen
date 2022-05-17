@@ -48,24 +48,30 @@ function diff(obj1, obj2, version) {
     if (result.$added.length + result.$removed.length + Object.keys(result.$changed).length > 0) return result;
 }
 
-const modules = ["mojang-minecraft", "mojang-gametest", "mojang-minecraft-ui"]
+const modules = ["mojang-minecraft", "mojang-gametest", "mojang-minecraft-ui", "mojang-minecraft-server-admin"]
 const changelog = {
     "mojang-minecraft": {},
     "mojang-gametest": {},
-    "mojang-minecraft-ui": {}
+    "mojang-minecraft-ui": {},
+    "mojang-minecraft-server-admin": {},
+    "mojang-net": {}
 }
 const versions = {
     // add the version before module exist in the 1st slot
-    "mojang-minecraft": [ '1.16.201.2', '1.16.210.5', '1.16.220.2', '1.17.0.2', '1.17.10.4', '1.17.30.4', '1.17.40.6', '1.18.0.2', '1.18.10.4', '1.18.30.4', '1.19.0.31-beta'],
-    "mojang-gametest": [ '1.16.201.2', '1.16.210.5', '1.16.220.2', '1.17.0.2', '1.17.10.4', '1.17.30.4', '1.17.40.6', '1.18.0.2', '1.18.10.4', '1.18.30.4', '1.19.0.31-beta'],
-    "mojang-minecraft-ui": [ '1.18.10.4', '1.18.30.4', '1.19.0.31-beta']
+    "mojang-minecraft": [ '1.16.201.2', '1.16.210.5', '1.16.220.2', '1.17.0.2', '1.17.10.4', '1.17.30.4', '1.17.40.6', '1.18.0.2', '1.18.10.4', '1.18.30.4', '1.19.0.33-beta'],
+    "mojang-gametest": [ '1.16.201.2', '1.16.210.5', '1.16.220.2', '1.17.0.2', '1.17.10.4', '1.17.30.4', '1.17.40.6', '1.18.0.2', '1.18.10.4', '1.18.30.4', '1.19.0.33-beta'],
+    "mojang-minecraft-ui": [ '1.18.10.4', '1.18.30.4', '1.19.0.33-beta'],
+    "mojang-minecraft-server-admin": ['1.18.30.4', '1.19.0.33-beta'],
+    // MODULE PLACEHOLDER (DO NOT INCLUDE THEM IN MODULES ARRAY)
+    "mojang-net": [],
+    "unreleased minecraft client module placeholder": []
 }
 
 for (const module of modules) {
     const files = [{}]
     for (const filename of fs.readdirSync(path.join(`${__dirname}/../raw`))) if (filename.endsWith(`-${module}.json`)) {
-        files.push(JSON.parse(fs.readFileSync(path.join(`${__dirname}/../raw/${filename}`)).toString()))
-        // console.log("Loaded", filename)
+        files.push(JSON.parse(fs.readFileSync(path.join(`${__dirname}/../raw/${filename}`)).toString()));
+        console.log("Loaded", filename);
     }
 
     for (let index = 1; index < files.length; index++) {

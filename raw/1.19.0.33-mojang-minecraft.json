@@ -14,31 +14,17 @@
   "BeforeChatEventSignal": {
     "length": 0,
     "name": "BeforeChatEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "BeforeDataDrivenEntityTriggerEvent": {
     "length": 0,
     "name": "BeforeDataDrivenEntityTriggerEvent",
-    "prototype": [
-      "constructor",
-      "entity",
-      "id",
-      "cancel",
-      "modifiers"
-    ]
+    "prototype": ["constructor", "entity", "id", "cancel", "modifiers"]
   },
   "BeforeDataDrivenEntityTriggerEventSignal": {
     "length": 0,
     "name": "BeforeDataDrivenEntityTriggerEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "BeforeExplosionEvent": {
     "length": 0,
@@ -54,50 +40,27 @@
   "BeforeExplosionEventSignal": {
     "length": 0,
     "name": "BeforeExplosionEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "BeforeItemDefinitionEventSignal": {
     "length": 0,
     "name": "BeforeItemDefinitionEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "BeforeItemDefinitionTriggeredEvent": {
     "length": 0,
     "name": "BeforeItemDefinitionTriggeredEvent",
-    "prototype": [
-      "constructor",
-      "item",
-      "source",
-      "eventName",
-      "cancel"
-    ]
+    "prototype": ["constructor", "item", "source", "eventName", "cancel"]
   },
   "BeforeItemUseEvent": {
     "length": 0,
     "name": "BeforeItemUseEvent",
-    "prototype": [
-      "constructor",
-      "item",
-      "source",
-      "cancel"
-    ]
+    "prototype": ["constructor", "item", "source", "cancel"]
   },
   "BeforeItemUseEventSignal": {
     "length": 0,
     "name": "BeforeItemUseEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "BeforeItemUseOnEvent": {
     "length": 0,
@@ -116,11 +79,7 @@
   "BeforeItemUseOnEventSignal": {
     "length": 0,
     "name": "BeforeItemUseOnEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "BeforePistonActivateEvent": {
     "length": 0,
@@ -137,11 +96,7 @@
   "BeforePistonActivateEventSignal": {
     "length": 0,
     "name": "BeforePistonActivateEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "Block": {
     "length": 0,
@@ -168,13 +123,7 @@
   "BlockAreaSize": {
     "length": 0,
     "name": "BlockAreaSize",
-    "prototype": [
-      "constructor",
-      "equals",
-      "x",
-      "y",
-      "z"
-    ]
+    "prototype": ["constructor", "equals", "x", "y", "z"]
   },
   "BlockBreakEvent": {
     "length": 0,
@@ -190,46 +139,27 @@
   "BlockBreakEventSignal": {
     "length": 0,
     "name": "BlockBreakEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "BlockComponent": {
     "length": 0,
     "name": "BlockComponent",
-    "prototype": [
-      "constructor"
-    ]
+    "prototype": ["constructor"]
   },
   "BlockEvent": {
     "length": 0,
     "name": "BlockEvent",
-    "prototype": [
-      "constructor",
-      "dimension",
-      "block"
-    ]
+    "prototype": ["constructor", "dimension", "block"]
   },
   "BlockExplodeEvent": {
     "length": 0,
     "name": "BlockExplodeEvent",
-    "prototype": [
-      "constructor",
-      "dimension",
-      "block",
-      "source"
-    ]
+    "prototype": ["constructor", "dimension", "block", "source"]
   },
   "BlockExplodeEventSignal": {
     "length": 0,
     "name": "BlockExplodeEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "BlockHitInformation": {
     "length": 0,
@@ -245,11 +175,7 @@
   "BlockInventoryComponent": {
     "length": 0,
     "name": "BlockInventoryComponent",
-    "prototype": [
-      "constructor",
-      "location",
-      "container"
-    ]
+    "prototype": ["constructor", "location", "container"]
   },
   "BlockInventoryComponentContainer": {
     "length": 0,
@@ -268,11 +194,7 @@
   "BlockLavaContainerComponent": {
     "length": 0,
     "name": "BlockLavaContainerComponent",
-    "prototype": [
-      "constructor",
-      "location",
-      "fillLevel"
-    ]
+    "prototype": ["constructor", "location", "fillLevel"]
   },
   "BlockLocation": {
     "length": 0,
@@ -318,38 +240,22 @@
   "BlockPlaceEvent": {
     "length": 0,
     "name": "BlockPlaceEvent",
-    "prototype": [
-      "constructor",
-      "dimension",
-      "block",
-      "player"
-    ]
+    "prototype": ["constructor", "dimension", "block", "player"]
   },
   "BlockPlaceEventSignal": {
     "length": 0,
     "name": "BlockPlaceEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "BlockPotionContainerComponent": {
     "length": 0,
     "name": "BlockPotionContainerComponent",
-    "prototype": [
-      "constructor",
-      "setPotionType",
-      "location",
-      "fillLevel"
-    ]
+    "prototype": ["constructor", "setPotionType", "location", "fillLevel"]
   },
   "BlockProperties": {
     "length": 0,
     "name": "BlockProperties",
-    "prototype": [
-      "constructor"
-    ],
+    "prototype": ["constructor"],
     "propaguleStage": "propagule_stage",
     "canSummon": "can_summon",
     "bloom": "bloom",
@@ -490,21 +396,12 @@
   "BlockRecordPlayerComponent": {
     "length": 0,
     "name": "BlockRecordPlayerComponent",
-    "prototype": [
-      "constructor",
-      "setRecord",
-      "clearRecord",
-      "isPlaying"
-    ]
+    "prototype": ["constructor", "setRecord", "clearRecord", "isPlaying"]
   },
   "BlockSnowContainerComponent": {
     "length": 0,
     "name": "BlockSnowContainerComponent",
-    "prototype": [
-      "constructor",
-      "location",
-      "fillLevel"
-    ]
+    "prototype": ["constructor", "location", "fillLevel"]
   },
   "BlockType": {
     "length": 0,
@@ -530,31 +427,17 @@
   "BoolBlockProperty": {
     "length": 0,
     "name": "BoolBlockProperty",
-    "prototype": [
-      "constructor",
-      "name",
-      "value",
-      "validValues"
-    ]
+    "prototype": ["constructor", "name", "value", "validValues"]
   },
   "ButtonPushEvent": {
     "length": 0,
     "name": "ButtonPushEvent",
-    "prototype": [
-      "constructor",
-      "dimension",
-      "block",
-      "source"
-    ]
+    "prototype": ["constructor", "dimension", "block", "source"]
   },
   "ButtonPushEventSignal": {
     "length": 0,
     "name": "ButtonPushEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "ChatEvent": {
     "length": 0,
@@ -570,30 +453,17 @@
   "ChatEventSignal": {
     "length": 0,
     "name": "ChatEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "Color": {
     "length": 0,
     "name": "Color",
-    "prototype": [
-      "constructor",
-      "red",
-      "green",
-      "blue",
-      "alpha"
-    ]
+    "prototype": ["constructor", "red", "green", "blue", "alpha"]
   },
   "CommandResult": {
     "length": 0,
     "name": "CommandResult",
-    "prototype": [
-      "constructor",
-      "successCount"
-    ]
+    "prototype": ["constructor", "successCount"]
   },
   "Container": {
     "length": 0,
@@ -612,21 +482,12 @@
   "DataDrivenEntityTriggerEvent": {
     "length": 0,
     "name": "DataDrivenEntityTriggerEvent",
-    "prototype": [
-      "constructor",
-      "entity",
-      "id",
-      "modifiers"
-    ]
+    "prototype": ["constructor", "entity", "id", "modifiers"]
   },
   "DataDrivenEntityTriggerEventSignal": {
     "length": 0,
     "name": "DataDrivenEntityTriggerEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "DefinitionModifier": {
     "length": 0,
@@ -680,48 +541,27 @@
   "Effect": {
     "length": 0,
     "name": "Effect",
-    "prototype": [
-      "constructor",
-      "amplifier",
-      "duration",
-      "displayName"
-    ]
+    "prototype": ["constructor", "amplifier", "duration", "displayName"]
   },
   "EffectAddEvent": {
     "length": 0,
     "name": "EffectAddEvent",
-    "prototype": [
-      "constructor",
-      "entity",
-      "effect",
-      "effectState"
-    ]
+    "prototype": ["constructor", "entity", "effect", "effectState"]
   },
   "EffectAddEventSignal": {
     "length": 0,
     "name": "EffectAddEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "EffectType": {
     "length": 0,
     "name": "EffectType",
-    "prototype": [
-      "constructor",
-      "getName"
-    ]
+    "prototype": ["constructor", "getName"]
   },
   "Enchantment": {
     "length": 0,
     "name": "Enchantment",
-    "prototype": [
-      "constructor",
-      "type",
-      "level"
-    ]
+    "prototype": ["constructor", "type", "level"]
   },
   "EnchantmentList": {
     "length": 0,
@@ -740,9 +580,7 @@
   "EnchantmentSlot": {
     "length": 0,
     "name": "EnchantmentSlot",
-    "prototype": [
-      "constructor"
-    ],
+    "prototype": ["constructor"],
     "none": 0,
     "all": -1,
     "gArmor": 15,
@@ -771,11 +609,7 @@
   "EnchantmentType": {
     "length": 0,
     "name": "EnchantmentType",
-    "prototype": [
-      "constructor",
-      "id",
-      "maxLevel"
-    ]
+    "prototype": ["constructor", "id", "maxLevel"]
   },
   "Entity": {
     "length": 0,
@@ -820,12 +654,7 @@
   "EntityAddRiderComponent": {
     "length": 0,
     "name": "EntityAddRiderComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "entityType",
-      "spawnEvent"
-    ]
+    "prototype": ["constructor", "id", "entityType", "spawnEvent"]
   },
   "EntityAgeableComponent": {
     "length": 0,
@@ -861,52 +690,32 @@
   "EntityCanClimbComponent": {
     "length": 0,
     "name": "EntityCanClimbComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityCanFlyComponent": {
     "length": 0,
     "name": "EntityCanFlyComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityCanPowerJumpComponent": {
     "length": 0,
     "name": "EntityCanPowerJumpComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityColorComponent": {
     "length": 0,
     "name": "EntityColorComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "value"
-    ]
+    "prototype": ["constructor", "id", "value"]
   },
   "EntityCreateEvent": {
     "length": 0,
     "name": "EntityCreateEvent",
-    "prototype": [
-      "constructor",
-      "entity"
-    ]
+    "prototype": ["constructor", "entity"]
   },
   "EntityCreateEventSignal": {
     "length": 0,
     "name": "EntityCreateEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "EntityDamageCause": {
     "lava": "lava",
@@ -944,84 +753,47 @@
   "EntityDataDrivenTriggerEventOptions": {
     "length": 0,
     "name": "EntityDataDrivenTriggerEventOptions",
-    "prototype": [
-      "constructor",
-      "entities",
-      "entityTypes",
-      "eventTypes"
-    ]
+    "prototype": ["constructor", "entities", "entityTypes", "eventTypes"]
   },
   "EntityDefinitionFeedItem": {
     "length": 0,
     "name": "EntityDefinitionFeedItem",
-    "prototype": [
-      "constructor",
-      "growth",
-      "item"
-    ]
+    "prototype": ["constructor", "growth", "item"]
   },
   "EntityEventOptions": {
     "length": 0,
     "name": "EntityEventOptions",
-    "prototype": [
-      "constructor",
-      "entities",
-      "entityTypes"
-    ]
+    "prototype": ["constructor", "entities", "entityTypes"]
   },
   "EntityFireImmuneComponent": {
     "length": 0,
     "name": "EntityFireImmuneComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityFloatsInLiquidComponent": {
     "length": 0,
     "name": "EntityFloatsInLiquidComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityFlyingSpeedComponent": {
     "length": 0,
     "name": "EntityFlyingSpeedComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "value"
-    ]
+    "prototype": ["constructor", "id", "value"]
   },
   "EntityFrictionModifierComponent": {
     "length": 0,
     "name": "EntityFrictionModifierComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "value"
-    ]
+    "prototype": ["constructor", "id", "value"]
   },
   "EntityGroundOffsetComponent": {
     "length": 0,
     "name": "EntityGroundOffsetComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "value"
-    ]
+    "prototype": ["constructor", "id", "value"]
   },
   "EntityHealableComponent": {
     "length": 0,
     "name": "EntityHealableComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "filters",
-      "forceUse",
-      "items"
-    ]
+    "prototype": ["constructor", "id", "filters", "forceUse", "items"]
   },
   "EntityHealthComponent": {
     "length": 0,
@@ -1040,29 +812,17 @@
   "EntityHitEvent": {
     "length": 0,
     "name": "EntityHitEvent",
-    "prototype": [
-      "constructor",
-      "entity",
-      "hitEntity",
-      "hitBlock"
-    ]
+    "prototype": ["constructor", "entity", "hitEntity", "hitBlock"]
   },
   "EntityHitEventSignal": {
     "length": 0,
     "name": "EntityHitEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "EntityHitInformation": {
     "length": 0,
     "name": "EntityHitInformation",
-    "prototype": [
-      "constructor",
-      "entity"
-    ]
+    "prototype": ["constructor", "entity"]
   },
   "EntityHurtEvent": {
     "length": 0,
@@ -1079,11 +839,7 @@
   "EntityHurtEventSignal": {
     "length": 0,
     "name": "EntityHurtEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "EntityInventoryComponent": {
     "length": 0,
@@ -1103,122 +859,77 @@
   "EntityIsBabyComponent": {
     "length": 0,
     "name": "EntityIsBabyComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityIsChargedComponent": {
     "length": 0,
     "name": "EntityIsChargedComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityIsChestedComponent": {
     "length": 0,
     "name": "EntityIsChestedComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityIsDyableComponent": {
     "length": 0,
     "name": "EntityIsDyableComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityIsHiddenWhenInvisibleComponent": {
     "length": 0,
     "name": "EntityIsHiddenWhenInvisibleComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityIsIgnitedComponent": {
     "length": 0,
     "name": "EntityIsIgnitedComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityIsIllagerCaptainComponent": {
     "length": 0,
     "name": "EntityIsIllagerCaptainComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityIsSaddledComponent": {
     "length": 0,
     "name": "EntityIsSaddledComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityIsShakingComponent": {
     "length": 0,
     "name": "EntityIsShakingComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityIsShearedComponent": {
     "length": 0,
     "name": "EntityIsShearedComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityIsStackableComponent": {
     "length": 0,
     "name": "EntityIsStackableComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityIsStunnedComponent": {
     "length": 0,
     "name": "EntityIsStunnedComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityIsTamedComponent": {
     "length": 0,
     "name": "EntityIsTamedComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityItemComponent": {
     "length": 0,
     "name": "EntityItemComponent",
-    "prototype": [
-      "constructor",
-      "itemStack"
-    ]
+    "prototype": ["constructor", "itemStack"]
   },
   "EntityIterator": {
     "length": 0,
     "name": "EntityIterator",
-    "prototype": [
-      "constructor",
-      null
-    ]
+    "prototype": ["constructor", null]
   },
   "EntityLavaMovementComponent": {
     "length": 0,
@@ -1237,49 +948,27 @@
   "EntityLeashableComponent": {
     "length": 0,
     "name": "EntityLeashableComponent",
-    "prototype": [
-      "constructor",
-      "leash",
-      "unleash",
-      "id",
-      "softDistance"
-    ]
+    "prototype": ["constructor", "leash", "unleash", "id", "softDistance"]
   },
   "EntityMarkVariantComponent": {
     "length": 0,
     "name": "EntityMarkVariantComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "value"
-    ]
+    "prototype": ["constructor", "id", "value"]
   },
   "EntityMountTamingComponent": {
     "length": 0,
     "name": "EntityMountTamingComponent",
-    "prototype": [
-      "constructor",
-      "setTamed",
-      "id"
-    ]
+    "prototype": ["constructor", "setTamed", "id"]
   },
   "EntityMovementAmphibiousComponent": {
     "length": 0,
     "name": "EntityMovementAmphibiousComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "maxTurn"
-    ]
+    "prototype": ["constructor", "id", "maxTurn"]
   },
   "EntityMovementBasicComponent": {
     "length": 0,
     "name": "EntityMovementBasicComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "maxTurn"
-    ]
+    "prototype": ["constructor", "id", "maxTurn"]
   },
   "EntityMovementComponent": {
     "length": 0,
@@ -1298,20 +987,12 @@
   "EntityMovementFlyComponent": {
     "length": 0,
     "name": "EntityMovementFlyComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "maxTurn"
-    ]
+    "prototype": ["constructor", "id", "maxTurn"]
   },
   "EntityMovementGenericComponent": {
     "length": 0,
     "name": "EntityMovementGenericComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "maxTurn"
-    ]
+    "prototype": ["constructor", "id", "maxTurn"]
   },
   "EntityMovementGlideComponent": {
     "length": 0,
@@ -1327,29 +1008,17 @@
   "EntityMovementHoverComponent": {
     "length": 0,
     "name": "EntityMovementHoverComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "maxTurn"
-    ]
+    "prototype": ["constructor", "id", "maxTurn"]
   },
   "EntityMovementJumpComponent": {
     "length": 0,
     "name": "EntityMovementJumpComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "maxTurn"
-    ]
+    "prototype": ["constructor", "id", "maxTurn"]
   },
   "EntityMovementSkipComponent": {
     "length": 0,
     "name": "EntityMovementSkipComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "maxTurn"
-    ]
+    "prototype": ["constructor", "id", "maxTurn"]
   },
   "EntityMovementSwayComponent": {
     "length": 0,
@@ -1527,11 +1196,7 @@
   "EntityPushThroughComponent": {
     "length": 0,
     "name": "EntityPushThroughComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "value"
-    ]
+    "prototype": ["constructor", "id", "value"]
   },
   "EntityQueryOptions": {
     "length": 0,
@@ -1566,21 +1231,12 @@
   "EntityQueryScoreOptions": {
     "length": 0,
     "name": "EntityQueryScoreOptions",
-    "prototype": [
-      "constructor",
-      "exclude",
-      "minScore",
-      "maxScore",
-      "objective"
-    ]
+    "prototype": ["constructor", "exclude", "minScore", "maxScore", "objective"]
   },
   "EntityRaycastOptions": {
     "length": 0,
     "name": "EntityRaycastOptions",
-    "prototype": [
-      "constructor",
-      "maxDistance"
-    ]
+    "prototype": ["constructor", "maxDistance"]
   },
   "EntityRideableComponent": {
     "length": 0,
@@ -1604,30 +1260,17 @@
   "EntityScaleComponent": {
     "length": 0,
     "name": "EntityScaleComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "value"
-    ]
+    "prototype": ["constructor", "id", "value"]
   },
   "EntitySkinIdComponent": {
     "length": 0,
     "name": "EntitySkinIdComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "value"
-    ]
+    "prototype": ["constructor", "id", "value"]
   },
   "EntityStrengthComponent": {
     "length": 0,
     "name": "EntityStrengthComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "value",
-      "max"
-    ]
+    "prototype": ["constructor", "id", "value", "max"]
   },
   "EntityTameableComponent": {
     "length": 0,
@@ -1644,25 +1287,17 @@
   "EntityType": {
     "length": 0,
     "name": "EntityType",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "EntityTypeIterator": {
     "length": 0,
     "name": "EntityTypeIterator",
-    "prototype": [
-      "constructor",
-      null
-    ]
+    "prototype": ["constructor", null]
   },
   "EntityTypes": {
     "length": 0,
     "name": "EntityTypes",
-    "prototype": [
-      "constructor"
-    ],
+    "prototype": ["constructor"],
     "get": "function () {\n    [native code]\n}",
     "getAll": "function () {\n    [native code]\n}"
   },
@@ -1683,19 +1318,12 @@
   "EntityVariantComponent": {
     "length": 0,
     "name": "EntityVariantComponent",
-    "prototype": [
-      "constructor",
-      "id",
-      "value"
-    ]
+    "prototype": ["constructor", "id", "value"]
   },
   "EntityWantsJockeyComponent": {
     "length": 0,
     "name": "EntityWantsJockeyComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "Events": {
     "length": 0,
@@ -1743,21 +1371,12 @@
   "ExplosionEvent": {
     "length": 0,
     "name": "ExplosionEvent",
-    "prototype": [
-      "constructor",
-      "impactedBlocks",
-      "dimension",
-      "source"
-    ]
+    "prototype": ["constructor", "impactedBlocks", "dimension", "source"]
   },
   "ExplosionEventSignal": {
     "length": 0,
     "name": "ExplosionEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "ExplosionOptions": {
     "length": 0,
@@ -1773,37 +1392,22 @@
   "FeedItem": {
     "length": 0,
     "name": "FeedItem",
-    "prototype": [
-      "constructor",
-      "effects",
-      "healAmount",
-      "item"
-    ]
+    "prototype": ["constructor", "effects", "healAmount", "item"]
   },
   "FeedItemEffect": {
     "length": 0,
     "name": "FeedItemEffect",
-    "prototype": [
-      "constructor",
-      "amplifier",
-      "chance",
-      "duration",
-      "name"
-    ]
+    "prototype": ["constructor", "amplifier", "chance", "duration", "name"]
   },
   "FilterGroup": {
     "length": 0,
     "name": "FilterGroup",
-    "prototype": [
-      "constructor"
-    ]
+    "prototype": ["constructor"]
   },
   "FluidContainer": {
     "length": 0,
     "name": "FluidContainer",
-    "prototype": [
-      "constructor"
-    ],
+    "prototype": ["constructor"],
     "minFillLevel": 0,
     "maxFillLevel": 6
   },
@@ -1816,28 +1420,17 @@
   "IBlockProperty": {
     "length": 0,
     "name": "IBlockProperty",
-    "prototype": [
-      "constructor",
-      "name"
-    ]
+    "prototype": ["constructor", "name"]
   },
   "IEntityComponent": {
     "length": 0,
     "name": "IEntityComponent",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "IntBlockProperty": {
     "length": 0,
     "name": "IntBlockProperty",
-    "prototype": [
-      "constructor",
-      "name",
-      "value",
-      "validValues"
-    ]
+    "prototype": ["constructor", "name", "value", "validValues"]
   },
   "InventoryComponentContainer": {
     "length": 0,
@@ -1856,21 +1449,12 @@
   "ItemCompleteChargeEvent": {
     "length": 0,
     "name": "ItemCompleteChargeEvent",
-    "prototype": [
-      "constructor",
-      "itemStack",
-      "source",
-      "useDuration"
-    ]
+    "prototype": ["constructor", "itemStack", "source", "useDuration"]
   },
   "ItemCompleteChargeEventSignal": {
     "length": 0,
     "name": "ItemCompleteChargeEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "ItemCooldownComponent": {
     "length": 0,
@@ -1886,21 +1470,12 @@
   "ItemDefinitionEventSignal": {
     "length": 0,
     "name": "ItemDefinitionEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "ItemDefinitionTriggeredEvent": {
     "length": 0,
     "name": "ItemDefinitionTriggeredEvent",
-    "prototype": [
-      "constructor",
-      "item",
-      "source",
-      "eventName"
-    ]
+    "prototype": ["constructor", "item", "source", "eventName"]
   },
   "ItemDurabilityComponent": {
     "length": 0,
@@ -1917,12 +1492,7 @@
   "ItemEnchantsComponent": {
     "length": 0,
     "name": "ItemEnchantsComponent",
-    "prototype": [
-      "constructor",
-      "removeAllEnchantments",
-      "id",
-      "enchantments"
-    ]
+    "prototype": ["constructor", "removeAllEnchantments", "id", "enchantments"]
   },
   "ItemFoodComponent": {
     "length": 0,
@@ -1939,21 +1509,12 @@
   "ItemReleaseChargeEvent": {
     "length": 0,
     "name": "ItemReleaseChargeEvent",
-    "prototype": [
-      "constructor",
-      "itemStack",
-      "source",
-      "useDuration"
-    ]
+    "prototype": ["constructor", "itemStack", "source", "useDuration"]
   },
   "ItemReleaseChargeEventSignal": {
     "length": 0,
     "name": "ItemReleaseChargeEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "ItemStack": {
     "length": 0,
@@ -1975,21 +1536,12 @@
   "ItemStartChargeEvent": {
     "length": 0,
     "name": "ItemStartChargeEvent",
-    "prototype": [
-      "constructor",
-      "itemStack",
-      "source",
-      "useDuration"
-    ]
+    "prototype": ["constructor", "itemStack", "source", "useDuration"]
   },
   "ItemStartChargeEventSignal": {
     "length": 0,
     "name": "ItemStartChargeEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "ItemStartUseOnEvent": {
     "length": 0,
@@ -2006,75 +1558,42 @@
   "ItemStartUseOnEventSignal": {
     "length": 0,
     "name": "ItemStartUseOnEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "ItemStopChargeEvent": {
     "length": 0,
     "name": "ItemStopChargeEvent",
-    "prototype": [
-      "constructor",
-      "itemStack",
-      "source",
-      "useDuration"
-    ]
+    "prototype": ["constructor", "itemStack", "source", "useDuration"]
   },
   "ItemStopChargeEventSignal": {
     "length": 0,
     "name": "ItemStopChargeEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "ItemStopUseOnEvent": {
     "length": 0,
     "name": "ItemStopUseOnEvent",
-    "prototype": [
-      "constructor",
-      "item",
-      "source",
-      "blockLocation"
-    ]
+    "prototype": ["constructor", "item", "source", "blockLocation"]
   },
   "ItemStopUseOnEventSignal": {
     "length": 0,
     "name": "ItemStopUseOnEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "ItemType": {
     "length": 0,
     "name": "ItemType",
-    "prototype": [
-      "constructor",
-      "id"
-    ]
+    "prototype": ["constructor", "id"]
   },
   "ItemUseEvent": {
     "length": 0,
     "name": "ItemUseEvent",
-    "prototype": [
-      "constructor",
-      "item",
-      "source"
-    ]
+    "prototype": ["constructor", "item", "source"]
   },
   "ItemUseEventSignal": {
     "length": 0,
     "name": "ItemUseEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "ItemUseOnEvent": {
     "length": 0,
@@ -2092,61 +1611,33 @@
   "ItemUseOnEventSignal": {
     "length": 0,
     "name": "ItemUseOnEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "Items": {
     "length": 0,
     "name": "Items",
-    "prototype": [
-      "constructor"
-    ],
+    "prototype": ["constructor"],
     "get": "function () {\n    [native code]\n}"
   },
   "LeverActionEvent": {
     "length": 0,
     "name": "LeverActionEvent",
-    "prototype": [
-      "constructor",
-      "dimension",
-      "block",
-      "isPowered",
-      "player"
-    ]
+    "prototype": ["constructor", "dimension", "block", "isPowered", "player"]
   },
   "LeverActionEventSignal": {
     "length": 0,
     "name": "LeverActionEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "Location": {
     "length": 0,
     "name": "Location",
-    "prototype": [
-      "constructor",
-      "equals",
-      "isNear",
-      "x",
-      "y",
-      "z"
-    ]
+    "prototype": ["constructor", "equals", "isNear", "x", "y", "z"]
   },
   "MessageReceiveEvent": {
     "length": 0,
     "name": "MessageReceiveEvent",
-    "prototype": [
-      "constructor",
-      "id",
-      "message",
-      "sourceType"
-    ]
+    "prototype": ["constructor", "id", "message", "sourceType"]
   },
   "MessageSourceType": {
     "serverCommand": 0,
@@ -2157,9 +1648,7 @@
   "MinecraftBlockTypes": {
     "length": 0,
     "name": "MinecraftBlockTypes",
-    "prototype": [
-      "constructor"
-    ],
+    "prototype": ["constructor"],
     "getAllBlockTypes": "function () {\n    [native code]\n}",
     "get": "function () {\n    [native code]\n}",
     "blueCandle": {
@@ -5876,9 +5365,7 @@
   "MinecraftDimensionTypes": {
     "length": 0,
     "name": "MinecraftDimensionTypes",
-    "prototype": [
-      "constructor"
-    ],
+    "prototype": ["constructor"],
     "overworld": "minecraft:overworld",
     "nether": "minecraft:nether",
     "theEnd": "minecraft:the_end"
@@ -5886,9 +5373,7 @@
   "MinecraftEffectTypes": {
     "length": 0,
     "name": "MinecraftEffectTypes",
-    "prototype": [
-      "constructor"
-    ],
+    "prototype": ["constructor"],
     "empty": {
       "getName": "function () {\n    [native code]\n}"
     },
@@ -5986,9 +5471,7 @@
   "MinecraftEnchantmentTypes": {
     "length": 0,
     "name": "MinecraftEnchantmentTypes",
-    "prototype": [
-      "constructor"
-    ],
+    "prototype": ["constructor"],
     "protection": {
       "id": "protection",
       "maxLevel": 4
@@ -6145,9 +5628,7 @@
   "MinecraftEntityTypes": {
     "length": 0,
     "name": "MinecraftEntityTypes",
-    "prototype": [
-      "constructor"
-    ],
+    "prototype": ["constructor"],
     "zombieVillagerV2": {
       "id": "minecraft:zombie_villager_v2"
     },
@@ -6485,9 +5966,7 @@
   "MinecraftItemTypes": {
     "length": 0,
     "name": "MinecraftItemTypes",
-    "prototype": [
-      "constructor"
-    ],
+    "prototype": ["constructor"],
     "air": {
       "id": "minecraft:air"
     },
@@ -9899,51 +9378,27 @@
   "MusicOptions": {
     "length": 0,
     "name": "MusicOptions",
-    "prototype": [
-      "constructor",
-      "volume",
-      "fade",
-      "loop"
-    ]
+    "prototype": ["constructor", "volume", "fade", "loop"]
   },
   "NavigationResult": {
     "length": 0,
     "name": "NavigationResult",
-    "prototype": [
-      "constructor",
-      "isFullPath",
-      "path"
-    ]
+    "prototype": ["constructor", "isFullPath", "path"]
   },
   "NumberRange": {
     "length": 0,
     "name": "NumberRange",
-    "prototype": [
-      "constructor",
-      "next",
-      "min",
-      "max"
-    ]
+    "prototype": ["constructor", "next", "min", "max"]
   },
   "PistonActivateEvent": {
     "length": 0,
     "name": "PistonActivateEvent",
-    "prototype": [
-      "constructor",
-      "dimension",
-      "block",
-      "piston",
-      "isExpanding"
-    ]
+    "prototype": ["constructor", "dimension", "block", "piston", "isExpanding"]
   },
   "PistonActivateEventSignal": {
     "length": 0,
     "name": "PistonActivateEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "Player": {
     "length": 0,
@@ -10009,44 +9464,27 @@
   "PlayerIterator": {
     "length": 0,
     "name": "PlayerIterator",
-    "prototype": [
-      "constructor",
-      null
-    ]
+    "prototype": ["constructor", null]
   },
   "PlayerJoinEvent": {
     "length": 0,
     "name": "PlayerJoinEvent",
-    "prototype": [
-      "constructor",
-      "player"
-    ]
+    "prototype": ["constructor", "player"]
   },
   "PlayerJoinEventSignal": {
     "length": 0,
     "name": "PlayerJoinEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "PlayerLeaveEvent": {
     "length": 0,
     "name": "PlayerLeaveEvent",
-    "prototype": [
-      "constructor",
-      "playerName"
-    ]
+    "prototype": ["constructor", "playerName"]
   },
   "PlayerLeaveEventSignal": {
     "length": 0,
     "name": "PlayerLeaveEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "ProjectileHitEvent": {
     "length": 0,
@@ -10065,11 +9503,7 @@
   "ProjectileHitEventSignal": {
     "length": 0,
     "name": "ProjectileHitEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "PropertyRegistry": {
     "length": 0,
@@ -10093,13 +9527,7 @@
   "ScoreboardIdentity": {
     "length": 0,
     "name": "ScoreboardIdentity",
-    "prototype": [
-      "constructor",
-      "getEntity",
-      "type",
-      "id",
-      "displayName"
-    ]
+    "prototype": ["constructor", "getEntity", "type", "id", "displayName"]
   },
   "ScoreboardIdentityType": {
     "entity": 2,
@@ -10121,11 +9549,7 @@
   "ScoreboardScoreInfo": {
     "length": 0,
     "name": "ScoreboardScoreInfo",
-    "prototype": [
-      "constructor",
-      "participant",
-      "score"
-    ]
+    "prototype": ["constructor", "participant", "score"]
   },
   "ScreenDisplay": {
     "length": 0,
@@ -10152,49 +9576,27 @@
   "ServerMessageSignal": {
     "length": 0,
     "name": "ServerMessageSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "SoundOptions": {
     "length": 0,
     "name": "SoundOptions",
-    "prototype": [
-      "constructor",
-      "location",
-      "volume",
-      "pitch"
-    ]
+    "prototype": ["constructor", "location", "volume", "pitch"]
   },
   "StringBlockProperty": {
     "length": 0,
     "name": "StringBlockProperty",
-    "prototype": [
-      "constructor",
-      "name",
-      "value",
-      "validValues"
-    ]
+    "prototype": ["constructor", "name", "value", "validValues"]
   },
   "TickEvent": {
     "length": 0,
     "name": "TickEvent",
-    "prototype": [
-      "constructor",
-      "currentTick",
-      "deltaTime"
-    ]
+    "prototype": ["constructor", "currentTick", "deltaTime"]
   },
   "TickEventSignal": {
     "length": 0,
     "name": "TickEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "TicksPerSecond": 20,
   "TitleDisplayOptions": {
@@ -10211,10 +9613,7 @@
   "Trigger": {
     "length": 0,
     "name": "Trigger",
-    "prototype": [
-      "constructor",
-      "eventName"
-    ]
+    "prototype": ["constructor", "eventName"]
   },
   "Vector": {
     "length": 0,
@@ -10306,21 +9705,12 @@
   "WeatherChangeEvent": {
     "length": 0,
     "name": "WeatherChangeEvent",
-    "prototype": [
-      "constructor",
-      "dimension",
-      "raining",
-      "lightning"
-    ]
+    "prototype": ["constructor", "dimension", "raining", "lightning"]
   },
   "WeatherChangeEventSignal": {
     "length": 0,
     "name": "WeatherChangeEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "World": {
     "length": 0,
@@ -10344,28 +9734,17 @@
   "WorldInitializeEvent": {
     "length": 0,
     "name": "WorldInitializeEvent",
-    "prototype": [
-      "constructor",
-      "propertyRegistry"
-    ]
+    "prototype": ["constructor", "propertyRegistry"]
   },
   "WorldInitializeEventSignal": {
     "length": 0,
     "name": "WorldInitializeEventSignal",
-    "prototype": [
-      "constructor",
-      "subscribe",
-      "unsubscribe"
-    ]
+    "prototype": ["constructor", "subscribe", "unsubscribe"]
   },
   "XYRotation": {
     "length": 0,
     "name": "XYRotation",
-    "prototype": [
-      "constructor",
-      "x",
-      "y"
-    ]
+    "prototype": ["constructor", "x", "y"]
   },
   "world": {
     "getDimension": "function () {\n    [native code]\n}",

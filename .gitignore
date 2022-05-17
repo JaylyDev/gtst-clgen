@@ -4,3 +4,4 @@ types/*.json
 !types/package.json
 !types/tsconfig.json
 node_modules
+raw-beta
