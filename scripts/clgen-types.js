@@ -138,6 +138,7 @@ function WhichMinecraftModule (ModuleName) {
       module = {}
       break;
   }
-
+  
+  console.log(module)
   return module;
 }
