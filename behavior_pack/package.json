@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "scripts": {
+    "publish": "tsc",
+    "test": "node scripts/GameTestFetch-test.js > test.log"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "@types/mojang-gametest": "^0.1.4",
+    "@types/mojang-minecraft": "^0.1.5",
+    "@types/mojang-minecraft-server-admin": "^0.1.0",
+    "@types/mojang-minecraft-ui": "^0.1.0",
+    "@types/mojang-net": "^0.1.0"
+  },
+  "name": "gametest_fetch",
+  "version": "1.0.0",
+  "author": "jayly",
+  "license": "MIT",
+  "description": "GameTest Fetch"
+}

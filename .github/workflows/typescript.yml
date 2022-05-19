@@ -5,11 +5,12 @@ jobs:
   build:
     name: Action
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./types
     steps:
       - uses: actions/checkout@v1
         with:
           fetch-depth: 1
       - run: npm install
-        working-directory: ./types
       - run: npm run build
-        working-directory: ./types

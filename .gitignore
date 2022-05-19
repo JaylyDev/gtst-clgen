@@ -5,3 +5,7 @@ types/*.json
 !types/tsconfig.json
 node_modules
 raw-beta
+behavior_pack/scripts
+behavior_pack/typings
+behavior_pack/*.log
+package-lock.json
