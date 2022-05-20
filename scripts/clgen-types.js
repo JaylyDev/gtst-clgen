@@ -51,14 +51,15 @@ function writeDocs (added = [], removed = [], changed = {}, docs = "", paddling 
      */
     let variableType;
     
-    console.log(reference, variable); // debugging
-    if (!!reference) {
+    console.log(Reflect.ownKeys(reference), variable); // debugging
+    try {
+    if (!!reference[variable]) {
       // Class detection
       if (!!reference[variable].constructor) variableType = "class"
       else if (typeof reference[variable] === "object") variableType = "protected class"
       else if (typeof reference[variable] === "string") variableType = reference[variable]
       else variableType = null; // exception
-    }
+    }} catch (err) { console.error(err); variableType = null };
 
     var addPaddle = false
     if (!type) {
