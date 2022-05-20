@@ -10,7 +10,8 @@
     "@types/mojang-minecraft": "^0.1.5",
     "@types/mojang-minecraft-server-admin": "^0.1.0",
     "@types/mojang-minecraft-ui": "^0.1.0",
-    "@types/mojang-net": "^0.1.0"
+    "@types/mojang-net": "^0.1.0",
+    "@types/node": "latest"
   },
   "name": "gametest_fetch",
   "version": "1.0.0",
