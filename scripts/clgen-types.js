@@ -50,8 +50,9 @@ function writeDocs (added = [], removed = [], changed = {}, docs = "", paddling 
      * @type string
      */
     let variableType;
-
-    if (!!reference[variable]) {
+    
+    console.log(reference, variable); // debugging
+    if (!!reference) {
       // Class detection
       if (!!reference[variable].constructor) variableType = "class"
       else if (typeof reference[variable] === "object") variableType = "protected class"
