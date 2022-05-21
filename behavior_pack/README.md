@@ -1,4 +1,5 @@
-2nd version of GameTest API Fetch add-on.
+# GameTest Fetch
 
-The 1st one is gone forever due to storage wipe lol...
-still need to figure out how to get class prototypes
+This is a Minecraft add-on that fetches GameTest components ingame
+
+We're currently on version 2.
