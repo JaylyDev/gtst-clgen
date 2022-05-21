@@ -1,4 +1,4 @@
-export default function setTimeout (callback: () => void, timeout: number) {
+export function setTimeout (callback: () => void, timeout: number) {
   const StartTime = new Date().getTime();
 
   (async () => {
@@ -11,3 +11,12 @@ export default function setTimeout (callback: () => void, timeout: number) {
     }
   })()
 }
+
+export function formatMilliseconds (date: Date) {
+  const DateMs = date.getMilliseconds();
+  let MsString = ".";
+  for (let index = 0; index < 4 - String(DateMs).length; index++) MsString += "0";
+  MsString += DateMs;
+  
+  return MsString;
+};

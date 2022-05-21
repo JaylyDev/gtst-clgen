@@ -1,5 +1,7 @@
 import { cloneJSON } from "./clonejson.js";
 
+const ignored: (string | symbol)[] = ['caller', 'callee', 'arguments'];
+
 export function GameTestFetch(obj: object): object {
     if (typeof obj !== "object" && typeof obj !== "function" || obj === null) return obj;
 
@@ -10,7 +12,8 @@ export function GameTestFetch(obj: object): object {
             Response[member] = {};
             
             for (const classKey of Reflect.ownKeys(obj[member])) 
-            if (classKey === "prototype") {
+            if (ignored.includes(classKey)) {}
+            else if (classKey === "prototype") {
                 Response[member][classKey] = Reflect.ownKeys(obj[member][classKey]);
             } else if (typeof obj[member][classKey] === "object") {
                 Response[member][classKey] = cloneJSON(obj[member][classKey]);
