@@ -1,34 +1,34 @@
 import * as fs from "fs";
-import * as buffer from "buffer"
-import setTimeout from "./timers.js";
-import GameTestFetch, { Function2String } from "./GameTestFetch.js";
+import * as path from "path";
+import * as buffer from "buffer";
+import * as typescript from "typescript";
 
-setTimeout(() => {
-  console.log(JSON.stringify(GameTestFetch(Date), Function2String));
-  console.warn("Date passed");
-}, 1000);
+import { cloneJSON } from "./clonejson.js";
+import { GameTestFetch, FunctionToString } from "./GameTestFetch.js";
 
-setTimeout(() => {
-  console.log(JSON.stringify(GameTestFetch(Math), Function2String));
-  console.warn("Math passed");
-}, 1000);
+console.log(JSON.stringify(cloneJSON(GameTestFetch(Date)), FunctionToString));
+console.warn(`[${new Date()}] Successfully fetch module "Date"`);
 
-setTimeout(() => {
-  console.log(JSON.stringify(GameTestFetch(Map), Function2String));
-  console.warn("Map passed");
-}, 1000);
+console.log(JSON.stringify(cloneJSON(GameTestFetch(Math)), FunctionToString));
+console.warn(`[${new Date()}] Successfully fetch module "Math"`);
 
-setTimeout(() => {
-  console.log(JSON.stringify(GameTestFetch(fs), Function2String));
-  console.warn("fs passed");
-}, 1000);
+console.log(JSON.stringify(cloneJSON(GameTestFetch(JSON)), FunctionToString));
+console.warn(`[${new Date()}] Successfully fetch module "JSON"`);
 
-setTimeout(() => {
-  console.log(JSON.stringify(GameTestFetch(globalThis), Function2String));
-  console.warn("globalThis passed");
-}, 1000);
+console.log(JSON.stringify(cloneJSON(GameTestFetch(fs)), FunctionToString));
+console.warn(`[${new Date()}] Successfully fetch module "fs"`);
 
-setTimeout(() => {
-  console.log(JSON.stringify(GameTestFetch(buffer), Function2String));
-  console.warn("buffer passed");
-}, 1000);
+console.log(JSON.stringify(cloneJSON(GameTestFetch(buffer)), FunctionToString));
+console.warn(`[${new Date()}] Successfully fetch module "buffer"`);
+
+console.log(JSON.stringify(cloneJSON(GameTestFetch(path)), FunctionToString));
+console.warn(`[${new Date()}] Successfully fetch module "path"`);
+
+console.log(JSON.stringify(cloneJSON(GameTestFetch(globalThis)), FunctionToString));
+console.warn(`[${new Date()}] Successfully fetch module "globalThis"`);
+
+console.log(JSON.stringify(cloneJSON(GameTestFetch(global)), FunctionToString));
+console.warn(`[${new Date()}] Successfully fetch module "global"`);
+
+console.log(JSON.stringify(cloneJSON(GameTestFetch(typescript)), FunctionToString));
+console.warn(`[${new Date()}] Successfully fetch module "typescript"`);
