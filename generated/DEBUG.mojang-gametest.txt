@@ -1,0 +1,250 @@
+`mojang-gametest`
+
+== Change Log ==
+=== v1.19.0.33-beta ===
+- Added class `SculkSpreader`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `addCursorsWithOffset`
+        - Added class `getTotalCharge`
+        - Added class `getNumberOfCursors`
+        - Added class `getCursorPosition`
+        - Added class `maxCharge`
+- Changed class `SimulatedPlayer`
+    - Changed element `prototype`
+        - Added class `setRotation`
+        - Added class `runCommandAsync`
+        - Added class `setDynamicProperty`
+        - Added class `getDynamicProperty`
+        - Added class `removeDynamicProperty`
+        - Added class `addExperience`
+        - Added class `rotation`
+        - Added class `scoreboard`
+        - Added class `onScreenDisplay`
+        - Removed class `bodyRotation`
+- Changed class `Test`
+    - Changed element `prototype`
+        - Added class `rotateVector`
+        - Added class `destroyBlock`
+
+=== v1.18.30.4 ===
+- Changed  `SimulatedPlayer`
+    - Changed element `prototype`
+        - Added class `playSound`
+- Changed  `Test`
+    - Changed element `prototype`
+        - Added class `getSculkSpreader`
+
+=== v1.18.10.4 ===
+- Added class `registerAsync`
+- Changed class `SimulatedPlayer`
+    - Changed element `prototype`
+        - Added class `setVelocity`
+        - Added class `teleport`
+        - Added class `teleportFacing`
+        - Added class `runCommand`
+        - Added class `addTag`
+        - Added class `removeTag`
+        - Added class `hasTag`
+        - Added class `getTags`
+        - Added class `getEntitiesFromViewVector`
+        - Added class `getBlockFromViewVector`
+        - Added class `postClientMessage`
+        - Added class `startItemCooldown`
+        - Added class `getItemCooldown`
+        - Added class `breakBlock`
+        - Added class `stopBreakingBlock`
+        - Added class `giveItem`
+        - Added class `setItem`
+        - Added class `setGameMode`
+        - Added class `dimension`
+        - Added class `target`
+        - Added class `viewVector`
+        - Added class `headLocation`
+        - Added class `selectedSlot`
+        - Removed class `selectSlot`
+        - Removed class `destroyBlock`
+        - Removed class `stopDestroyingBlock`
+- Changed class `Test`
+    - Changed element `prototype`
+        - Added class `getDimension`
+        - Added class `triggerInternalBlockEvent`
+
+=== v1.18.0.2 ===
+- Changed  `Test`
+    - Changed element `prototype`
+        - Added class `idle`
+        - Added class `until`
+
+=== v1.17.40.6 ===
+- Added class `SimulatedPlayer`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `hasComponent`
+        - Added class `getComponent`
+        - Added class `getComponents`
+        - Added class `kill`
+        - Added class `getEffect`
+        - Added class `addEffect`
+        - Added class `triggerEvent`
+        - Added class `jump`
+        - Added class `rotateBody`
+        - Added class `setBodyRotation`
+        - Added class `lookAtBlock`
+        - Added class `lookAtEntity`
+        - Added class `lookAtLocation`
+        - Added class `move`
+        - Added class `moveRelative`
+        - Added class `moveToLocation`
+        - Added class `moveToBlock`
+        - Added class `navigateToLocation`
+        - Added class `navigateToLocations`
+        - Added class `navigateToBlock`
+        - Added class `navigateToEntity`
+        - Added class `stopMoving`
+        - Added class `attack`
+        - Added class `attackEntity`
+        - Added class `selectSlot`
+        - Added class `useItemInSlot`
+        - Added class `useItem`
+        - Added class `useItemOnBlock`
+        - Added class `useItemInSlotOnBlock`
+        - Added class `interactWithEntity`
+        - Added class `interactWithBlock`
+        - Added class `interact`
+        - Added class `destroyBlock`
+        - Added class `stopDestroyingBlock`
+        - Added class `stopInteracting`
+        - Added class `stopUsingItem`
+        - Added class `id`
+        - Added class `location`
+        - Added class `velocity`
+        - Added class `nameTag`
+        - Added class `isSneaking`
+        - Added class `bodyRotation`
+        - Added class `headRotation`
+- Changed class `GameTestSequence`
+    - Changed element `prototype`
+        - Added class `thenWaitAfter`
+        - Removed class `thenWaitWithDelay`
+- Changed class `Test`
+    - Changed element `prototype`
+        - Added class `removeSimulatedPlayer`
+        - Added class `spawnSimulatedPlayer`
+        - Added class `succeedWhenBlockPresent`
+        - Removed class `succeedWhenBlockTypePresent`
+
+=== v1.17.30.4 ===
+- Added class `FenceConnectivity`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `north`
+        - Added class `east`
+        - Added class `south`
+        - Added class `west`
+- Added class `FluidType`
+    - Added class `lava`
+    - Added class `powderSnow`
+    - Added class `potion`
+- Added class `GameTestSequence`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `thenExecute`
+        - Added class `thenExecuteAfter`
+        - Added class `thenExecuteFor`
+        - Added class `thenFail`
+        - Added class `thenIdle`
+        - Added class `thenSucceed`
+        - Added class `thenWait`
+        - Added class `thenWaitWithDelay`
+- Added class `RegistrationBuilder`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `batch`
+        - Added class `required`
+        - Added class `requiredSuccessfulAttempts`
+        - Added class `maxAttempts`
+        - Added class `maxTicks`
+        - Added class `setupTicks`
+        - Added class `structureName`
+        - Added class `padding`
+        - Added class `rotateTest`
+        - Added class `tag`
+- Added class `Test`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `assertBlockState`
+        - Added class `assertBlockPresent`
+        - Added class `assertCanReachLocation`
+        - Added class `assert`
+        - Added class `assertContainerContains`
+        - Added class `assertContainerEmpty`
+        - Added class `assertEntityState`
+        - Added class `assertEntityHasArmor`
+        - Added class `assertEntityHasComponent`
+        - Added class `assertEntityInstancePresent`
+        - Added class `assertEntityPresent`
+        - Added class `assertEntityPresentInArea`
+        - Added class `assertEntityTouching`
+        - Added class `assertIsWaterlogged`
+        - Added class `assertItemEntityCountIs`
+        - Added class `assertItemEntityPresent`
+        - Added class `assertRedstonePower`
+        - Added class `fail`
+        - Added class `failIf`
+        - Added class `getBlock`
+        - Added class `getFenceConnectivity`
+        - Added class `getTestDirection`
+        - Added class `killAllEntities`
+        - Added class `pressButton`
+        - Added class `print`
+        - Added class `pullLever`
+        - Added class `pulseRedstone`
+        - Added class `relativeBlockLocation`
+        - Added class `relativeLocation`
+        - Added class `rotateDirection`
+        - Added class `runAfterDelay`
+        - Added class `runAtTickTime`
+        - Added class `setBlockPermutation`
+        - Added class `setBlockType`
+        - Added class `setFluidContainer`
+        - Added class `setTntFuse`
+        - Added class `spawn`
+        - Added class `spawnAtLocation`
+        - Added class `spawnItem`
+        - Added class `spawnWithoutBehaviors`
+        - Added class `spawnWithoutBehaviorsAtLocation`
+        - Added class `spreadFromFaceTowardDirection`
+        - Added class `startSequence`
+        - Added class `succeed`
+        - Added class `succeedIf`
+        - Added class `succeedOnTick`
+        - Added class `succeedOnTickWhen`
+        - Added class `succeedWhen`
+        - Added class `succeedWhenBlockTypePresent`
+        - Added class `succeedWhenEntityHasComponent`
+        - Added class `succeedWhenEntityPresent`
+        - Added class `walkTo`
+        - Added class `walkToLocation`
+        - Added class `worldBlockLocation`
+        - Added class `worldLocation`
+- Changed class `Tags`
+    - Added class `prototype`
+        - Added class `constructor`
+
+=== v1.17.0.2 ===
+- Changed  `Tags`
+    - Added class `suiteDisabled`
+    - Removed class `suiteBroken`
+
+=== v1.16.220.2 ===
+- Added class `Tags`
+    - Added class `suiteDefault`
+    - Added class `suiteBroken`
+    - Added class `suiteAll`
+    - Added class `suiteDebug`
+
+=== v1.16.210.5 ===
+- Added class `register`
+
+== /Change Log ==

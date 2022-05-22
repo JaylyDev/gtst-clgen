@@ -58,10 +58,10 @@ const changelog = {
 }
 const versions = {
     // add the version before module exist in the 1st slot
-    "mojang-minecraft": [ '1.16.201.2', '1.16.210.5', '1.16.220.2', '1.17.0.2', '1.17.10.4', '1.17.30.4', '1.17.40.6', '1.18.0.2', '1.18.10.4', '1.18.30.4', '1.19.0.33-beta'],
-    "mojang-gametest": [ '1.16.201.2', '1.16.210.5', '1.16.220.2', '1.17.0.2', '1.17.10.4', '1.17.30.4', '1.17.40.6', '1.18.0.2', '1.18.10.4', '1.18.30.4', '1.19.0.33-beta'],
-    "mojang-minecraft-ui": [ '1.18.10.4', '1.18.30.4', '1.19.0.33-beta'],
-    "mojang-minecraft-server-admin": ['1.18.30.4', '1.19.0.33-beta'],
+    "mojang-minecraft": [ '1.16.201.2', '1.16.210.5', '1.16.220.2', '1.17.0.2', '1.17.10.4', '1.17.30.4', '1.17.40.6', '1.18.0.2', '1.18.10.4', '1.18.30.4', '1.19.0.35-beta'],
+    "mojang-gametest": [ '1.16.201.2', '1.16.210.5', '1.16.220.2', '1.17.0.2', '1.17.10.4', '1.17.30.4', '1.17.40.6', '1.18.0.2', '1.18.10.4', '1.18.30.4', '1.19.0.35-beta'],
+    "mojang-minecraft-ui": [ '1.18.10.4', '1.18.30.4', '1.19.0.35-beta'],
+    "mojang-minecraft-server-admin": ['1.18.30.4', '1.19.0.35-beta'],
     // MODULE PLACEHOLDER (DO NOT INCLUDE THEM IN MODULES ARRAY)
     "mojang-net": [],
     "unreleased minecraft client module placeholder": []

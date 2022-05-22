@@ -1,0 +1,50 @@
+`mojang-minecraft-ui`
+
+== Change Log ==
+=== v1.18.30.4 ===
+- Added class `ActionFormData`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `show`
+        - Added class `button`
+        - Added class `title`
+        - Added class `body`
+- Added class `ActionFormResponse`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `isCanceled`
+        - Added class `selection`
+- Added class `FormResponse`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `isCanceled`
+- Added class `MessageFormData`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `show`
+        - Added class `button1`
+        - Added class `button2`
+        - Added class `title`
+        - Added class `body`
+- Added class `MessageFormResponse`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `isCanceled`
+        - Added class `selection`
+- Added class `ModalFormData`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `show`
+        - Added class `toggle`
+        - Added class `slider`
+        - Added class `dropdown`
+        - Added class `textField`
+        - Added class `icon`
+        - Added class `title`
+- Added class `ModalFormResponse`
+    - Added class `prototype`
+        - Added class `constructor`
+        - Added class `isCanceled`
+        - Added class `formValues`
+
+== /Change Log ==

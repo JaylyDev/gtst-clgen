@@ -3,6 +3,7 @@
  * it's subject to change so please don't send bug reports about it!
  * Please contribute i dont have the time working on this
  */
+console.warn("This script is currenly in development and is being experimented...");
 const fs = require("fs")
 const path = require("path")
 const jsonChangelog = require("../generated/changelog.json")
@@ -44,21 +45,19 @@ function writeDocs (added = [], removed = [], changed = {}, docs = "", paddling 
     let index = added.indexOf(ignoredVariable)
     if (index > -1) added.splice(index, 1);
   }
+  /**
+   * @type string
+   */
+  var variableType = null;
 
   for (let variable of added) {
-    /**
-     * @type string
-     */
-    let variableType;
-
-    if (!!reference[variable]) {
-      // Class detection
-      if (!!reference[variable].constructor) variableType = "class"
-      else if (typeof reference[variable] === "object") variableType = "protected class"
-      else if (typeof reference[variable] === "string") variableType = reference[variable]
-      else variableType = null; // exception
+    if (typeof reference !== "undefined") if (!!reference) {
+      if (typeof reference === "object") {
+        variableType = "class";
+      } else if (!!reference) {
+        variableType = reference
+      }
     }
-
     var addPaddle = false
     if (!type) {
       docs += `${paddling}- Added ${variableType ?? ""} \`${variable}\`\n`
@@ -69,10 +68,10 @@ function writeDocs (added = [], removed = [], changed = {}, docs = "", paddling 
     }
     if (typeof changed === "object") {
       const element = changed[variable] ?? { $added: [], $removed: [], $changed: {} }
-      docs = writeDocs(element.$added, element.$removed, element.$changed, docs, generatePaddling(paddling.length + 4), (addPaddle === true ? "property" : "element"), reference[variable])
+      docs = writeDocs(element.$added, element.$removed, element.$changed, docs, generatePaddling(paddling.length + 4), (addPaddle === true ? "property" : "element"), reference)
     }
   }
-
+  
   for (let variable of removed) {
     if (!type) {docs += `${paddling}- Removed ${variableType ?? ""} \`${variable}\`\n`}
     else docs += `${paddling}- Removed ${variableType ?? type} \`${variable}\`\n`
@@ -82,11 +81,11 @@ function writeDocs (added = [], removed = [], changed = {}, docs = "", paddling 
     if (!added.includes(variable)) {
       if (!type) {
         docs += `${paddling}- Changed ${variableType ?? ""} \`${variable}\`\n`
-        docs = writeDocs(changed[variable].$added, changed[variable].$removed, changed[variable].$changed, docs, generatePaddling(paddling.length + 4), "element", reference[variable])
+        docs = writeDocs(changed[variable].$added, changed[variable].$removed, changed[variable].$changed, docs, generatePaddling(paddling.length + 4), "element", reference)
       }
       else {
         docs += `${paddling}- Changed ${variableType ?? type} \`${variable}\`\n`
-        docs = writeDocs(changed[variable].$added, changed[variable].$removed, changed[variable].$changed, docs, generatePaddling(paddling.length + 4), "property", reference[variable])
+        docs = writeDocs(changed[variable].$added, changed[variable].$removed, changed[variable].$changed, docs, generatePaddling(paddling.length + 4), "property", reference)
       }
     }
   }
@@ -110,10 +109,11 @@ for (var moduleName in jsonChangelog) {
     try { changedComponents = module[version].$changed } catch {};
     if (addedComponents.length + removedComponents.length + Object.keys(changedComponents).length > 0) changelogText += `\n=== v${version} ===\n`
   
-    changelogText = writeDocs(addedComponents, removedComponents, changedComponents, changelogText, "", ModuleTypes)
+    changelogText = writeDocs(addedComponents, removedComponents, changedComponents, changelogText, "", undefined, ModuleTypes)
   }
   changelogText += `\n== /Change Log ==`
-  fs.writeFileSync(path.join(`${__dirname}/../generated/DEBUG.${moduleName}.txt`), changelogText)
+  fs.writeFileSync(path.join(`${__dirname}/../generated/DEBUG.${moduleName}.txt`), changelogText);
+  console.log("Write file:", path.join(`${__dirname}/../generated/DEBUG.${moduleName}.txt`))
 }
 
 /**
@@ -124,20 +124,10 @@ for (var moduleName in jsonChangelog) {
 function WhichMinecraftModule (ModuleName) {
   let module;
 
-  switch (ModuleName) {
-    case "mojang-minecraft":
-      module = coreTypes
-      break;
-    case "mojang-gametest":
-      module = gametestTypes
-      break;
-    case "mojang-minecraft-ui":
-      module = uiTypes
-      break;
-    default:
-      module = {}
-      break;
-  }
+  if (ModuleName === "mojang-minecraft") module = coreTypes;
+  else if (ModuleName === "mojang-gametest") module = gametestTypes;
+  else if (ModuleName === "mojang-minecraft-ui") module = uiTypes;
+  else module = {};
 
   return module;
 }
