@@ -1,0 +1,46 @@
+`mojang-net`
+
+== Change Log ==
+=== v1.19.10.20-beta ===
+- Added `HttpClient`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `get`
+        - Added property `request`
+        - Added property `cancelAll`
+- Added `HttpHeader`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `key`
+        - Added property `value`
+- Added `HttpRequest`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `setHeaders`
+        - Added property `addHeader`
+        - Added property `setBody`
+        - Added property `setTimeout`
+        - Added property `setMethod`
+        - Added property `uri`
+        - Added property `headers`
+        - Added property `body`
+        - Added property `timeout`
+        - Added property `method`
+- Added `HttpRequestMethod`
+    - Added element `PUT`
+    - Added element `GET`
+    - Added element `DELETE`
+    - Added element `HEAD`
+- Added `HttpResponse`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `headers`
+        - Added property `body`
+        - Added property `status`
+        - Added property `request`
+- Added `http`
+    - Added element `get`
+    - Added element `request`
+    - Added element `cancelAll`
+
+== /Change Log ==

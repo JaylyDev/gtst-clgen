@@ -2,7 +2,8 @@ import { cloneJSON } from "./clonejson.js";
 
 const ignored: (string | symbol)[] = ['caller', 'callee', 'arguments'];
 
-export function GameTestFetch(obj: object): object {
+export function GameTestFetch(obj: object, origin?: object): object {
+    if (obj === origin) return {};
     if (typeof obj !== "object" && typeof obj !== "function" || obj === null) return obj;
 
     let Response = {};
@@ -21,7 +22,13 @@ export function GameTestFetch(obj: object): object {
                 Response[member][classKey] = obj[member][classKey];
             }
         }
-        else if (typeof obj[member] === "object") Response[member] = cloneJSON(obj[member]);
+        else if (typeof obj[member] === "object") {
+            Response[member] = GameTestFetch(obj[member], obj);
+
+            if (["[]", "{}"].includes(JSON.stringify(Response[member]))) {
+                Response[member] = cloneJSON(obj[member]);
+            }
+        }
         else Response[member] = obj[member];
     }
 
@@ -30,23 +37,5 @@ export function GameTestFetch(obj: object): object {
 
 export function FunctionToString (key: string, value: any): any {
     if (typeof value === "function") value = String(value);
-    return noCirculars(value);
-}
-
-const noCirculars = (v: any) => {
-    const set = new Set; 
-    const noCirculars = (v: any) => {
-      if(Array.isArray(noCirculars))
-        return v.map(noCirculars);
-      if(typeof v === "object" && v !== null) {
-        if(set.has(v)) return undefined;
-        set.add(v);
-  
-        return Object.fromEntries(Object.entries(v)
-         .map(([k, v]) => ([k, noCirculars(v)])));
-      }
-      return v;
-    };
-    return noCirculars(v);
+    return value;
 };
-  

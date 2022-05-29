@@ -48381,7 +48381,7 @@
         }
       }
     },
-    "1.19.0.33-beta": {
+    "1.19.0.35-beta": {
       "$added": [
         "BlockHitInformation",
         "ButtonPushEvent",
@@ -49471,6 +49471,64 @@
           }
         }
       }
+    },
+    "1.19.10.20-beta": {
+      "$added": [],
+      "$removed": [],
+      "$changed": {
+        "EntityItemComponent": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": ["id"], "$removed": [] } }
+        },
+        "MinecraftBlockTypes": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "structureBlock": {
+              "$added": [],
+              "$removed": ["canBeWaterlogged", "canBeWaterlogged"],
+              "$changed": {}
+            }
+          }
+        },
+        "MinecraftEffectTypes": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {}
+        },
+        "MinecraftEnchantmentTypes": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {}
+        },
+        "MinecraftEntityTypes": {
+          "$added": ["traderLlama"],
+          "$removed": [],
+          "$changed": {
+            "traderLlama": { "$added": ["id"], "$removed": [], "$changed": {} }
+          }
+        },
+        "MinecraftItemTypes": {
+          "$added": ["traderLlamaSpawnEgg"],
+          "$removed": ["fireflySpawnEgg"],
+          "$changed": {
+            "traderLlamaSpawnEgg": {
+              "$added": ["id"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "Vector": { "$added": [], "$removed": [], "$changed": {} },
+        "world": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "events": { "$added": [], "$removed": [], "$changed": {} }
+          }
+        }
+      }
     }
   },
   "mojang-gametest": {
@@ -49819,7 +49877,7 @@
         }
       }
     },
-    "1.19.0.33-beta": {
+    "1.19.0.35-beta": {
       "$added": ["SculkSpreader"],
       "$removed": [],
       "$changed": {
@@ -49872,7 +49930,8 @@
           }
         }
       }
-    }
+    },
+    "1.19.10.20-beta": { "$added": [], "$removed": [], "$changed": {} }
   },
   "mojang-minecraft-ui": {
     "1.18.30.4": {
@@ -49982,10 +50041,11 @@
         }
       }
     },
-    "1.19.0.33-beta": { "$added": [], "$removed": [], "$changed": {} }
+    "1.19.0.35-beta": { "$added": [], "$removed": [], "$changed": {} },
+    "1.19.10.20-beta": { "$added": [], "$removed": [], "$changed": {} }
   },
   "mojang-minecraft-server-admin": {
-    "1.19.0.33-beta": {
+    "1.19.0.35-beta": {
       "$added": [
         "SecretString",
         "ServerSecrets",
@@ -50039,7 +50099,98 @@
           "$changed": {}
         }
       }
+    },
+    "1.19.10.20-beta": {
+      "$added": [],
+      "$removed": [],
+      "$changed": {
+        "SecretString": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["equals"] } }
+        }
+      }
     }
   },
-  "mojang-net": {}
+  "mojang-net": {
+    "1.19.10.20-beta": {
+      "$added": [
+        "HttpClient",
+        "HttpHeader",
+        "HttpRequest",
+        "HttpRequestMethod",
+        "HttpResponse",
+        "http"
+      ],
+      "$removed": [],
+      "$changed": {
+        "HttpClient": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "get", "request", "cancelAll"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "HttpHeader": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "key", "value"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "HttpRequest": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": [
+                "constructor",
+                "setHeaders",
+                "addHeader",
+                "setBody",
+                "setTimeout",
+                "setMethod",
+                "uri",
+                "headers",
+                "body",
+                "timeout",
+                "method"
+              ],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "HttpRequestMethod": {
+          "$added": ["PUT", "GET", "DELETE", "HEAD"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "HttpResponse": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "headers", "body", "status", "request"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "http": {
+          "$added": ["get", "request", "cancelAll"],
+          "$removed": [],
+          "$changed": {}
+        }
+      }
+    }
+  }
 }

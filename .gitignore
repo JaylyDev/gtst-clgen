@@ -8,5 +8,4 @@ behavior_pack/scripts
 behavior_pack/typings
 behavior_pack/*.log
 package-lock.json
-generated/mojang-net.txt
-generated/DEBUG.mojang-net.txt
+generated/DEBUG.mojang-*.txt

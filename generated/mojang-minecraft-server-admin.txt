@@ -1,7 +1,12 @@
 `mojang-minecraft-server-admin`
 
 == Change Log ==
-=== v1.19.0.33-beta ===
+=== v1.19.10.20-beta ===
+- Changed `SecretString`
+    - Changed element `prototype`
+        - Removed property `equals`
+
+=== v1.19.0.35-beta ===
 - Added `SecretString`
     - Added element `prototype`
         - Added property `constructor`

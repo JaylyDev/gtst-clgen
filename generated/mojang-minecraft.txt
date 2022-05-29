@@ -1,7 +1,28 @@
 `mojang-minecraft`
 
 == Change Log ==
-=== v1.19.0.33-beta ===
+=== v1.19.10.20-beta ===
+- Changed `EntityItemComponent`
+    - Changed element `prototype`
+        - Added property `id`
+- Changed `MinecraftBlockTypes`
+    - Changed element `structureBlock`
+        - Removed property `canBeWaterlogged`
+        - Removed property `canBeWaterlogged`
+- Changed `MinecraftEffectTypes`
+- Changed `MinecraftEnchantmentTypes`
+- Changed `MinecraftEntityTypes`
+    - Added element `traderLlama`
+        - Added property `id`
+- Changed `MinecraftItemTypes`
+    - Added element `traderLlamaSpawnEgg`
+        - Added property `id`
+    - Removed element `fireflySpawnEgg`
+- Changed `Vector`
+- Changed `world`
+    - Changed element `events`
+
+=== v1.19.0.35-beta ===
 - Added `BlockHitInformation`
     - Added element `prototype`
         - Added property `constructor`

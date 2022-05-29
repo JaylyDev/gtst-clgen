@@ -120,6 +120,7 @@ const TestModules: [string, any][] = [
     ["Promise", Promise],
     ["console", console],
     ["print", print],
+    // I added these myself
     ["TypeScript", TypeScript],
     ["toolsVersion", toolsVersion]
 ];
@@ -130,4 +131,4 @@ const TestModules: [string, any][] = [
 TestModules.forEach(Module => __setTimeout(() => {
     console.log(JSON.stringify(cloneJSON(GameTestFetch(Module[1])), FunctionToString));
     console.warn(`Successfully fetch module "${Module[0]}"`)
-}, Math.random() * 1000));
+}, Math.random() * 100));

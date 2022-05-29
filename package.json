@@ -7,8 +7,7 @@
   "keywords": [],
   "main": "scripts/index.js",
   "scripts": {
-    "test": "node scripts/index.js",
-    "types-gen-test": "node scripts/clgen-types.js"
+    "test": "node scripts/index.js"
   },
   "author": "Jayly",
   "license": "MIT",

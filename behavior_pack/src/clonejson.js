@@ -4,25 +4,44 @@
  */
 /**
  * Remove Circular object
- * @param {object} v 
- * @returns {object}
+ * @param {object} obj
+ * @returns {boolean}
  */
-const noCirculars = v => {
-  const set = new Set; 
-  const noCirculars = v => {
-    if(Array.isArray(noCirculars))
-      return v.map(noCirculars);
-    if(typeof v === "object" && v !== null) {
-      if(set.has(v)) return {};
-      set.add(v);
+function isCyclic(obj) {
+  var keys = [];
+  var stack = [];
+  var stackSet = new Set();
+  var detected = false;
 
-      return Object.fromEntries(Object.entries(v)
-       .map(([k, v]) => ([k, noCirculars(v)])));
+  function detect(obj, key) {
+    if (obj && typeof obj != 'object') { return; }
+
+    if (stackSet.has(obj)) { // it's cyclic! Print the object and its locations.
+      var oldindex = stack.indexOf(obj);
+      var l1 = keys.join('.') + '.' + key;
+      var l2 = keys.slice(0, oldindex + 1).join('.');
+      console.warn('CIRCULAR: ' + l1 + ' = ' + l2 + ' = ' + obj);
+      // console.warn(obj);
+      detected = true;
+      return;
     }
-    return v;
-  };
-  return noCirculars(v);
-};
+
+    keys.push(key);
+    stack.push(obj);
+    stackSet.add(obj);
+    for (var k in obj) { //dive on the object's children
+      if (Object.prototype.hasOwnProperty.call(obj, k)) { detect(obj[k], k); }
+    }
+
+    keys.pop();
+    stack.pop();
+    stackSet.delete(obj);
+    return;
+  }
+
+  detect(obj, 'obj');
+  return detected;
+}
 /**
  * 
  * @param {object}
@@ -44,7 +63,6 @@ function native(obj) {
     return cloneA;
   }
   var cloneO = {};
-  obj = noCirculars(obj);
   for (var i in obj) {
     cloneO[i] = native(obj[i]);
   };
@@ -54,7 +72,7 @@ function native(obj) {
 /**
  * 
  * @description code stays native so you cant see from interpreter in minecraft
- * @param {*} obj 
+ * @param {*} a
  * @returns JSON
  */
-export const cloneJSON = (obj) => { return native(obj) }
+export const cloneJSON = (a) => { return native(a) }

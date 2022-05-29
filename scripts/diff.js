@@ -48,7 +48,7 @@ function diff(obj1, obj2, version) {
     if (result.$added.length + result.$removed.length + Object.keys(result.$changed).length > 0) return result;
 }
 
-const modules = ["mojang-minecraft", "mojang-gametest", "mojang-minecraft-ui", "mojang-minecraft-server-admin"]
+const modules = ["mojang-minecraft", "mojang-gametest", "mojang-minecraft-ui", "mojang-minecraft-server-admin", "mojang-net"]
 const changelog = {
     "mojang-minecraft": {},
     "mojang-gametest": {},
@@ -58,13 +58,11 @@ const changelog = {
 }
 const versions = {
     // add the version before module exist in the 1st slot
-    "mojang-minecraft": [ '1.16.201.2', '1.16.210.5', '1.16.220.2', '1.17.0.2', '1.17.10.4', '1.17.30.4', '1.17.40.6', '1.18.0.2', '1.18.10.4', '1.18.30.4', '1.19.0.35-beta'],
-    "mojang-gametest": [ '1.16.201.2', '1.16.210.5', '1.16.220.2', '1.17.0.2', '1.17.10.4', '1.17.30.4', '1.17.40.6', '1.18.0.2', '1.18.10.4', '1.18.30.4', '1.19.0.35-beta'],
-    "mojang-minecraft-ui": [ '1.18.10.4', '1.18.30.4', '1.19.0.35-beta'],
-    "mojang-minecraft-server-admin": ['1.18.30.4', '1.19.0.35-beta'],
-    // MODULE PLACEHOLDER (DO NOT INCLUDE THEM IN MODULES ARRAY)
-    "mojang-net": [],
-    "unreleased minecraft client module placeholder": []
+    "mojang-minecraft": [ '1.16.201.2', '1.16.210.5', '1.16.220.2', '1.17.0.2', '1.17.10.4', '1.17.30.4', '1.17.40.6', '1.18.0.2', '1.18.10.4', '1.18.30.4', '1.19.0.35-beta', '1.19.10.20-beta'],
+    "mojang-gametest": [ '1.16.201.2', '1.16.210.5', '1.16.220.2', '1.17.0.2', '1.17.10.4', '1.17.30.4', '1.17.40.6', '1.18.0.2', '1.18.10.4', '1.18.30.4', '1.19.0.35-beta', '1.19.10.20-beta'],
+    "mojang-minecraft-ui": [ '1.18.10.4', '1.18.30.4', '1.19.0.35-beta', '1.19.10.20-beta'],
+    "mojang-minecraft-server-admin": ['1.18.30.4', '1.19.0.35-beta', '1.19.10.20-beta'],
+    "mojang-net": ['1.19.0.35-beta', '1.19.10.20-beta']
 }
 
 for (const module of modules) {
