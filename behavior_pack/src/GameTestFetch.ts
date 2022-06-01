@@ -9,7 +9,10 @@ export function GameTestFetch(obj: object, origin?: object): object {
     let Response = {};
 
     for (const member of Reflect.ownKeys(obj)) {
-        if (typeof obj[member] === "function") {
+        if (typeof(obj) === typeof(Symbol.prototype)) {
+            Response = Reflect.ownKeys(obj);
+        }
+        else if (typeof obj[member] === "function") {
             Response[member] = {};
             
             for (const classKey of Reflect.ownKeys(obj[member])) 

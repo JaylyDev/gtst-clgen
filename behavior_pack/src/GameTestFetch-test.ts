@@ -43,6 +43,7 @@ function AggregateError (arg: any, arg2: any): string {
     return `AggregateError`;
 }
 let __date_clock = () => Number(Date.now() + "000");
+let toolsVersion = "4.6";
 BigInt = undefined;
 Buffer = undefined;
 // @ts-ignore
@@ -120,7 +121,8 @@ const TestModules: [string, any][] = [
     ["console", console],
     ["print", print],
     // I added these myself
-    ["TypeScript", TypeScript]
+    ["TypeScript", TypeScript],
+    ["toolsVersion", toolsVersion]
 ];
 
 // Main function
