@@ -9,3 +9,4 @@ behavior_pack/typings
 behavior_pack/*.log
 package-lock.json
 generated/DEBUG.mojang-*.txt
+scripts/version.js

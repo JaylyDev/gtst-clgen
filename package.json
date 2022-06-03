@@ -7,9 +7,13 @@
   "keywords": [],
   "main": "scripts/index.js",
   "scripts": {
-    "test": "node scripts/index.js"
+    "test": "node scripts/index.js",
+    "version-script": "tsc scripts/version.ts && node scripts/version.js"
   },
   "author": "Jayly",
   "license": "MIT",
-  "description": "GameTest changelog generator"
+  "description": "GameTest changelog generator",
+  "devDependencies": {
+    "@types/prettier": "^2.6.3"
+  }
 }

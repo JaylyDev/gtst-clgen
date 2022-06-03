@@ -2,8 +2,8 @@ name: 'TypeScript Debug'
 on: [push]
 
 jobs:
-  build:
-    name: Action
+  types:
+    name: Types
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -14,3 +14,18 @@ jobs:
           fetch-depth: 1
       - run: npm install
       - run: npm run build
+  
+  version:
+    name: version
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - run: npm i @types/node
+      - run: npm i typescript
+      - run: npm install
+      - run: npm run version-script
