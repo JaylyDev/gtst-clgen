@@ -1,7 +1,7 @@
 `mojang-minecraft`
 
 == Change Log ==
-=== v1.19.10.20-beta ===
+=== v1.19.10.21-beta ===
 - Changed `EntityItemComponent`
     - Changed element `prototype`
         - Added property `id`

@@ -49472,7 +49472,7 @@
         }
       }
     },
-    "1.19.10.20-beta": {
+    "1.19.10.21-beta": {
       "$added": [],
       "$removed": [],
       "$changed": {
@@ -49931,7 +49931,7 @@
         }
       }
     },
-    "1.19.10.20-beta": { "$added": [], "$removed": [], "$changed": {} }
+    "1.19.10.21-beta": { "$added": [], "$removed": [], "$changed": {} }
   },
   "mojang-minecraft-ui": {
     "1.18.30.4": {
@@ -50042,7 +50042,7 @@
       }
     },
     "1.19.0.35-beta": { "$added": [], "$removed": [], "$changed": {} },
-    "1.19.10.20-beta": { "$added": [], "$removed": [], "$changed": {} }
+    "1.19.10.21-beta": { "$added": [], "$removed": [], "$changed": {} }
   },
   "mojang-minecraft-server-admin": {
     "1.19.0.35-beta": {
@@ -50100,7 +50100,7 @@
         }
       }
     },
-    "1.19.10.20-beta": {
+    "1.19.10.21-beta": {
       "$added": [],
       "$removed": [],
       "$changed": {
@@ -50113,7 +50113,7 @@
     }
   },
   "mojang-net": {
-    "1.19.10.20-beta": {
+    "1.19.10.21-beta": {
       "$added": [
         "HttpClient",
         "HttpHeader",
