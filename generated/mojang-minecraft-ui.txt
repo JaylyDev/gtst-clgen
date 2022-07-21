@@ -1,6 +1,30 @@
 `mojang-minecraft-ui`
 
 == Change Log ==
+=== v1.19.20.23-beta ===
+- Added `FormCancelationReason`
+    - Added element `userBusy`
+- Changed `ActionFormResponse`
+    - Changed element `prototype`
+        - Added property `canceled`
+        - Added property `cancelationReason`
+        - Removed property `isCanceled`
+- Changed `FormResponse`
+    - Changed element `prototype`
+        - Added property `canceled`
+        - Added property `cancelationReason`
+        - Removed property `isCanceled`
+- Changed `MessageFormResponse`
+    - Changed element `prototype`
+        - Added property `canceled`
+        - Added property `cancelationReason`
+        - Removed property `isCanceled`
+- Changed `ModalFormResponse`
+    - Changed element `prototype`
+        - Added property `canceled`
+        - Added property `cancelationReason`
+        - Removed property `isCanceled`
+
 === v1.18.30.4 ===
 - Added `ActionFormData`
     - Added element `prototype`

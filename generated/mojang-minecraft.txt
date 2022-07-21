@@ -1,7 +1,83 @@
 `mojang-minecraft`
 
 == Change Log ==
-=== v1.19.10.21-beta ===
+=== v1.19.20.23-beta ===
+- Added `BeforeWatchdogTerminateEvent`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `terminateReason`
+        - Added property `cancel`
+- Added `BeforeWatchdogTerminateEventSignal`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `subscribe`
+        - Added property `unsubscribe`
+- Added `BlockSignComponent`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `location`
+        - Added property `text`
+- Added `DisplaySlotId`
+    - Added element `list`
+    - Added element `sidebar`
+    - Added element `belowname`
+- Added `IVec3`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `x`
+        - Added property `y`
+        - Added property `z`
+- Added `ObjectiveSortOrder`
+    - Added element `descending`
+- Added `ScoreboardObjectiveDisplayOptions`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `objective`
+        - Added property `sortOrder`
+- Added `System`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `events`
+- Added `SystemEvents`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `beforeWatchdogTerminate`
+- Added `WatchdogTerminateReason`
+    - Added element `hang`
+- Added `system`
+    - Added element `events`
+        - Added property `beforeWatchdogTerminate`
+            - Added property `subscribe`
+            - Added property `unsubscribe`
+- Changed `Block`
+    - Changed element `prototype`
+        - Removed property `isEmpty`
+- Changed `Dimension`
+    - Changed element `prototype`
+        - Removed property `isEmpty`
+- Changed `MinecraftBlockTypes`
+- Changed `MinecraftEffectTypes`
+- Changed `MinecraftEnchantmentTypes`
+- Changed `MinecraftEntityTypes`
+- Changed `MinecraftItemTypes`
+- Changed `Scoreboard`
+    - Changed element `prototype`
+        - Added property `addObjective`
+        - Added property `removeObjective`
+        - Added property `getObjectiveAtDisplaySlot`
+        - Added property `setObjectiveAtDisplaySlot`
+        - Added property `clearObjectiveAtDisplaySlot`
+- Changed `Vector`
+- Changed `world`
+    - Changed element `events`
+    - Changed element `scoreboard`
+        - Added property `addObjective`
+        - Added property `removeObjective`
+        - Added property `getObjectiveAtDisplaySlot`
+        - Added property `setObjectiveAtDisplaySlot`
+        - Added property `clearObjectiveAtDisplaySlot`
+
+=== v1.19.10.3 ===
 - Changed `EntityItemComponent`
     - Changed element `prototype`
         - Added property `id`
@@ -17,12 +93,11 @@
 - Changed `MinecraftItemTypes`
     - Added element `traderLlamaSpawnEgg`
         - Added property `id`
-    - Removed element `fireflySpawnEgg`
 - Changed `Vector`
 - Changed `world`
     - Changed element `events`
 
-=== v1.19.0.35-beta ===
+=== v1.19.1.1 ===
 - Added `BlockHitInformation`
     - Added element `prototype`
         - Added property `constructor`
@@ -423,6 +498,7 @@
         - Added property `id`
     - Added element `strippedMangroveLog`
         - Added property `id`
+    - Removed element `fireflySpawnEgg`
     - Removed element `doubleStoneSlab`
     - Removed element `doubleStoneSlab2`
     - Removed element `doubleStoneSlab3`

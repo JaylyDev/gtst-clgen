@@ -251,8 +251,69 @@
     "fromCodePoint": "function fromCodePoint() {\n    [native code]\n}",
     "raw": "function raw() {\n    [native code]\n}"
   },
-  "Math": {},
-  "Reflect": {},
+  "Math": {
+    "min": { "length": 2, "name": "min" },
+    "max": { "length": 2, "name": "max" },
+    "abs": { "length": 1, "name": "abs" },
+    "floor": { "length": 1, "name": "floor" },
+    "ceil": { "length": 1, "name": "ceil" },
+    "round": { "length": 1, "name": "round" },
+    "sqrt": { "length": 1, "name": "sqrt" },
+    "acos": { "length": 1, "name": "acos" },
+    "asin": { "length": 1, "name": "asin" },
+    "atan": { "length": 1, "name": "atan" },
+    "atan2": { "length": 2, "name": "atan2" },
+    "cos": { "length": 1, "name": "cos" },
+    "exp": { "length": 1, "name": "exp" },
+    "log": { "length": 1, "name": "log" },
+    "pow": { "length": 2, "name": "pow" },
+    "sin": { "length": 1, "name": "sin" },
+    "tan": { "length": 1, "name": "tan" },
+    "trunc": { "length": 1, "name": "trunc" },
+    "sign": { "length": 1, "name": "sign" },
+    "cosh": { "length": 1, "name": "cosh" },
+    "sinh": { "length": 1, "name": "sinh" },
+    "tanh": { "length": 1, "name": "tanh" },
+    "acosh": { "length": 1, "name": "acosh" },
+    "asinh": { "length": 1, "name": "asinh" },
+    "atanh": { "length": 1, "name": "atanh" },
+    "expm1": { "length": 1, "name": "expm1" },
+    "log1p": { "length": 1, "name": "log1p" },
+    "log2": { "length": 1, "name": "log2" },
+    "log10": { "length": 1, "name": "log10" },
+    "cbrt": { "length": 1, "name": "cbrt" },
+    "hypot": { "length": 2, "name": "hypot" },
+    "random": { "length": 0, "name": "random" },
+    "fround": { "length": 1, "name": "fround" },
+    "imul": { "length": 2, "name": "imul" },
+    "clz32": { "length": 1, "name": "clz32" },
+    "E": 2.718281828459045,
+    "LN10": 2.302585092994046,
+    "LN2": 0.6931471805599453,
+    "LOG2E": 1.4426950408889634,
+    "LOG10E": 0.4342944819032518,
+    "PI": 3.141592653589793,
+    "SQRT1_2": 0.7071067811865476,
+    "SQRT2": 1.4142135623730951
+  },
+  "Reflect": {
+    "apply": { "length": 3, "name": "apply" },
+    "construct": { "length": 2, "name": "construct" },
+    "defineProperty": { "length": 3, "name": "defineProperty" },
+    "deleteProperty": { "length": 2, "name": "deleteProperty" },
+    "get": { "length": 2, "name": "get" },
+    "getOwnPropertyDescriptor": {
+      "length": 2,
+      "name": "getOwnPropertyDescriptor"
+    },
+    "getPrototypeOf": { "length": 1, "name": "getPrototypeOf" },
+    "has": { "length": 2, "name": "has" },
+    "isExtensible": { "length": 1, "name": "isExtensible" },
+    "ownKeys": { "length": 1, "name": "ownKeys" },
+    "preventExtensions": { "length": 1, "name": "preventExtensions" },
+    "set": { "length": 3, "name": "set" },
+    "setPrototypeOf": { "length": 2, "name": "setPrototypeOf" }
+  },
   "Symbol": {
     "length": 0,
     "name": "Symbol",
@@ -358,7 +419,10 @@
       null
     ]
   },
-  "JSON": {},
+  "JSON": {
+    "parse": { "length": 2, "name": "parse" },
+    "stringify": { "length": 3, "name": "stringify" }
+  },
   "Proxy": {
     "length": 2,
     "name": "Proxy",
@@ -515,10 +579,10 @@
     "prototype": ["then", "catch", "finally", "constructor", null]
   },
   "console": {
-    "log": "function log() {\n    [native code]\n}",
-    "info": "function info() {\n    [native code]\n}",
-    "warn": "function warn() {\n    [native code]\n}",
-    "error": "function error() {\n    [native code]\n}"
+    "log": { "length": 1, "name": "log" },
+    "info": { "length": 1, "name": "info" },
+    "warn": { "length": 1, "name": "warn" },
+    "error": { "length": 1, "name": "error" }
   },
   "print": { "length": 1, "name": "print" }
 }

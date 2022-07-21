@@ -48381,7 +48381,7 @@
         }
       }
     },
-    "1.19.0.35-beta": {
+    "1.19.1.1": {
       "$added": [
         "BlockHitInformation",
         "ButtonPushEvent",
@@ -48772,6 +48772,7 @@
             "strippedMangroveLog"
           ],
           "$removed": [
+            "fireflySpawnEgg",
             "doubleStoneSlab",
             "doubleStoneSlab2",
             "doubleStoneSlab3",
@@ -49472,7 +49473,7 @@
         }
       }
     },
-    "1.19.10.21-beta": {
+    "1.19.10.3": {
       "$added": [],
       "$removed": [],
       "$changed": {
@@ -49511,7 +49512,7 @@
         },
         "MinecraftItemTypes": {
           "$added": ["traderLlamaSpawnEgg"],
-          "$removed": ["fireflySpawnEgg"],
+          "$removed": [],
           "$changed": {
             "traderLlamaSpawnEgg": {
               "$added": ["id"],
@@ -49526,6 +49527,195 @@
           "$removed": [],
           "$changed": {
             "events": { "$added": [], "$removed": [], "$changed": {} }
+          }
+        }
+      }
+    },
+    "1.19.20.23-beta": {
+      "$added": [
+        "BeforeWatchdogTerminateEvent",
+        "BeforeWatchdogTerminateEventSignal",
+        "BlockSignComponent",
+        "DisplaySlotId",
+        "IVec3",
+        "ObjectiveSortOrder",
+        "ScoreboardObjectiveDisplayOptions",
+        "System",
+        "SystemEvents",
+        "WatchdogTerminateReason",
+        "system"
+      ],
+      "$removed": [],
+      "$changed": {
+        "Block": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["isEmpty"] } }
+        },
+        "Dimension": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["isEmpty"] } }
+        },
+        "MinecraftBlockTypes": { "$added": [], "$removed": [], "$changed": {} },
+        "MinecraftEffectTypes": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {}
+        },
+        "MinecraftEnchantmentTypes": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {}
+        },
+        "MinecraftEntityTypes": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {}
+        },
+        "MinecraftItemTypes": { "$added": [], "$removed": [], "$changed": {} },
+        "Scoreboard": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": [
+                "addObjective",
+                "removeObjective",
+                "getObjectiveAtDisplaySlot",
+                "setObjectiveAtDisplaySlot",
+                "clearObjectiveAtDisplaySlot"
+              ],
+              "$removed": []
+            }
+          }
+        },
+        "Vector": { "$added": [], "$removed": [], "$changed": {} },
+        "world": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "events": { "$added": [], "$removed": [], "$changed": {} },
+            "scoreboard": {
+              "$added": [
+                "addObjective",
+                "removeObjective",
+                "getObjectiveAtDisplaySlot",
+                "setObjectiveAtDisplaySlot",
+                "clearObjectiveAtDisplaySlot"
+              ],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "BeforeWatchdogTerminateEvent": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "terminateReason", "cancel"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "BeforeWatchdogTerminateEventSignal": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "subscribe", "unsubscribe"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "BlockSignComponent": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "location", "text"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "DisplaySlotId": {
+          "$added": ["list", "sidebar", "belowname"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "IVec3": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "x", "y", "z"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "ObjectiveSortOrder": {
+          "$added": ["descending"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "ScoreboardObjectiveDisplayOptions": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "objective", "sortOrder"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "System": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "events"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "SystemEvents": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "beforeWatchdogTerminate"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "WatchdogTerminateReason": {
+          "$added": ["hang"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "system": {
+          "$added": ["events"],
+          "$removed": [],
+          "$changed": {
+            "events": {
+              "$added": ["beforeWatchdogTerminate"],
+              "$removed": [],
+              "$changed": {
+                "beforeWatchdogTerminate": {
+                  "$added": ["subscribe", "unsubscribe"],
+                  "$removed": [],
+                  "$changed": {}
+                }
+              }
+            }
           }
         }
       }
@@ -49877,7 +50067,7 @@
         }
       }
     },
-    "1.19.0.35-beta": {
+    "1.19.1.1": {
       "$added": ["SculkSpreader"],
       "$removed": [],
       "$changed": {
@@ -49931,7 +50121,8 @@
         }
       }
     },
-    "1.19.10.21-beta": { "$added": [], "$removed": [], "$changed": {} }
+    "1.19.10.3": { "$added": [], "$removed": [], "$changed": {} },
+    "1.19.20.23-beta": { "$added": [], "$removed": [], "$changed": {} }
   },
   "mojang-minecraft-ui": {
     "1.18.30.4": {
@@ -50041,11 +50232,62 @@
         }
       }
     },
-    "1.19.0.35-beta": { "$added": [], "$removed": [], "$changed": {} },
-    "1.19.10.21-beta": { "$added": [], "$removed": [], "$changed": {} }
+    "1.19.1.1": { "$added": [], "$removed": [], "$changed": {} },
+    "1.19.10.3": { "$added": [], "$removed": [], "$changed": {} },
+    "1.19.20.23-beta": {
+      "$added": ["FormCancelationReason"],
+      "$removed": [],
+      "$changed": {
+        "ActionFormResponse": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["canceled", "cancelationReason"],
+              "$removed": ["isCanceled"]
+            }
+          }
+        },
+        "FormResponse": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["canceled", "cancelationReason"],
+              "$removed": ["isCanceled"]
+            }
+          }
+        },
+        "MessageFormResponse": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["canceled", "cancelationReason"],
+              "$removed": ["isCanceled"]
+            }
+          }
+        },
+        "ModalFormResponse": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["canceled", "cancelationReason"],
+              "$removed": ["isCanceled"]
+            }
+          }
+        },
+        "FormCancelationReason": {
+          "$added": ["userBusy"],
+          "$removed": [],
+          "$changed": {}
+        }
+      }
+    }
   },
   "mojang-minecraft-server-admin": {
-    "1.19.0.35-beta": {
+    "1.19.1.1": {
       "$added": [
         "SecretString",
         "ServerSecrets",
@@ -50100,7 +50342,7 @@
         }
       }
     },
-    "1.19.10.21-beta": {
+    "1.19.10.3": {
       "$added": [],
       "$removed": [],
       "$changed": {
@@ -50110,10 +50352,11 @@
           "$changed": { "prototype": { "$added": [], "$removed": ["equals"] } }
         }
       }
-    }
+    },
+    "1.19.20.23-beta": { "$added": [], "$removed": [], "$changed": {} }
   },
   "mojang-net": {
-    "1.19.10.21-beta": {
+    "1.19.1.1": {
       "$added": [
         "HttpClient",
         "HttpHeader",
@@ -50191,6 +50434,7 @@
           "$changed": {}
         }
       }
-    }
+    },
+    "1.19.10.3": { "$added": [], "$removed": [], "$changed": {} }
   }
 }
