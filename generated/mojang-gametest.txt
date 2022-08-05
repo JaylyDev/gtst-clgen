@@ -1,6 +1,12 @@
 `mojang-gametest`
 
 == Change Log ==
+=== v1.19.30.20-beta ===
+- Removed `FluidType`
+- Changed `SimulatedPlayer`
+    - Changed element `prototype`
+        - Added property `tell`
+
 === v1.19.1.1 ===
 - Added `SculkSpreader`
     - Added element `prototype`

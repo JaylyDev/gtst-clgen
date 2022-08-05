@@ -14006,7 +14006,6 @@
       "$added": ["BlockProperties", "BlockTypes", "ExplosionOptions"],
       "$removed": ["BlockStates", "Blocks"],
       "$changed": {
-        "Effects": { "$added": [], "$removed": [], "$changed": {} },
         "Items": {
           "$added": [
             "minecraft:candle",
@@ -36491,12 +36490,12 @@
             },
             "allow": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "amethystBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "amethystCluster": {
@@ -36506,7 +36505,7 @@
             },
             "ancientDebris": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "andesiteStairs": {
@@ -36536,17 +36535,17 @@
             },
             "bamboo": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "bambooSapling": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "barrel": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "barrier": {
@@ -36556,7 +36555,7 @@
             },
             "basalt": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "beacon": {
@@ -36571,22 +36570,22 @@
             },
             "bedrock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "beeNest": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "beehive": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "beetroot": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "bell": {
@@ -36651,17 +36650,17 @@
             },
             "blackGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "blackstone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "blackstoneDoubleSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "blackstoneSlab": {
@@ -36681,7 +36680,7 @@
             },
             "blastFurnace": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "blueCandle": {
@@ -36696,22 +36695,22 @@
             },
             "blueGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "blueIce": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "boneBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "bookshelf": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "borderBlock": {
@@ -36726,7 +36725,7 @@
             },
             "brickBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "brickStairs": {
@@ -36746,17 +36745,17 @@
             },
             "brownGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "brownMushroom": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "brownMushroomBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "bubbleColumn": {
@@ -36766,7 +36765,7 @@
             },
             "buddingAmethyst": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "cactus": {
@@ -36781,7 +36780,7 @@
             },
             "calcite": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "camera": {
@@ -36811,37 +36810,37 @@
             },
             "carrots": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "cartographyTable": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "carvedPumpkin": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "cauldron": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "caveVines": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "caveVinesBodyWithBerries": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "caveVinesHeadWithBerries": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "chain": {
@@ -36851,17 +36850,17 @@
             },
             "chainCommandBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "chemicalHeat": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "chemistryTable": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "chest": {
@@ -36871,52 +36870,52 @@
             },
             "chiseledDeepslate": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "chiseledNetherBricks": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "chiseledPolishedBlackstone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "chorusFlower": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "chorusPlant": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "clay": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "coalBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "coalOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "cobbledDeepslate": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "cobbledDeepslateDoubleSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "cobbledDeepslateSlab": {
@@ -36936,7 +36935,7 @@
             },
             "cobblestone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "cobblestoneWall": {
@@ -36951,17 +36950,17 @@
             },
             "coloredTorchBp": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "coloredTorchRg": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "commandBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "composter": {
@@ -36971,12 +36970,12 @@
             },
             "concrete": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "concretepowder": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "conduit": {
@@ -36986,12 +36985,12 @@
             },
             "copperBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "copperOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "coral": {
@@ -37001,7 +37000,7 @@
             },
             "coralBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "coralFan": {
@@ -37031,27 +37030,27 @@
             },
             "crackedDeepslateBricks": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "crackedDeepslateTiles": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "crackedNetherBricks": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "crackedPolishedBlackstoneBricks": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "craftingTable": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "crimsonButton": {
@@ -37066,7 +37065,7 @@
             },
             "crimsonDoubleSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "crimsonFence": {
@@ -37081,22 +37080,22 @@
             },
             "crimsonFungus": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "crimsonHyphae": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "crimsonNylium": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "crimsonPlanks": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "crimsonPressurePlate": {
@@ -37106,7 +37105,7 @@
             },
             "crimsonRoots": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "crimsonSlab": {
@@ -37126,7 +37125,7 @@
             },
             "crimsonStem": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "crimsonTrapdoor": {
@@ -37141,12 +37140,12 @@
             },
             "cryingObsidian": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "cutCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "cutCopperSlab": {
@@ -37171,7 +37170,7 @@
             },
             "cyanGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "darkOakButton": {
@@ -37236,12 +37235,12 @@
             },
             "deepslate": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deepslateBrickDoubleSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deepslateBrickSlab": {
@@ -37261,52 +37260,52 @@
             },
             "deepslateBricks": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deepslateCoalOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deepslateCopperOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deepslateDiamondOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deepslateEmeraldOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deepslateGoldOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deepslateIronOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deepslateLapisOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deepslateRedstoneOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deepslateTileDoubleSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deepslateTileSlab": {
@@ -37326,12 +37325,12 @@
             },
             "deepslateTiles": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "deny": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "detectorRail": {
@@ -37341,12 +37340,12 @@
             },
             "diamondBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "diamondOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "dioriteStairs": {
@@ -37356,52 +37355,52 @@
             },
             "dirt": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "dirtWithRoots": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "dispenser": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "doubleCutCopperSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "doublePlant": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "doubleStoneSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "doubleStoneSlab2": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "doubleStoneSlab3": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "doubleStoneSlab4": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "doubleWoodenSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "dragonEgg": {
@@ -37411,622 +37410,622 @@
             },
             "driedKelpBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "dripstoneBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "dropper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element0": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element1": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element10": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element100": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element101": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element102": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element103": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element104": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element105": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element106": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element107": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element108": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element109": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element11": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element110": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element111": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element112": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element113": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element114": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element115": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element116": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element117": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element118": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element12": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element13": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element14": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element15": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element16": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element17": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element18": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element19": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element2": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element20": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element21": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element22": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element23": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element24": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element25": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element26": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element27": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element28": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element29": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element3": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element30": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element31": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element32": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element33": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element34": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element35": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element36": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element37": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element38": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element39": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element4": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element40": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element41": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element42": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element43": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element44": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element45": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element46": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element47": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element48": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element49": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element5": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element50": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element51": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element52": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element53": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element54": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element55": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element56": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element57": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element58": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element59": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element6": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element60": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element61": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element62": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element63": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element64": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element65": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element66": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element67": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element68": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element69": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element7": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element70": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element71": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element72": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element73": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element74": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element75": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element76": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element77": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element78": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element79": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element8": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element80": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element81": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element82": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element83": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element84": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element85": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element86": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element87": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element88": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element89": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element9": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element90": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element91": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element92": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element93": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element94": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element95": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element96": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element97": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element98": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "element99": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "emeraldBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "emeraldOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "enchantingTable": {
@@ -38041,17 +38040,17 @@
             },
             "endBricks": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "endGateway": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "endPortal": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "endPortalFrame": {
@@ -38066,7 +38065,7 @@
             },
             "endStone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "enderChest": {
@@ -38076,12 +38075,12 @@
             },
             "exposedCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "exposedCutCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "exposedCutCopperSlab": {
@@ -38096,12 +38095,12 @@
             },
             "exposedDoubleCutCopperSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "farmland": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "fence": {
@@ -38116,12 +38115,12 @@
             },
             "fire": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "fletchingTable": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "flowerPot": {
@@ -38136,12 +38135,12 @@
             },
             "flowingLava": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "flowingWater": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "frame": {
@@ -38151,22 +38150,22 @@
             },
             "frostedIce": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "furnace": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "gildedBlackstone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "glass": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "glassPane": {
@@ -38186,22 +38185,22 @@
             },
             "glowingobsidian": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "glowstone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "goldBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "goldOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "goldenRail": {
@@ -38216,17 +38215,17 @@
             },
             "grass": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "grassPath": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "gravel": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "grayCandle": {
@@ -38241,7 +38240,7 @@
             },
             "grayGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "greenCandle": {
@@ -38256,7 +38255,7 @@
             },
             "greenGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "grindstone": {
@@ -38266,12 +38265,12 @@
             },
             "hangingRoots": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "hardGlass": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "hardGlassPane": {
@@ -38281,7 +38280,7 @@
             },
             "hardStainedGlass": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "hardStainedGlassPane": {
@@ -38291,12 +38290,12 @@
             },
             "hardenedClay": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "hayBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "heavyWeightedPressurePlate": {
@@ -38306,12 +38305,12 @@
             },
             "honeyBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "honeycombBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "hopper": {
@@ -38321,27 +38320,27 @@
             },
             "ice": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "infestedDeepslate": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "infoUpdate": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "infoUpdate2": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "invisiblebedrock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "ironBars": {
@@ -38351,7 +38350,7 @@
             },
             "ironBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "ironDoor": {
@@ -38361,7 +38360,7 @@
             },
             "ironOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "ironTrapdoor": {
@@ -38376,7 +38375,7 @@
             },
             "jukebox": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "jungleButton": {
@@ -38436,12 +38435,12 @@
             },
             "lapisBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "lapisOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "largeAmethystBud": {
@@ -38451,12 +38450,12 @@
             },
             "lava": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "lavaCauldron": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "leaves": {
@@ -38481,7 +38480,7 @@
             },
             "lightBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "lightBlueCandle": {
@@ -38496,7 +38495,7 @@
             },
             "lightBlueGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "lightGrayCandle": {
@@ -38531,62 +38530,62 @@
             },
             "limeGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "litBlastFurnace": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "litDeepslateRedstoneOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "litFurnace": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "litPumpkin": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "litRedstoneLamp": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "litRedstoneOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "litSmoker": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "lodestone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "log": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "log2": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "loom": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "magentaCandle": {
@@ -38601,12 +38600,12 @@
             },
             "magentaGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "magma": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "mediumAmethystBud": {
@@ -38616,12 +38615,12 @@
             },
             "melonBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "melonStem": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "mobSpawner": {
@@ -38631,12 +38630,12 @@
             },
             "monsterEgg": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "mossBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "mossCarpet": {
@@ -38646,7 +38645,7 @@
             },
             "mossyCobblestone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "mossyCobblestoneStairs": {
@@ -38666,12 +38665,12 @@
             },
             "mycelium": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "netherBrick": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "netherBrickFence": {
@@ -38686,37 +38685,37 @@
             },
             "netherGoldOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "netherSprouts": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "netherWart": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "netherWartBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "netheriteBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "netherrack": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "netherreactor": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "normalStoneStairs": {
@@ -38726,7 +38725,7 @@
             },
             "noteblock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "oakStairs": {
@@ -38736,12 +38735,12 @@
             },
             "observer": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "obsidian": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "orangeCandle": {
@@ -38756,17 +38755,17 @@
             },
             "orangeGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "oxidizedCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "oxidizedCutCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "oxidizedCutCopperSlab": {
@@ -38781,12 +38780,12 @@
             },
             "oxidizedDoubleCutCopperSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "packedIce": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "pinkCandle": {
@@ -38801,7 +38800,7 @@
             },
             "pinkGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "piston": {
@@ -38816,12 +38815,12 @@
             },
             "planks": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "podzol": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "pointedDripstone": {
@@ -38836,17 +38835,17 @@
             },
             "polishedBasalt": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "polishedBlackstone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "polishedBlackstoneBrickDoubleSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "polishedBlackstoneBrickSlab": {
@@ -38866,7 +38865,7 @@
             },
             "polishedBlackstoneBricks": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "polishedBlackstoneButton": {
@@ -38876,7 +38875,7 @@
             },
             "polishedBlackstoneDoubleSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "polishedBlackstonePressurePlate": {
@@ -38901,12 +38900,12 @@
             },
             "polishedDeepslate": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "polishedDeepslateDoubleSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "polishedDeepslateSlab": {
@@ -38936,17 +38935,17 @@
             },
             "portal": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "potatoes": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "powderSnow": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "poweredComparator": {
@@ -38961,7 +38960,7 @@
             },
             "prismarine": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "prismarineBricksStairs": {
@@ -38976,12 +38975,12 @@
             },
             "pumpkin": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "pumpkinStem": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "purpleCandle": {
@@ -38996,12 +38995,12 @@
             },
             "purpleGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "purpurBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "purpurStairs": {
@@ -39011,17 +39010,17 @@
             },
             "quartzBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "quartzBricks": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "quartzOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "quartzStairs": {
@@ -39036,17 +39035,17 @@
             },
             "rawCopperBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "rawGoldBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "rawIronBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "redCandle": {
@@ -39061,27 +39060,27 @@
             },
             "redFlower": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "redGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "redMushroom": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "redMushroomBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "redNetherBrick": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "redNetherBrickStairs": {
@@ -39091,7 +39090,7 @@
             },
             "redSandstone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "redSandstoneStairs": {
@@ -39101,57 +39100,57 @@
             },
             "redstoneBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "redstoneLamp": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "redstoneOre": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "redstoneTorch": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "redstoneWire": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "reeds": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "repeatingCommandBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "reserved6": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "respawnAnchor": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "sand": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "sandstone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "sandstoneStairs": {
@@ -39161,7 +39160,7 @@
             },
             "sapling": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "scaffolding": {
@@ -39171,22 +39170,22 @@
             },
             "sculk": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "sculkCatalyst": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "sculkSensor": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "sculkShrieker": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "sculkVein": {
@@ -39206,12 +39205,12 @@
             },
             "sealantern": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "shroomlight": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "shulkerBox": {
@@ -39221,7 +39220,7 @@
             },
             "silverGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "skull": {
@@ -39231,7 +39230,7 @@
             },
             "slime": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "smallAmethystBud": {
@@ -39246,17 +39245,17 @@
             },
             "smithingTable": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "smoker": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "smoothBasalt": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "smoothQuartzStairs": {
@@ -39276,17 +39275,17 @@
             },
             "smoothStone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "snow": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "snowLayer": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "soulCampfire": {
@@ -39296,7 +39295,7 @@
             },
             "soulFire": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "soulLantern": {
@@ -39306,27 +39305,27 @@
             },
             "soulSand": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "soulSoil": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "soulTorch": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "sponge": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "sporeBlossom": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "spruceButton": {
@@ -39371,7 +39370,7 @@
             },
             "stainedGlass": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "stainedGlassPane": {
@@ -39381,7 +39380,7 @@
             },
             "stainedHardenedClay": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "standingBanner": {
@@ -39406,7 +39405,7 @@
             },
             "stone": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "stoneBrickStairs": {
@@ -39451,12 +39450,12 @@
             },
             "stonebrick": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "stonecutter": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "stonecutterBlock": {
@@ -39466,52 +39465,52 @@
             },
             "strippedAcaciaLog": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "strippedBirchLog": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "strippedCrimsonHyphae": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "strippedCrimsonStem": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "strippedDarkOakLog": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "strippedJungleLog": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "strippedOakLog": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "strippedSpruceLog": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "strippedWarpedHyphae": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "strippedWarpedStem": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "structureBlock": {
@@ -39521,37 +39520,37 @@
             },
             "structureVoid": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "sweetBerryBush": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "tallgrass": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "target": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "tintedGlass": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "tnt": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "torch": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "trapdoor": {
@@ -39576,7 +39575,7 @@
             },
             "tuff": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "turtleEgg": {
@@ -39586,7 +39585,7 @@
             },
             "twistingVines": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "underwaterTorch": {
@@ -39601,12 +39600,12 @@
             },
             "unknown": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "unlitRedstoneTorch": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "unpoweredComparator": {
@@ -39646,7 +39645,7 @@
             },
             "warpedDoubleSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "warpedFence": {
@@ -39661,22 +39660,22 @@
             },
             "warpedFungus": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "warpedHyphae": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "warpedNylium": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "warpedPlanks": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "warpedPressurePlate": {
@@ -39686,7 +39685,7 @@
             },
             "warpedRoots": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "warpedSlab": {
@@ -39706,7 +39705,7 @@
             },
             "warpedStem": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "warpedTrapdoor": {
@@ -39721,27 +39720,27 @@
             },
             "warpedWartBlock": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "water": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waterlily": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waxedCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waxedCutCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waxedCutCopperSlab": {
@@ -39756,17 +39755,17 @@
             },
             "waxedDoubleCutCopperSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waxedExposedCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waxedExposedCutCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waxedExposedCutCopperSlab": {
@@ -39781,17 +39780,17 @@
             },
             "waxedExposedDoubleCutCopperSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waxedOxidizedCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waxedOxidizedCutCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waxedOxidizedCutCopperSlab": {
@@ -39806,17 +39805,17 @@
             },
             "waxedOxidizedDoubleCutCopperSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waxedWeatheredCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waxedWeatheredCutCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "waxedWeatheredCutCopperSlab": {
@@ -39831,17 +39830,17 @@
             },
             "waxedWeatheredDoubleCutCopperSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "weatheredCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "weatheredCutCopper": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "weatheredCutCopperSlab": {
@@ -39856,7 +39855,7 @@
             },
             "weatheredDoubleCutCopperSlab": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "web": {
@@ -39866,12 +39865,12 @@
             },
             "weepingVines": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "wheat": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "whiteCandle": {
@@ -39886,17 +39885,17 @@
             },
             "whiteGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "witherRose": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "wood": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "woodenButton": {
@@ -39921,7 +39920,7 @@
             },
             "wool": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "yellowCandle": {
@@ -39936,12 +39935,12 @@
             },
             "yellowFlower": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "yellowGlazedTerracotta": {
               "$added": ["id"],
-              "$removed": ["getName", "canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["getName", "canBeWaterlogged"],
               "$changed": {}
             },
             "clientRequestPlaceholderBlock": {
@@ -39960,11 +39959,6 @@
               "$changed": {}
             }
           }
-        },
-        "MinecraftEffectTypes": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {}
         },
         "MinecraftItemTypes": {
           "$added": [
@@ -39989,13 +39983,6 @@
               "$removed": [],
               "$changed": {}
             }
-          }
-        },
-        "World": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {
-            "events": { "$added": [], "$removed": [], "$changed": {} }
           }
         },
         "EntityAddPassengerComponent": {
@@ -40080,12 +40067,6 @@
             }
           }
         },
-        "MinecraftBlockTypes": { "$added": [], "$removed": [], "$changed": {} },
-        "MinecraftEffectTypes": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {}
-        },
         "MinecraftItemTypes": {
           "$added": ["musicDiscOtherside"],
           "$removed": [],
@@ -40102,13 +40083,6 @@
           "$removed": [],
           "$changed": {
             "prototype": { "$added": ["deltaTime"], "$removed": [] }
-          }
-        },
-        "World": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {
-            "events": { "$added": [], "$removed": [], "$changed": {} }
           }
         },
         "IEntityComponent": {
@@ -40352,7 +40326,7 @@
           "$removed": [],
           "$changed": {
             "lightBlock": {
-              "$added": ["canBeWaterlogged", "canBeWaterlogged"],
+              "$added": ["canBeWaterlogged"],
               "$removed": [],
               "$changed": {}
             },
@@ -40377,11 +40351,6 @@
               "$changed": {}
             }
           }
-        },
-        "MinecraftEffectTypes": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {}
         },
         "MinecraftItemTypes": {
           "$added": [
@@ -46688,12 +46657,12 @@
           ],
           "$changed": {
             "sculkSensor": {
-              "$added": ["canBeWaterlogged", "canBeWaterlogged"],
+              "$added": ["canBeWaterlogged"],
               "$removed": [],
               "$changed": {}
             },
             "sculkShrieker": {
-              "$added": ["canBeWaterlogged", "canBeWaterlogged"],
+              "$added": ["canBeWaterlogged"],
               "$removed": [],
               "$changed": {}
             },
@@ -46837,11 +46806,6 @@
               "$changed": {}
             }
           }
-        },
-        "MinecraftEffectTypes": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {}
         },
         "MinecraftItemTypes": {
           "$added": [
@@ -48971,7 +48935,6 @@
             }
           }
         },
-        "Vector": { "$added": [], "$removed": [], "$changed": {} },
         "World": {
           "$added": [],
           "$removed": [],
@@ -49488,20 +49451,10 @@
           "$changed": {
             "structureBlock": {
               "$added": [],
-              "$removed": ["canBeWaterlogged", "canBeWaterlogged"],
+              "$removed": ["canBeWaterlogged"],
               "$changed": {}
             }
           }
-        },
-        "MinecraftEffectTypes": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {}
-        },
-        "MinecraftEnchantmentTypes": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {}
         },
         "MinecraftEntityTypes": {
           "$added": ["traderLlama"],
@@ -49519,14 +49472,6 @@
               "$removed": [],
               "$changed": {}
             }
-          }
-        },
-        "Vector": { "$added": [], "$removed": [], "$changed": {} },
-        "world": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {
-            "events": { "$added": [], "$removed": [], "$changed": {} }
           }
         }
       }
@@ -49557,23 +49502,6 @@
           "$removed": [],
           "$changed": { "prototype": { "$added": [], "$removed": ["isEmpty"] } }
         },
-        "MinecraftBlockTypes": { "$added": [], "$removed": [], "$changed": {} },
-        "MinecraftEffectTypes": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {}
-        },
-        "MinecraftEnchantmentTypes": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {}
-        },
-        "MinecraftEntityTypes": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {}
-        },
-        "MinecraftItemTypes": { "$added": [], "$removed": [], "$changed": {} },
         "Scoreboard": {
           "$added": [],
           "$removed": [],
@@ -49590,12 +49518,10 @@
             }
           }
         },
-        "Vector": { "$added": [], "$removed": [], "$changed": {} },
         "world": {
           "$added": [],
           "$removed": [],
           "$changed": {
-            "events": { "$added": [], "$removed": [], "$changed": {} },
             "scoreboard": {
               "$added": [
                 "addObjective",
@@ -49715,6 +49641,109 @@
                   "$changed": {}
                 }
               }
+            }
+          }
+        }
+      }
+    },
+    "1.19.30.20-beta": {
+      "$added": ["DirectionBlockProperty", "FluidType", "IRawMessage"],
+      "$removed": [],
+      "$changed": {
+        "Direction": { "$added": ["down"], "$removed": [], "$changed": {} },
+        "GameMode": { "$added": ["survival"], "$removed": [], "$changed": {} },
+        "MessageSourceType": {
+          "$added": ["serverCommand"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "Player": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": ["tell"], "$removed": [] } }
+        },
+        "Vector": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "prototype": { "$added": ["lengthSquared"], "$removed": [] },
+            "forward": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "back": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "up": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "down": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "left": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "right": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "zero": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "one": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "WatchdogTerminateReason": {
+          "$added": ["stackOverflow"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "World": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": ["say"], "$removed": [] } }
+        },
+        "world": { "$added": ["say"], "$removed": [], "$changed": {} },
+        "DirectionBlockProperty": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "name", "value", "validValues"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "FluidType": {
+          "$added": ["water", "lava", "powderSnow", "potion"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "IRawMessage": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "text", "translate", "with", "rawtext"],
+              "$removed": [],
+              "$changed": {}
             }
           }
         }
@@ -50122,7 +50151,18 @@
       }
     },
     "1.19.10.3": { "$added": [], "$removed": [], "$changed": {} },
-    "1.19.20.23-beta": { "$added": [], "$removed": [], "$changed": {} }
+    "1.19.20.23-beta": { "$added": [], "$removed": [], "$changed": {} },
+    "1.19.30.20-beta": {
+      "$added": [],
+      "$removed": ["FluidType"],
+      "$changed": {
+        "SimulatedPlayer": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": ["tell"], "$removed": [] } }
+        }
+      }
+    }
   },
   "mojang-minecraft-ui": {
     "1.18.30.4": {
@@ -50284,6 +50324,17 @@
           "$changed": {}
         }
       }
+    },
+    "1.19.30.20-beta": {
+      "$added": [],
+      "$removed": [],
+      "$changed": {
+        "FormCancelationReason": {
+          "$added": ["userClosed"],
+          "$removed": [],
+          "$changed": {}
+        }
+      }
     }
   },
   "mojang-minecraft-server-admin": {
@@ -50353,7 +50404,8 @@
         }
       }
     },
-    "1.19.20.23-beta": { "$added": [], "$removed": [], "$changed": {} }
+    "1.19.20.23-beta": { "$added": [], "$removed": [], "$changed": {} },
+    "1.19.30.20-beta": { "$added": [], "$removed": [], "$changed": {} }
   },
   "mojang-net": {
     "1.19.1.1": {

@@ -1,6 +1,10 @@
 `mojang-minecraft-ui`
 
 == Change Log ==
+=== v1.19.30.20-beta ===
+- Changed `FormCancelationReason`
+    - Added element `userClosed`
+
 === v1.19.20.23-beta ===
 - Added `FormCancelationReason`
     - Added element `userBusy`
