@@ -1,6 +1,585 @@
 `mojang-minecraft`
 
 == Change Log ==
+=== v1.19.40.21-beta ===
+- Added `ItemTypeIterator`
+    - Added element `prototype`
+        - Added property `constructor`
+- Added `ItemTypes`
+    - Added element `prototype`
+        - Added property `constructor`
+    - Added element `get`
+    - Added element `getAll`
+- Added `TicksPerDay`
+- Added `TimeOfDay`
+    - Added element `Day`
+    - Added element `Noon`
+    - Added element `Sunset`
+    - Added element `Night`
+    - Added element `Midnight`
+    - Added element `Sunrise`
+- Changed `BlockInventoryComponent`
+    - Added element `id`
+- Changed `BlockLavaContainerComponent`
+    - Added element `id`
+- Changed `BlockPistonComponent`
+    - Added element `id`
+- Changed `BlockPotionContainerComponent`
+    - Added element `id`
+- Changed `BlockRecordPlayerComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Added property `location`
+- Changed `BlockSignComponent`
+    - Added element `id`
+- Changed `BlockSnowContainerComponent`
+    - Added element `id`
+- Changed `BlockWaterContainerComponent`
+    - Added element `id`
+- Changed `EntityAddRiderComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityAgeableComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityBreathableComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityCanClimbComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityCanFlyComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityCanPowerJumpComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityColorComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityFireImmuneComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityFloatsInLiquidComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityFlyingSpeedComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityFrictionModifierComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityGroundOffsetComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityHealableComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityHealthComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityInventoryComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsBabyComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsChargedComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsChestedComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsDyableComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsHiddenWhenInvisibleComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsIgnitedComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsIllagerCaptainComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsSaddledComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsShakingComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsShearedComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsStackableComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsStunnedComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityIsTamedComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityItemComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityLavaMovementComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityLeashableComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityMarkVariantComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityMountTamingComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityMovementAmphibiousComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityMovementBasicComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityMovementComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityMovementFlyComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityMovementGenericComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityMovementGlideComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityMovementHoverComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityMovementJumpComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityMovementSkipComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityMovementSwayComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityNavigationClimbComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityNavigationFloatComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityNavigationFlyComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityNavigationGenericComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityNavigationHoverComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityNavigationWalkComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityPushThroughComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityRideableComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityScaleComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntitySkinIdComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityStrengthComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityTameableComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityUnderwaterMovementComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityVariantComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `EntityWantsJockeyComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `IEntityComponent`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `ItemCooldownComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `ItemDurabilityComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `ItemEnchantsComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `ItemFoodComponent`
+    - Added element `id`
+    - Changed element `prototype`
+        - Removed property `id`
+- Changed `MinecraftItemTypes`
+    - Removed element `air`
+    - Removed element `npcSpawnEgg`
+    - Removed element `agentSpawnEgg`
+    - Removed element `writtenBook`
+    - Removed element `camera`
+    - Removed element `compound`
+    - Removed element `iceBomb`
+    - Removed element `bleach`
+    - Removed element `rapidFertilizer`
+    - Removed element `balloon`
+    - Removed element `medicine`
+    - Removed element `sparkler`
+    - Removed element `glowStick`
+    - Removed element `doubleStoneBlockSlab`
+    - Removed element `doubleStoneBlockSlab2`
+    - Removed element `doubleStoneBlockSlab3`
+    - Removed element `doubleStoneBlockSlab4`
+    - Removed element `chemistryTable`
+    - Removed element `hardStainedGlass`
+    - Removed element `hardStainedGlassPane`
+    - Removed element `coloredTorchRg`
+    - Removed element `coloredTorchBp`
+    - Removed element `element0`
+    - Removed element `element1`
+    - Removed element `element2`
+    - Removed element `element3`
+    - Removed element `element4`
+    - Removed element `element5`
+    - Removed element `element6`
+    - Removed element `element7`
+    - Removed element `element8`
+    - Removed element `element9`
+    - Removed element `element10`
+    - Removed element `element11`
+    - Removed element `element12`
+    - Removed element `element13`
+    - Removed element `element14`
+    - Removed element `element15`
+    - Removed element `element16`
+    - Removed element `element17`
+    - Removed element `element18`
+    - Removed element `element19`
+    - Removed element `element20`
+    - Removed element `element21`
+    - Removed element `element22`
+    - Removed element `element23`
+    - Removed element `element24`
+    - Removed element `element25`
+    - Removed element `element26`
+    - Removed element `element27`
+    - Removed element `element28`
+    - Removed element `element29`
+    - Removed element `element30`
+    - Removed element `element31`
+    - Removed element `element32`
+    - Removed element `element33`
+    - Removed element `element34`
+    - Removed element `element35`
+    - Removed element `element36`
+    - Removed element `element37`
+    - Removed element `element38`
+    - Removed element `element39`
+    - Removed element `element40`
+    - Removed element `element41`
+    - Removed element `element42`
+    - Removed element `element43`
+    - Removed element `element44`
+    - Removed element `element45`
+    - Removed element `element46`
+    - Removed element `element47`
+    - Removed element `element48`
+    - Removed element `element49`
+    - Removed element `element50`
+    - Removed element `element51`
+    - Removed element `element52`
+    - Removed element `element53`
+    - Removed element `element54`
+    - Removed element `element55`
+    - Removed element `element56`
+    - Removed element `element57`
+    - Removed element `element58`
+    - Removed element `element59`
+    - Removed element `element60`
+    - Removed element `element61`
+    - Removed element `element62`
+    - Removed element `element63`
+    - Removed element `element64`
+    - Removed element `element65`
+    - Removed element `element66`
+    - Removed element `element67`
+    - Removed element `element68`
+    - Removed element `element69`
+    - Removed element `element70`
+    - Removed element `element71`
+    - Removed element `element72`
+    - Removed element `element73`
+    - Removed element `element74`
+    - Removed element `element75`
+    - Removed element `element76`
+    - Removed element `element77`
+    - Removed element `element78`
+    - Removed element `element79`
+    - Removed element `element80`
+    - Removed element `element81`
+    - Removed element `element82`
+    - Removed element `element83`
+    - Removed element `element84`
+    - Removed element `element85`
+    - Removed element `element86`
+    - Removed element `element87`
+    - Removed element `element88`
+    - Removed element `element89`
+    - Removed element `element90`
+    - Removed element `element91`
+    - Removed element `element92`
+    - Removed element `element93`
+    - Removed element `element94`
+    - Removed element `element95`
+    - Removed element `element96`
+    - Removed element `element97`
+    - Removed element `element98`
+    - Removed element `element99`
+    - Removed element `element100`
+    - Removed element `element101`
+    - Removed element `element102`
+    - Removed element `element103`
+    - Removed element `element104`
+    - Removed element `element105`
+    - Removed element `element106`
+    - Removed element `element107`
+    - Removed element `element108`
+    - Removed element `element109`
+    - Removed element `element110`
+    - Removed element `element111`
+    - Removed element `element112`
+    - Removed element `element113`
+    - Removed element `element114`
+    - Removed element `element115`
+    - Removed element `element116`
+    - Removed element `element117`
+    - Removed element `element118`
+    - Removed element `birchStandingSign`
+    - Removed element `item.warpedDoor`
+    - Removed element `pistonArmCollision`
+    - Removed element `powderSnow`
+    - Removed element `blackstoneDoubleSlab`
+    - Removed element `grayCandleCake`
+    - Removed element `crimsonWallSign`
+    - Removed element `endGateway`
+    - Removed element `item.glowFrame`
+    - Removed element `mudBrickDoubleSlab`
+    - Removed element `infoUpdate`
+    - Removed element `lightBlueCandleCake`
+    - Removed element `item.flowerPot`
+    - Removed element `potatoes`
+    - Removed element `deepslateTileDoubleSlab`
+    - Removed element `poweredComparator`
+    - Removed element `warpedWallSign`
+    - Removed element `soulFire`
+    - Removed element `mangroveDoubleSlab`
+    - Removed element `oxidizedDoubleCutCopperSlab`
+    - Removed element `polishedDeepslateDoubleSlab`
+    - Removed element `lavaCauldron`
+    - Removed element `exposedDoubleCutCopperSlab`
+    - Removed element `polishedBlackstoneDoubleSlab`
+    - Removed element `hardGlassPane`
+    - Removed element `polishedBlackstoneBrickDoubleSlab`
+    - Removed element `crimsonDoubleSlab`
+    - Removed element `cyanCandleCake`
+    - Removed element `stonecutter`
+    - Removed element `invisibleBedrock`
+    - Removed element `underwaterTorch`
+    - Removed element `deepslateBrickDoubleSlab`
+    - Removed element `glowingobsidian`
+    - Removed element `greenCandleCake`
+    - Removed element `doubleCutCopperSlab`
+    - Removed element `brownCandleCake`
+    - Removed element `acaciaWallSign`
+    - Removed element `item.woodenDoor`
+    - Removed element `redstoneWire`
+    - Removed element `lava`
+    - Removed element `item.crimsonDoor`
+    - Removed element `coralFanHang2`
+    - Removed element `coralFanHang3`
+    - Removed element `pinkCandleCake`
+    - Removed element `mangroveStandingSign`
+    - Removed element `item.frame`
+    - Removed element `clientRequestPlaceholderBlock`
+    - Removed element `litRedstoneLamp`
+    - Removed element `warpedDoubleSlab`
+    - Removed element `jungleWallSign`
+    - Removed element `item.acaciaDoor`
+    - Removed element `item.ironDoor`
+    - Removed element `daylightDetectorInverted`
+    - Removed element `coralFanHang`
+    - Removed element `poweredRepeater`
+    - Removed element `blackCandleCake`
+    - Removed element `reserved6`
+    - Removed element `unknown`
+    - Removed element `yellowCandleCake`
+    - Removed element `litRedstoneOre`
+    - Removed element `waxedWeatheredDoubleCutCopperSlab`
+    - Removed element `item.spruceDoor`
+    - Removed element `flowingWater`
+    - Removed element `hardGlass`
+    - Removed element `caveVines`
+    - Removed element `melonStem`
+    - Removed element `wallSign`
+    - Removed element `mangroveWallSign`
+    - Removed element `item.beetroot`
+    - Removed element `item.skull`
+    - Removed element `lightGrayCandleCake`
+    - Removed element `darkoakWallSign`
+    - Removed element `waxedDoubleCutCopperSlab`
+    - Removed element `item.kelp`
+    - Removed element `water`
+    - Removed element `unpoweredRepeater`
+    - Removed element `movingBlock`
+    - Removed element `standingSign`
+    - Removed element `wallBanner`
+    - Removed element `item.darkOakDoor`
+    - Removed element `bubbleColumn`
+    - Removed element `item.campfire`
+    - Removed element `cobbledDeepslateDoubleSlab`
+    - Removed element `doubleWoodenSlab`
+    - Removed element `carrots`
+    - Removed element `caveVinesBodyWithBerries`
+    - Removed element `blueCandleCake`
+    - Removed element `sweetBerryBush`
+    - Removed element `item.reeds`
+    - Removed element `jungleStandingSign`
+    - Removed element `fire`
+    - Removed element `magentaCandleCake`
+    - Removed element `item.jungleDoor`
+    - Removed element `acaciaStandingSign`
+    - Removed element `pumpkinStem`
+    - Removed element `stickyPistonArmCollision`
+    - Removed element `unpoweredComparator`
+    - Removed element `item.mangroveDoor`
+    - Removed element `item.netherSprouts`
+    - Removed element `cocoa`
+    - Removed element `item.bed`
+    - Removed element `purpleCandleCake`
+    - Removed element `waxedExposedDoubleCutCopperSlab`
+    - Removed element `birchWallSign`
+    - Removed element `item.hopper`
+    - Removed element `standingBanner`
+    - Removed element `spruceStandingSign`
+    - Removed element `litBlastFurnace`
+    - Removed element `item.birchDoor`
+    - Removed element `item.chain`
+    - Removed element `item.cake`
+    - Removed element `warpedStandingSign`
+    - Removed element `flowingLava`
+    - Removed element `litFurnace`
+    - Removed element `item.camera`
+    - Removed element `item.wheat`
+    - Removed element `crimsonStandingSign`
+    - Removed element `darkoakStandingSign`
+    - Removed element `weatheredDoubleCutCopperSlab`
+    - Removed element `spruceWallSign`
+    - Removed element `netherreactor`
+    - Removed element `chemicalHeat`
+    - Removed element `tripWire`
+    - Removed element `item.cauldron`
+    - Removed element `caveVinesHeadWithBerries`
+    - Removed element `item.brewingStand`
+    - Removed element `bambooSapling`
+    - Removed element `whiteCandleCake`
+    - Removed element `candleCake`
+    - Removed element `endPortal`
+    - Removed element `litDeepslateRedstoneOre`
+    - Removed element `litSmoker`
+    - Removed element `redCandleCake`
+    - Removed element `item.netherWart`
+    - Removed element `waxedOxidizedDoubleCutCopperSlab`
+    - Removed element `portal`
+    - Removed element `infoUpdate2`
+    - Removed element `item.soulCampfire`
+    - Removed element `limeCandleCake`
+    - Removed element `orangeCandleCake`
+    - Removed element `unlitRedstoneTorch`
+- Changed `World`
+    - Changed element `prototype`
+        - Added property `getTime`
+        - Added property `setTime`
+        - Added property `getAbsoluteTime`
+- Changed `world`
+    - Added element `getTime`
+    - Added element `setTime`
+    - Added element `getAbsoluteTime`
+
 === v1.19.30.20-beta ===
 - Added `DirectionBlockProperty`
     - Added element `prototype`

@@ -49748,6 +49748,699 @@
           }
         }
       }
+    },
+    "1.19.40.21-beta": {
+      "$added": ["ItemTypeIterator", "ItemTypes", "TicksPerDay", "TimeOfDay"],
+      "$removed": [],
+      "$changed": {
+        "BlockInventoryComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "BlockLavaContainerComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "BlockPistonComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "BlockPotionContainerComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "BlockRecordPlayerComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": {
+            "prototype": { "$added": ["location"], "$removed": [] }
+          }
+        },
+        "BlockSignComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "BlockSnowContainerComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "BlockWaterContainerComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "EntityAddRiderComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityAgeableComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityBreathableComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityCanClimbComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityCanFlyComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityCanPowerJumpComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityColorComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityFireImmuneComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityFloatsInLiquidComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityFlyingSpeedComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityFrictionModifierComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityGroundOffsetComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityHealableComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityHealthComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityInventoryComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsBabyComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsChargedComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsChestedComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsDyableComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsHiddenWhenInvisibleComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsIgnitedComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsIllagerCaptainComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsSaddledComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsShakingComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsShearedComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsStackableComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsStunnedComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityIsTamedComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityItemComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityLavaMovementComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityLeashableComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityMarkVariantComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityMountTamingComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityMovementAmphibiousComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityMovementBasicComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityMovementComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityMovementFlyComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityMovementGenericComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityMovementGlideComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityMovementHoverComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityMovementJumpComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityMovementSkipComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityMovementSwayComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityNavigationClimbComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityNavigationFloatComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityNavigationFlyComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityNavigationGenericComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityNavigationHoverComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityNavigationWalkComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityPushThroughComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityRideableComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityScaleComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntitySkinIdComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityStrengthComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityTameableComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityUnderwaterMovementComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityVariantComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "EntityWantsJockeyComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "IEntityComponent": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "ItemCooldownComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "ItemDurabilityComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "ItemEnchantsComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "ItemFoodComponent": {
+          "$added": ["id"],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "MinecraftItemTypes": {
+          "$added": [],
+          "$removed": [
+            "air",
+            "npcSpawnEgg",
+            "agentSpawnEgg",
+            "writtenBook",
+            "camera",
+            "compound",
+            "iceBomb",
+            "bleach",
+            "rapidFertilizer",
+            "balloon",
+            "medicine",
+            "sparkler",
+            "glowStick",
+            "doubleStoneBlockSlab",
+            "doubleStoneBlockSlab2",
+            "doubleStoneBlockSlab3",
+            "doubleStoneBlockSlab4",
+            "chemistryTable",
+            "hardStainedGlass",
+            "hardStainedGlassPane",
+            "coloredTorchRg",
+            "coloredTorchBp",
+            "element0",
+            "element1",
+            "element2",
+            "element3",
+            "element4",
+            "element5",
+            "element6",
+            "element7",
+            "element8",
+            "element9",
+            "element10",
+            "element11",
+            "element12",
+            "element13",
+            "element14",
+            "element15",
+            "element16",
+            "element17",
+            "element18",
+            "element19",
+            "element20",
+            "element21",
+            "element22",
+            "element23",
+            "element24",
+            "element25",
+            "element26",
+            "element27",
+            "element28",
+            "element29",
+            "element30",
+            "element31",
+            "element32",
+            "element33",
+            "element34",
+            "element35",
+            "element36",
+            "element37",
+            "element38",
+            "element39",
+            "element40",
+            "element41",
+            "element42",
+            "element43",
+            "element44",
+            "element45",
+            "element46",
+            "element47",
+            "element48",
+            "element49",
+            "element50",
+            "element51",
+            "element52",
+            "element53",
+            "element54",
+            "element55",
+            "element56",
+            "element57",
+            "element58",
+            "element59",
+            "element60",
+            "element61",
+            "element62",
+            "element63",
+            "element64",
+            "element65",
+            "element66",
+            "element67",
+            "element68",
+            "element69",
+            "element70",
+            "element71",
+            "element72",
+            "element73",
+            "element74",
+            "element75",
+            "element76",
+            "element77",
+            "element78",
+            "element79",
+            "element80",
+            "element81",
+            "element82",
+            "element83",
+            "element84",
+            "element85",
+            "element86",
+            "element87",
+            "element88",
+            "element89",
+            "element90",
+            "element91",
+            "element92",
+            "element93",
+            "element94",
+            "element95",
+            "element96",
+            "element97",
+            "element98",
+            "element99",
+            "element100",
+            "element101",
+            "element102",
+            "element103",
+            "element104",
+            "element105",
+            "element106",
+            "element107",
+            "element108",
+            "element109",
+            "element110",
+            "element111",
+            "element112",
+            "element113",
+            "element114",
+            "element115",
+            "element116",
+            "element117",
+            "element118",
+            "birchStandingSign",
+            "item.warpedDoor",
+            "pistonArmCollision",
+            "powderSnow",
+            "blackstoneDoubleSlab",
+            "grayCandleCake",
+            "crimsonWallSign",
+            "endGateway",
+            "item.glowFrame",
+            "mudBrickDoubleSlab",
+            "infoUpdate",
+            "lightBlueCandleCake",
+            "item.flowerPot",
+            "potatoes",
+            "deepslateTileDoubleSlab",
+            "poweredComparator",
+            "warpedWallSign",
+            "soulFire",
+            "mangroveDoubleSlab",
+            "oxidizedDoubleCutCopperSlab",
+            "polishedDeepslateDoubleSlab",
+            "lavaCauldron",
+            "exposedDoubleCutCopperSlab",
+            "polishedBlackstoneDoubleSlab",
+            "hardGlassPane",
+            "polishedBlackstoneBrickDoubleSlab",
+            "crimsonDoubleSlab",
+            "cyanCandleCake",
+            "stonecutter",
+            "invisibleBedrock",
+            "underwaterTorch",
+            "deepslateBrickDoubleSlab",
+            "glowingobsidian",
+            "greenCandleCake",
+            "doubleCutCopperSlab",
+            "brownCandleCake",
+            "acaciaWallSign",
+            "item.woodenDoor",
+            "redstoneWire",
+            "lava",
+            "item.crimsonDoor",
+            "coralFanHang2",
+            "coralFanHang3",
+            "pinkCandleCake",
+            "mangroveStandingSign",
+            "item.frame",
+            "clientRequestPlaceholderBlock",
+            "litRedstoneLamp",
+            "warpedDoubleSlab",
+            "jungleWallSign",
+            "item.acaciaDoor",
+            "item.ironDoor",
+            "daylightDetectorInverted",
+            "coralFanHang",
+            "poweredRepeater",
+            "blackCandleCake",
+            "reserved6",
+            "unknown",
+            "yellowCandleCake",
+            "litRedstoneOre",
+            "waxedWeatheredDoubleCutCopperSlab",
+            "item.spruceDoor",
+            "flowingWater",
+            "hardGlass",
+            "caveVines",
+            "melonStem",
+            "wallSign",
+            "mangroveWallSign",
+            "item.beetroot",
+            "item.skull",
+            "lightGrayCandleCake",
+            "darkoakWallSign",
+            "waxedDoubleCutCopperSlab",
+            "item.kelp",
+            "water",
+            "unpoweredRepeater",
+            "movingBlock",
+            "standingSign",
+            "wallBanner",
+            "item.darkOakDoor",
+            "bubbleColumn",
+            "item.campfire",
+            "cobbledDeepslateDoubleSlab",
+            "doubleWoodenSlab",
+            "carrots",
+            "caveVinesBodyWithBerries",
+            "blueCandleCake",
+            "sweetBerryBush",
+            "item.reeds",
+            "jungleStandingSign",
+            "fire",
+            "magentaCandleCake",
+            "item.jungleDoor",
+            "acaciaStandingSign",
+            "pumpkinStem",
+            "stickyPistonArmCollision",
+            "unpoweredComparator",
+            "item.mangroveDoor",
+            "item.netherSprouts",
+            "cocoa",
+            "item.bed",
+            "purpleCandleCake",
+            "waxedExposedDoubleCutCopperSlab",
+            "birchWallSign",
+            "item.hopper",
+            "standingBanner",
+            "spruceStandingSign",
+            "litBlastFurnace",
+            "item.birchDoor",
+            "item.chain",
+            "item.cake",
+            "warpedStandingSign",
+            "flowingLava",
+            "litFurnace",
+            "item.camera",
+            "item.wheat",
+            "crimsonStandingSign",
+            "darkoakStandingSign",
+            "weatheredDoubleCutCopperSlab",
+            "spruceWallSign",
+            "netherreactor",
+            "chemicalHeat",
+            "tripWire",
+            "item.cauldron",
+            "caveVinesHeadWithBerries",
+            "item.brewingStand",
+            "bambooSapling",
+            "whiteCandleCake",
+            "candleCake",
+            "endPortal",
+            "litDeepslateRedstoneOre",
+            "litSmoker",
+            "redCandleCake",
+            "item.netherWart",
+            "waxedOxidizedDoubleCutCopperSlab",
+            "portal",
+            "infoUpdate2",
+            "item.soulCampfire",
+            "limeCandleCake",
+            "orangeCandleCake",
+            "unlitRedstoneTorch"
+          ],
+          "$changed": {}
+        },
+        "World": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["getTime", "setTime", "getAbsoluteTime"],
+              "$removed": []
+            }
+          }
+        },
+        "world": {
+          "$added": ["getTime", "setTime", "getAbsoluteTime"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "ItemTypeIterator": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "ItemTypes": {
+          "$added": ["name", "prototype", "get", "getAll"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "TimeOfDay": {
+          "$added": ["Day", "Noon", "Sunset", "Night", "Midnight", "Sunrise"],
+          "$removed": [],
+          "$changed": {}
+        }
+      }
     }
   },
   "mojang-gametest": {
@@ -50162,7 +50855,8 @@
           "$changed": { "prototype": { "$added": ["tell"], "$removed": [] } }
         }
       }
-    }
+    },
+    "1.19.40.21-beta": { "$added": [], "$removed": [], "$changed": {} }
   },
   "mojang-minecraft-ui": {
     "1.18.30.4": {
@@ -50335,6 +51029,17 @@
           "$changed": {}
         }
       }
+    },
+    "1.19.40.21-beta": {
+      "$added": [],
+      "$removed": [],
+      "$changed": {
+        "ModalFormData": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": [], "$removed": ["icon"] } }
+        }
+      }
     }
   },
   "mojang-minecraft-server-admin": {
@@ -50405,7 +51110,8 @@
       }
     },
     "1.19.20.23-beta": { "$added": [], "$removed": [], "$changed": {} },
-    "1.19.30.20-beta": { "$added": [], "$removed": [], "$changed": {} }
+    "1.19.30.20-beta": { "$added": [], "$removed": [], "$changed": {} },
+    "1.19.40.21-beta": { "$added": [], "$removed": [], "$changed": {} }
   },
   "mojang-net": {
     "1.19.1.1": {

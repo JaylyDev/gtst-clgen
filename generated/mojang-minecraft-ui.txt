@@ -1,6 +1,11 @@
 `mojang-minecraft-ui`
 
 == Change Log ==
+=== v1.19.40.21-beta ===
+- Changed `ModalFormData`
+    - Changed element `prototype`
+        - Removed property `icon`
+
 === v1.19.30.20-beta ===
 - Changed `FormCancelationReason`
     - Added element `userClosed`
