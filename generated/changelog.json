@@ -49476,7 +49476,7 @@
         }
       }
     },
-    "1.19.20.23-beta": {
+    "1.19.20.2": {
       "$added": [
         "BeforeWatchdogTerminateEvent",
         "BeforeWatchdogTerminateEventSignal",
@@ -49646,111 +49646,14 @@
         }
       }
     },
-    "1.19.30.20-beta": {
-      "$added": ["DirectionBlockProperty", "FluidType", "IRawMessage"],
-      "$removed": [],
-      "$changed": {
-        "Direction": { "$added": ["down"], "$removed": [], "$changed": {} },
-        "GameMode": { "$added": ["survival"], "$removed": [], "$changed": {} },
-        "MessageSourceType": {
-          "$added": ["serverCommand"],
-          "$removed": [],
-          "$changed": {}
-        },
-        "Player": {
-          "$added": [],
-          "$removed": [],
-          "$changed": { "prototype": { "$added": ["tell"], "$removed": [] } }
-        },
-        "Vector": {
-          "$added": [],
-          "$removed": [],
-          "$changed": {
-            "prototype": { "$added": ["lengthSquared"], "$removed": [] },
-            "forward": {
-              "$added": ["lengthSquared"],
-              "$removed": [],
-              "$changed": {}
-            },
-            "back": {
-              "$added": ["lengthSquared"],
-              "$removed": [],
-              "$changed": {}
-            },
-            "up": {
-              "$added": ["lengthSquared"],
-              "$removed": [],
-              "$changed": {}
-            },
-            "down": {
-              "$added": ["lengthSquared"],
-              "$removed": [],
-              "$changed": {}
-            },
-            "left": {
-              "$added": ["lengthSquared"],
-              "$removed": [],
-              "$changed": {}
-            },
-            "right": {
-              "$added": ["lengthSquared"],
-              "$removed": [],
-              "$changed": {}
-            },
-            "zero": {
-              "$added": ["lengthSquared"],
-              "$removed": [],
-              "$changed": {}
-            },
-            "one": {
-              "$added": ["lengthSquared"],
-              "$removed": [],
-              "$changed": {}
-            }
-          }
-        },
-        "WatchdogTerminateReason": {
-          "$added": ["stackOverflow"],
-          "$removed": [],
-          "$changed": {}
-        },
-        "World": {
-          "$added": [],
-          "$removed": [],
-          "$changed": { "prototype": { "$added": ["say"], "$removed": [] } }
-        },
-        "world": { "$added": ["say"], "$removed": [], "$changed": {} },
-        "DirectionBlockProperty": {
-          "$added": ["name", "prototype"],
-          "$removed": [],
-          "$changed": {
-            "prototype": {
-              "$added": ["constructor", "name", "value", "validValues"],
-              "$removed": [],
-              "$changed": {}
-            }
-          }
-        },
-        "FluidType": {
-          "$added": ["water", "lava", "powderSnow", "potion"],
-          "$removed": [],
-          "$changed": {}
-        },
-        "IRawMessage": {
-          "$added": ["name", "prototype"],
-          "$removed": [],
-          "$changed": {
-            "prototype": {
-              "$added": ["constructor", "text", "translate", "with", "rawtext"],
-              "$removed": [],
-              "$changed": {}
-            }
-          }
-        }
-      }
-    },
-    "1.19.40.21-beta": {
-      "$added": ["ItemTypeIterator", "ItemTypes", "TicksPerDay", "TimeOfDay"],
+    "1.19.30.4": {
+      "$added": [
+        "DirectionBlockProperty",
+        "FluidType",
+        "IRawMessage",
+        "ItemTypeIterator",
+        "ItemTypes"
+      ],
       "$removed": [],
       "$changed": {
         "BlockInventoryComponent": {
@@ -49795,6 +49698,7 @@
           "$removed": [],
           "$changed": {}
         },
+        "Direction": { "$added": ["down"], "$removed": [], "$changed": {} },
         "EntityAddRiderComponent": {
           "$added": ["id"],
           "$removed": [],
@@ -50085,6 +49989,7 @@
           "$removed": [],
           "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
         },
+        "GameMode": { "$added": ["survival"], "$removed": [], "$changed": {} },
         "IEntityComponent": {
           "$added": [],
           "$removed": [],
@@ -50109,6 +50014,11 @@
           "$added": ["id"],
           "$removed": [],
           "$changed": { "prototype": { "$added": [], "$removed": ["id"] } }
+        },
+        "MessageSourceType": {
+          "$added": ["serverCommand"],
+          "$removed": [],
+          "$changed": {}
         },
         "MinecraftItemTypes": {
           "$added": [],
@@ -50398,20 +50308,95 @@
           ],
           "$changed": {}
         },
-        "World": {
+        "Player": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": ["tell"], "$removed": [] } }
+        },
+        "Vector": {
           "$added": [],
           "$removed": [],
           "$changed": {
-            "prototype": {
-              "$added": ["getTime", "setTime", "getAbsoluteTime"],
-              "$removed": []
+            "prototype": { "$added": ["lengthSquared"], "$removed": [] },
+            "forward": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "back": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "up": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "down": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "left": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "right": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "zero": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
+            },
+            "one": {
+              "$added": ["lengthSquared"],
+              "$removed": [],
+              "$changed": {}
             }
           }
         },
-        "world": {
-          "$added": ["getTime", "setTime", "getAbsoluteTime"],
+        "WatchdogTerminateReason": {
+          "$added": ["stackOverflow"],
           "$removed": [],
           "$changed": {}
+        },
+        "World": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": ["say"], "$removed": [] } }
+        },
+        "world": { "$added": ["say"], "$removed": [], "$changed": {} },
+        "DirectionBlockProperty": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "name", "value", "validValues"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
+        },
+        "FluidType": {
+          "$added": ["water", "lava", "powderSnow", "potion"],
+          "$removed": [],
+          "$changed": {}
+        },
+        "IRawMessage": {
+          "$added": ["name", "prototype"],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["constructor", "text", "translate", "with", "rawtext"],
+              "$removed": [],
+              "$changed": {}
+            }
+          }
         },
         "ItemTypeIterator": {
           "$added": ["name", "prototype"],
@@ -50434,6 +50419,412 @@
               "$changed": {}
             }
           }
+        }
+      }
+    },
+    "1.19.40.22-beta": {
+      "$added": ["TicksPerDay", "TimeOfDay"],
+      "$removed": [],
+      "$changed": {
+        "Block": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "prototype": { "$added": ["typeId"], "$removed": ["id"] }
+          }
+        },
+        "BlockInventoryComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "BlockLavaContainerComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "BlockPistonComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "BlockPotionContainerComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "BlockRecordPlayerComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "BlockSignComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "BlockSnowContainerComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "BlockWaterContainerComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "Entity": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityAddRiderComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityAgeableComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityBreathableComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityCanClimbComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityCanFlyComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityCanPowerJumpComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityColorComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityFireImmuneComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityFloatsInLiquidComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityFlyingSpeedComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityFrictionModifierComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityGroundOffsetComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityHealableComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityHealthComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityInventoryComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsBabyComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsChargedComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsChestedComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsDyableComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsHiddenWhenInvisibleComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsIgnitedComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsIllagerCaptainComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsSaddledComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsShakingComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsShearedComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsStackableComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsStunnedComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityIsTamedComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityItemComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityLavaMovementComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityLeashableComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityMarkVariantComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityMountTamingComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityMovementAmphibiousComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityMovementBasicComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityMovementComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityMovementFlyComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityMovementGenericComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityMovementGlideComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityMovementHoverComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityMovementJumpComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityMovementSkipComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityMovementSwayComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityNavigationClimbComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityNavigationFloatComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityNavigationFlyComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityNavigationGenericComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityNavigationHoverComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityNavigationWalkComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityPushThroughComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityRideableComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityScaleComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntitySkinIdComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityStrengthComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityTameableComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityUnderwaterMovementComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityVariantComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "EntityWantsJockeyComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "IEntityComponent": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "ItemCooldownComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": {}
+        },
+        "ItemDurabilityComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": {}
+        },
+        "ItemEnchantsComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": {}
+        },
+        "ItemFoodComponent": {
+          "$added": ["componentId"],
+          "$removed": ["id"],
+          "$changed": {}
+        },
+        "ItemStack": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "prototype": { "$added": ["typeId"], "$removed": ["id"] }
+          }
+        },
+        "Player": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        },
+        "System": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": ["run"], "$removed": [] } }
+        },
+        "World": {
+          "$added": [],
+          "$removed": [],
+          "$changed": {
+            "prototype": {
+              "$added": ["getTime", "setTime", "getAbsoluteTime"],
+              "$removed": []
+            }
+          }
+        },
+        "system": { "$added": ["run"], "$removed": [], "$changed": {} },
+        "world": {
+          "$added": ["getTime", "setTime", "getAbsoluteTime"],
+          "$removed": [],
+          "$changed": {}
         },
         "TimeOfDay": {
           "$added": ["Day", "Noon", "Sunset", "Night", "Midnight", "Sunrise"],
@@ -50844,8 +51235,8 @@
       }
     },
     "1.19.10.3": { "$added": [], "$removed": [], "$changed": {} },
-    "1.19.20.23-beta": { "$added": [], "$removed": [], "$changed": {} },
-    "1.19.30.20-beta": {
+    "1.19.20.2": { "$added": [], "$removed": [], "$changed": {} },
+    "1.19.30.4": {
       "$added": [],
       "$removed": ["FluidType"],
       "$changed": {
@@ -50856,7 +51247,17 @@
         }
       }
     },
-    "1.19.40.21-beta": { "$added": [], "$removed": [], "$changed": {} }
+    "1.19.40.22-beta": {
+      "$added": [],
+      "$removed": [],
+      "$changed": {
+        "SimulatedPlayer": {
+          "$added": [],
+          "$removed": [],
+          "$changed": { "prototype": { "$added": ["typeId"], "$removed": [] } }
+        }
+      }
+    }
   },
   "mojang-minecraft-ui": {
     "1.18.30.4": {
@@ -50968,7 +51369,7 @@
     },
     "1.19.1.1": { "$added": [], "$removed": [], "$changed": {} },
     "1.19.10.3": { "$added": [], "$removed": [], "$changed": {} },
-    "1.19.20.23-beta": {
+    "1.19.20.2": {
       "$added": ["FormCancelationReason"],
       "$removed": [],
       "$changed": {
@@ -51019,7 +51420,7 @@
         }
       }
     },
-    "1.19.30.20-beta": {
+    "1.19.30.4": {
       "$added": [],
       "$removed": [],
       "$changed": {
@@ -51030,7 +51431,7 @@
         }
       }
     },
-    "1.19.40.21-beta": {
+    "1.19.40.22-beta": {
       "$added": [],
       "$removed": [],
       "$changed": {
@@ -51109,9 +51510,9 @@
         }
       }
     },
-    "1.19.20.23-beta": { "$added": [], "$removed": [], "$changed": {} },
-    "1.19.30.20-beta": { "$added": [], "$removed": [], "$changed": {} },
-    "1.19.40.21-beta": { "$added": [], "$removed": [], "$changed": {} }
+    "1.19.20.2": { "$added": [], "$removed": [], "$changed": {} },
+    "1.19.30.4": { "$added": [], "$removed": [], "$changed": {} },
+    "1.19.40.22-beta": { "$added": [], "$removed": [], "$changed": {} }
   },
   "mojang-net": {
     "1.19.1.1": {
@@ -51193,6 +51594,8 @@
         }
       }
     },
-    "1.19.10.3": { "$added": [], "$removed": [], "$changed": {} }
+    "1.19.10.3": { "$added": [], "$removed": [], "$changed": {} },
+    "1.19.20.2": { "$added": [], "$removed": [], "$changed": {} },
+    "1.19.30.4": { "$added": [], "$removed": [], "$changed": {} }
   }
 }

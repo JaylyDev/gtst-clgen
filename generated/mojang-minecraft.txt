@@ -1,15 +1,7 @@
 `mojang-minecraft`
 
 == Change Log ==
-=== v1.19.40.21-beta ===
-- Added `ItemTypeIterator`
-    - Added element `prototype`
-        - Added property `constructor`
-- Added `ItemTypes`
-    - Added element `prototype`
-        - Added property `constructor`
-    - Added element `get`
-    - Added element `getAll`
+=== v1.19.40.22-beta ===
 - Added `TicksPerDay`
 - Added `TimeOfDay`
     - Added element `Day`
@@ -18,6 +10,406 @@
     - Added element `Night`
     - Added element `Midnight`
     - Added element `Sunrise`
+- Changed `Block`
+    - Changed element `prototype`
+        - Added property `typeId`
+        - Removed property `id`
+- Changed `BlockInventoryComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `BlockLavaContainerComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `BlockPistonComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `BlockPotionContainerComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `BlockRecordPlayerComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `BlockSignComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `BlockSnowContainerComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `BlockWaterContainerComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `Entity`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityAddRiderComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityAgeableComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityBreathableComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityCanClimbComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityCanFlyComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityCanPowerJumpComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityColorComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityFireImmuneComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityFloatsInLiquidComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityFlyingSpeedComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityFrictionModifierComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityGroundOffsetComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityHealableComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityHealthComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityInventoryComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsBabyComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsChargedComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsChestedComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsDyableComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsHiddenWhenInvisibleComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsIgnitedComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsIllagerCaptainComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsSaddledComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsShakingComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsShearedComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsStackableComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsStunnedComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityIsTamedComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityItemComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityLavaMovementComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityLeashableComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityMarkVariantComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityMountTamingComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityMovementAmphibiousComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityMovementBasicComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityMovementComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityMovementFlyComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityMovementGenericComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityMovementGlideComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityMovementHoverComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityMovementJumpComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityMovementSkipComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityMovementSwayComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityNavigationClimbComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityNavigationFloatComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityNavigationFlyComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityNavigationGenericComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityNavigationHoverComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityNavigationWalkComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityPushThroughComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityRideableComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityScaleComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntitySkinIdComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityStrengthComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityTameableComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityUnderwaterMovementComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityVariantComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `EntityWantsJockeyComponent`
+    - Added element `componentId`
+    - Removed element `id`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `IEntityComponent`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `ItemCooldownComponent`
+    - Added element `componentId`
+    - Removed element `id`
+- Changed `ItemDurabilityComponent`
+    - Added element `componentId`
+    - Removed element `id`
+- Changed `ItemEnchantsComponent`
+    - Added element `componentId`
+    - Removed element `id`
+- Changed `ItemFoodComponent`
+    - Added element `componentId`
+    - Removed element `id`
+- Changed `ItemStack`
+    - Changed element `prototype`
+        - Added property `typeId`
+        - Removed property `id`
+- Changed `Player`
+    - Changed element `prototype`
+        - Added property `typeId`
+- Changed `System`
+    - Changed element `prototype`
+        - Added property `run`
+- Changed `World`
+    - Changed element `prototype`
+        - Added property `getTime`
+        - Added property `setTime`
+        - Added property `getAbsoluteTime`
+- Changed `system`
+    - Added element `run`
+- Changed `world`
+    - Added element `getTime`
+    - Added element `setTime`
+    - Added element `getAbsoluteTime`
+
+=== v1.19.30.4 ===
+- Added `DirectionBlockProperty`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `value`
+        - Added property `validValues`
+- Added `FluidType`
+    - Added element `water`
+    - Added element `lava`
+    - Added element `powderSnow`
+    - Added element `potion`
+- Added `IRawMessage`
+    - Added element `prototype`
+        - Added property `constructor`
+        - Added property `text`
+        - Added property `translate`
+        - Added property `with`
+        - Added property `rawtext`
+- Added `ItemTypeIterator`
+    - Added element `prototype`
+        - Added property `constructor`
+- Added `ItemTypes`
+    - Added element `prototype`
+        - Added property `constructor`
+    - Added element `get`
+    - Added element `getAll`
 - Changed `BlockInventoryComponent`
     - Added element `id`
 - Changed `BlockLavaContainerComponent`
@@ -36,6 +428,8 @@
     - Added element `id`
 - Changed `BlockWaterContainerComponent`
     - Added element `id`
+- Changed `Direction`
+    - Added element `down`
 - Changed `EntityAddRiderComponent`
     - Added element `id`
     - Changed element `prototype`
@@ -268,6 +662,8 @@
     - Added element `id`
     - Changed element `prototype`
         - Removed property `id`
+- Changed `GameMode`
+    - Added element `survival`
 - Changed `IEntityComponent`
     - Changed element `prototype`
         - Removed property `id`
@@ -287,6 +683,8 @@
     - Added element `id`
     - Changed element `prototype`
         - Removed property `id`
+- Changed `MessageSourceType`
+    - Added element `serverCommand`
 - Changed `MinecraftItemTypes`
     - Removed element `air`
     - Removed element `npcSpawnEgg`
@@ -570,40 +968,6 @@
     - Removed element `limeCandleCake`
     - Removed element `orangeCandleCake`
     - Removed element `unlitRedstoneTorch`
-- Changed `World`
-    - Changed element `prototype`
-        - Added property `getTime`
-        - Added property `setTime`
-        - Added property `getAbsoluteTime`
-- Changed `world`
-    - Added element `getTime`
-    - Added element `setTime`
-    - Added element `getAbsoluteTime`
-
-=== v1.19.30.20-beta ===
-- Added `DirectionBlockProperty`
-    - Added element `prototype`
-        - Added property `constructor`
-        - Added property `value`
-        - Added property `validValues`
-- Added `FluidType`
-    - Added element `water`
-    - Added element `lava`
-    - Added element `powderSnow`
-    - Added element `potion`
-- Added `IRawMessage`
-    - Added element `prototype`
-        - Added property `constructor`
-        - Added property `text`
-        - Added property `translate`
-        - Added property `with`
-        - Added property `rawtext`
-- Changed `Direction`
-    - Added element `down`
-- Changed `GameMode`
-    - Added element `survival`
-- Changed `MessageSourceType`
-    - Added element `serverCommand`
 - Changed `Player`
     - Changed element `prototype`
         - Added property `tell`
@@ -634,7 +998,7 @@
 - Changed `world`
     - Added element `say`
 
-=== v1.19.20.23-beta ===
+=== v1.19.20.2 ===
 - Added `BeforeWatchdogTerminateEvent`
     - Added element `prototype`
         - Added property `constructor`
