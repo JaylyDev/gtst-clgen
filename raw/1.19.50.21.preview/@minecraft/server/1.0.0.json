@@ -1,0 +1,45 @@
+{
+  "CommandResult": {
+    "name": "CommandResult",
+    "prototype": ["constructor", "successCount"]
+  },
+  "Dimension": {
+    "name": "Dimension",
+    "prototype": ["constructor", "runCommandAsync", "id"]
+  },
+  "Entity": {
+    "name": "Entity",
+    "prototype": ["constructor", "runCommandAsync", "id", "typeId", "dimension"]
+  },
+  "MinecraftDimensionTypes": {
+    "name": "MinecraftDimensionTypes",
+    "prototype": ["constructor"],
+    "overworld": "minecraft:overworld",
+    "nether": "minecraft:nether",
+    "theEnd": "minecraft:the_end"
+  },
+  "Player": {
+    "name": "Player",
+    "prototype": [
+      "constructor",
+      "runCommandAsync",
+      "id",
+      "typeId",
+      "dimension",
+      "name"
+    ]
+  },
+  "System": {
+    "name": "System",
+    "prototype": ["constructor", "run", "currentTick"]
+  },
+  "World": {
+    "name": "World",
+    "prototype": ["constructor", "getDimension", "getAllPlayers"]
+  },
+  "system": { "run": "function () {\n    [native code]\n}", "currentTick": 0 },
+  "world": {
+    "getDimension": "function () {\n    [native code]\n}",
+    "getAllPlayers": "function () {\n    [native code]\n}"
+  }
+}

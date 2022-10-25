@@ -1,0 +1,112 @@
+{
+  "FenceConnectivity": {
+    "name": "FenceConnectivity",
+    "prototype": ["constructor", "north", "east", "south", "west"]
+  },
+  "FluidType": {
+    "water": 0,
+    "lava": 1,
+    "powderSnow": 2,
+    "potion": 3
+  },
+  "GameTestSequence": {
+    "name": "GameTestSequence",
+    "prototype": [
+      "constructor",
+      "thenExecute",
+      "thenExecuteAfter",
+      "thenExecuteFor",
+      "thenFail",
+      "thenIdle",
+      "thenSucceed",
+      "thenWait",
+      "thenWaitWithDelay"
+    ]
+  },
+  "RegistrationBuilder": {
+    "name": "RegistrationBuilder",
+    "prototype": [
+      "constructor",
+      "batch",
+      "required",
+      "requiredSuccessfulAttempts",
+      "maxAttempts",
+      "maxTicks",
+      "setupTicks",
+      "structureName",
+      "padding",
+      "rotateTest",
+      "tag"
+    ]
+  },
+  "Tags": {
+    "name": "Tags",
+    "prototype": ["constructor"],
+    "suiteDefault": "suite:default",
+    "suiteDisabled": "suite:disabled",
+    "suiteAll": "suite:all",
+    "suiteDebug": "suite:debug"
+  },
+  "Test": {
+    "name": "Test",
+    "prototype": [
+      "constructor",
+      "assertBlockState",
+      "assertBlockPresent",
+      "assertCanReachLocation",
+      "assert",
+      "assertContainerContains",
+      "assertContainerEmpty",
+      "assertEntityState",
+      "assertEntityHasArmor",
+      "assertEntityHasComponent",
+      "assertEntityInstancePresent",
+      "assertEntityPresent",
+      "assertEntityPresentInArea",
+      "assertEntityTouching",
+      "assertIsWaterlogged",
+      "assertItemEntityCountIs",
+      "assertItemEntityPresent",
+      "assertRedstonePower",
+      "fail",
+      "failIf",
+      "getBlock",
+      "getFenceConnectivity",
+      "getTestDirection",
+      "killAllEntities",
+      "pressButton",
+      "print",
+      "pullLever",
+      "pulseRedstone",
+      "relativeBlockLocation",
+      "relativeLocation",
+      "rotateDirection",
+      "runAfterDelay",
+      "runAtTickTime",
+      "setBlockPermutation",
+      "setBlockType",
+      "setFluidContainer",
+      "setTntFuse",
+      "spawn",
+      "spawnAtLocation",
+      "spawnItem",
+      "spawnWithoutBehaviors",
+      "spawnWithoutBehaviorsAtLocation",
+      "spreadFromFaceTowardDirection",
+      "startSequence",
+      "succeed",
+      "succeedIf",
+      "succeedOnTick",
+      "succeedOnTickWhen",
+      "succeedWhen",
+      "succeedWhenBlockTypePresent",
+      "succeedWhenEntityHasComponent",
+      "succeedWhenEntityPresent",
+      "walkTo",
+      "walkToLocation",
+      "worldBlockLocation",
+      "worldLocation"
+    ]
+  },
+  "register": "function () {\n    [native code]\n}"
+}

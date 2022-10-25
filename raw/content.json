@@ -1,0 +1,325 @@
+{
+  "versions": {
+    "1.16.210.5": [
+      {
+        "module_name": "globalThis",
+        "path": "1.16.210.5/globalThis.json"
+      },
+      {
+        "module_name": "mojang-gametest",
+        "version": [0, 1, 0],
+        "path": "1.16.210.5/mojang-gametest/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.16.210.5/mojang-minecraft/0.1.0.json"
+      }
+    ],
+    "1.16.220.2": [
+      {
+        "module_name": "mojang-gametest",
+        "version": [0, 1, 0],
+        "path": "1.16.220.2/mojang-gametest/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.16.220.2/mojang-minecraft/0.1.0.json"
+      }
+    ],
+    "1.17.0.2": [
+      {
+        "module_name": "mojang-gametest",
+        "version": [0, 1, 0],
+        "path": "1.17.0.2/mojang-gametest/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.17.0.2/mojang-minecraft/0.1.0.json"
+      }
+    ],
+    "1.17.10.4": [
+      {
+        "module_name": "mojang-gametest",
+        "version": [0, 1, 0],
+        "path": "1.17.10.4/mojang-gametest/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.17.10.4/mojang-minecraft/0.1.0.json"
+      }
+    ],
+    "1.17.30.4": [
+      {
+        "module_name": "mojang-gametest",
+        "version": [0, 1, 0],
+        "path": "1.17.30.4/mojang-gametest/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.17.30.4/mojang-minecraft/0.1.0.json"
+      }
+    ],
+    "1.17.40.6": [
+      {
+        "module_name": "mojang-gametest",
+        "version": [0, 1, 0],
+        "path": "1.17.40.6/mojang-gametest/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.17.40.6/mojang-minecraft/0.1.0.json"
+      }
+    ],
+    "1.18.0.2": [
+      {
+        "module_name": "mojang-gametest",
+        "version": [0, 1, 0],
+        "path": "1.18.0.2/mojang-gametest/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.18.0.2/mojang-minecraft/0.1.0.json"
+      }
+    ],
+    "1.18.10.4": [
+      {
+        "module_name": "mojang-gametest",
+        "version": [0, 1, 0],
+        "path": "1.18.10.4/mojang-gametest/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.18.10.4/mojang-minecraft/0.1.0.json"
+      }
+    ],
+    "1.18.30.4": [
+      {
+        "module_name": "mojang-gametest",
+        "version": [0, 1, 0],
+        "path": "1.18.30.4/mojang-gametest/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.18.30.4/mojang-minecraft/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft-ui",
+        "version": [0, 1, 0],
+        "path": "1.18.30.4/mojang-minecraft-ui/0.1.0.json"
+      }
+    ],
+    "1.19.1.1": [
+      {
+        "module_name": "globalThis",
+        "path": "1.19.1.1/globalThis.json"
+      },
+      {
+        "module_name": "mojang-gametest",
+        "version": [0, 1, 0],
+        "path": "1.19.1.1/mojang-gametest/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.19.1.1/mojang-minecraft/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft-server-admin",
+        "version": [0, 1, 0],
+        "path": "1.19.1.1/mojang-minecraft-server-admin/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft-ui",
+        "version": [0, 1, 0],
+        "path": "1.19.1.1/mojang-minecraft-ui/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-net",
+        "version": [0, 1, 0],
+        "path": "1.19.1.1/mojang-net/0.1.0.json"
+      }
+    ],
+    "1.19.10.3": [
+      {
+        "module_name": "globalThis",
+        "path": "1.19.10.3/globalThis.json"
+      },
+      {
+        "module_name": "mojang-gametest",
+        "version": [0, 1, 0],
+        "path": "1.19.10.3/mojang-gametest/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.19.10.3/mojang-minecraft/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft-server-admin",
+        "version": [0, 1, 0],
+        "path": "1.19.10.3/mojang-minecraft-server-admin/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft-ui",
+        "version": [0, 1, 0],
+        "path": "1.19.10.3/mojang-minecraft-ui/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-net",
+        "version": [0, 1, 0],
+        "path": "1.19.10.3/mojang-net/0.1.0.json"
+      }
+    ],
+    "1.19.20.2": [
+      {
+        "module_name": "mojang-gametest",
+        "version": [0, 1, 0],
+        "path": "1.19.20.2/mojang-gametest/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.19.20.2/mojang-minecraft/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft-server-admin",
+        "version": [0, 1, 0],
+        "path": "1.19.20.2/mojang-minecraft-server-admin/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft-ui",
+        "version": [0, 1, 0],
+        "path": "1.19.20.2/mojang-minecraft-ui/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-net",
+        "version": [0, 1, 0],
+        "path": "1.19.20.2/mojang-net/0.1.0.json"
+      }
+    ],
+    "1.19.30.4": [
+      {
+        "module_name": "mojang-gametest",
+        "version": "1.0.0-beta",
+        "path": "1.19.30.4/mojang-gametest/1.0.0-beta.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": "0.1.0",
+        "path": "1.19.30.4/mojang-minecraft/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": "1.0.0-beta",
+        "path": "1.19.30.4/mojang-minecraft/1.0.0-beta.json"
+      },
+      {
+        "module_name": "mojang-minecraft-server-admin",
+        "version": "1.0.0-beta",
+        "path": "1.19.30.4/mojang-minecraft-server-admin/1.0.0-beta.json"
+      },
+      {
+        "module_name": "mojang-minecraft-ui",
+        "version": "0.1.0",
+        "path": "1.19.30.4/mojang-minecraft-ui/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft-ui",
+        "version": "1.0.0-beta",
+        "path": "1.19.30.4/mojang-minecraft-ui/1.0.0-beta.json"
+      },
+      {
+        "module_name": "mojang-net",
+        "version": "1.0.0-beta",
+        "path": "1.19.30.4/mojang-net/1.0.0-beta.json"
+      }
+    ],
+    "1.19.40.2": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.0.0-beta",
+        "path": "1.19.40.2/@minecraft/server.json"
+      },
+      {
+        "module_name": "@minecraft/server-admin",
+        "version": "1.0.0-beta",
+        "path": "1.19.40.2/@minecraft/server-admin.json"
+      },
+      {
+        "module_name": "@minecraft/server-gametest",
+        "version": "1.0.0-beta",
+        "path": "1.19.40.2/@minecraft/server-gametest.json"
+      },
+      {
+        "module_name": "@minecraft/server-net",
+        "version": "1.0.0-beta",
+        "path": "1.19.40.2/@minecraft/server-net.json"
+      },
+      {
+        "module_name": "@minecraft/server-ui",
+        "version": "1.0.0-beta",
+        "path": "1.19.40.2/@minecraft/server-ui.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": "0.1.0",
+        "path": "1.19.40.2/mojang-minecraft/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft-ui",
+        "version": "0.1.0",
+        "path": "1.19.40.2/mojang-minecraft-ui/0.1.0.json"
+      }
+    ],
+    "1.19.50.21.preview": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.1.0-beta",
+        "path": "1.19.50.21.preview/@minecraft/server/1.1.0-beta.json"
+      },
+      {
+        "module_name": "@minecraft/server-admin",
+        "version": "1.0.0-beta",
+        "path": "1.19.50.21.preview/@minecraft/server-admin/1.0.0-beta.json"
+      },
+      {
+        "module_name": "@minecraft/server-gametest",
+        "version": "1.0.0-beta",
+        "path": "1.19.50.21.preview/@minecraft/server-gametest/1.0.0-beta.json"
+      },
+      {
+        "module_name": "@minecraft/server-net",
+        "version": "1.0.0-beta",
+        "path": "1.19.50.21.preview/@minecraft/server-net/1.0.0-beta.json"
+      },
+      {
+        "module_name": "@minecraft/server-ui",
+        "version": "1.0.0-beta",
+        "path": "1.19.50.21.preview/@minecraft/server-ui/1.0.0-beta.json"
+      },
+      {
+        "module_name": "globalThis",
+        "path": "1.19.50.21.preview/globalThis.json"
+      },
+      {
+        "module_name": "mojang-minecraft",
+        "version": [0, 1, 0],
+        "path": "1.19.50.21.preview/mojang-minecraft/0.1.0.json"
+      },
+      {
+        "module_name": "mojang-minecraft-ui",
+        "version": [0, 1, 0],
+        "path": "1.19.50.21.preview/mojang-minecraft-ui/0.1.0.json"
+      }
+    ]
+  }
+}

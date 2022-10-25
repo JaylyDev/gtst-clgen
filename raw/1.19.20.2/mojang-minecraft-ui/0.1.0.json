@@ -1,0 +1,40 @@
+{
+  "ActionFormData": {
+    "name": "ActionFormData",
+    "prototype": ["constructor", "show", "button", "title", "body"]
+  },
+  "ActionFormResponse": {
+    "name": "ActionFormResponse",
+    "prototype": ["constructor", "canceled", "cancelationReason", "selection"]
+  },
+  "FormCancelationReason": { "userBusy": 1, "userClosed": 0 },
+  "FormResponse": {
+    "name": "FormResponse",
+    "prototype": ["constructor", "canceled", "cancelationReason"]
+  },
+  "MessageFormData": {
+    "name": "MessageFormData",
+    "prototype": ["constructor", "show", "button1", "button2", "title", "body"]
+  },
+  "MessageFormResponse": {
+    "name": "MessageFormResponse",
+    "prototype": ["constructor", "canceled", "cancelationReason", "selection"]
+  },
+  "ModalFormData": {
+    "name": "ModalFormData",
+    "prototype": [
+      "constructor",
+      "show",
+      "toggle",
+      "slider",
+      "dropdown",
+      "textField",
+      "icon",
+      "title"
+    ]
+  },
+  "ModalFormResponse": {
+    "name": "ModalFormResponse",
+    "prototype": ["constructor", "canceled", "cancelationReason", "formValues"]
+  }
+}

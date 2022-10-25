@@ -1,0 +1,42 @@
+{
+  "HttpClient": {
+    "name": "HttpClient",
+    "prototype": ["constructor", "get", "request", "cancelAll"]
+  },
+  "HttpHeader": {
+    "name": "HttpHeader",
+    "prototype": ["constructor", "key", "value"]
+  },
+  "HttpRequest": {
+    "name": "HttpRequest",
+    "prototype": [
+      "constructor",
+      "setHeaders",
+      "addHeader",
+      "setBody",
+      "setTimeout",
+      "setMethod",
+      "uri",
+      "headers",
+      "body",
+      "timeout",
+      "method"
+    ]
+  },
+  "HttpRequestMethod": {
+    "POST": "POST",
+    "PUT": "PUT",
+    "GET": "GET",
+    "DELETE": "DELETE",
+    "HEAD": "HEAD"
+  },
+  "HttpResponse": {
+    "name": "HttpResponse",
+    "prototype": ["constructor", "headers", "body", "status", "request"]
+  },
+  "http": {
+    "get": "function () {\n    [native code]\n}",
+    "request": "function () {\n    [native code]\n}",
+    "cancelAll": "function () {\n    [native code]\n}"
+  }
+}
