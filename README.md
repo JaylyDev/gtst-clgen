@@ -9,8 +9,7 @@ A script is made to obtain every javascript components from script runtime in Mi
 
 - `raw-beta` folder contains beta / preview versions of Script API, mainly for public archive. It may not have every beta version of Minecraft.
 
-<!-->
-// This section is deprecated until further notice
+<!-- // This section is deprecated until further notice
 
 - `mojang` JSON files in `types` directory includes component types in Script modules, they are fetched in Minecraft version 1.18.30.
 
@@ -22,4 +21,4 @@ A script is made to obtain every javascript components from script runtime in Mi
 The `types` folder has code that generates a list of variable types from Script Framework modules, the feature is being experimented.
 
 `behavior_pack` folder contains the script that generates Script components in Minecraft ingame.
-<!-->
+-->
