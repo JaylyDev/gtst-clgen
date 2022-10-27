@@ -280,45 +280,45 @@
         "path": "1.19.40.2/mojang-minecraft-ui/0.1.0.json"
       }
     ],
-    "1.19.50.21.preview": [
+    "1.19.50.22.preview": [
       {
         "module_name": "@minecraft/server",
         "version": "1.1.0-beta",
-        "path": "1.19.50.21.preview/@minecraft/server/1.1.0-beta.json"
+        "path": "1.19.50.22.preview/@minecraft/server/1.1.0-beta.json"
       },
       {
         "module_name": "@minecraft/server-admin",
         "version": "1.0.0-beta",
-        "path": "1.19.50.21.preview/@minecraft/server-admin/1.0.0-beta.json"
+        "path": "1.19.50.22.preview/@minecraft/server-admin/1.0.0-beta.json"
       },
       {
         "module_name": "@minecraft/server-gametest",
         "version": "1.0.0-beta",
-        "path": "1.19.50.21.preview/@minecraft/server-gametest/1.0.0-beta.json"
+        "path": "1.19.50.22.preview/@minecraft/server-gametest/1.0.0-beta.json"
       },
       {
         "module_name": "@minecraft/server-net",
         "version": "1.0.0-beta",
-        "path": "1.19.50.21.preview/@minecraft/server-net/1.0.0-beta.json"
+        "path": "1.19.50.22.preview/@minecraft/server-net/1.0.0-beta.json"
       },
       {
         "module_name": "@minecraft/server-ui",
         "version": "1.0.0-beta",
-        "path": "1.19.50.21.preview/@minecraft/server-ui/1.0.0-beta.json"
+        "path": "1.19.50.22.preview/@minecraft/server-ui/1.0.0-beta.json"
       },
       {
         "module_name": "globalThis",
-        "path": "1.19.50.21.preview/globalThis.json"
+        "path": "1.19.50.22.preview/globalThis.json"
       },
       {
         "module_name": "mojang-minecraft",
-        "version": [0, 1, 0],
-        "path": "1.19.50.21.preview/mojang-minecraft/0.1.0.json"
+        "version": "0.1.0",
+        "path": "1.19.50.22.preview/mojang-minecraft/0.1.0.json"
       },
       {
         "module_name": "mojang-minecraft-ui",
-        "version": [0, 1, 0],
-        "path": "1.19.50.21.preview/mojang-minecraft-ui/0.1.0.json"
+        "version": "0.1.0",
+        "path": "1.19.50.22.preview/mojang-minecraft-ui/0.1.0.json"
       }
     ]
   }

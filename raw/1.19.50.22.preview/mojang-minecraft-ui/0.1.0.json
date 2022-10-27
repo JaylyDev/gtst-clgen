@@ -1,0 +1,39 @@
+{
+  "ActionFormData": {
+    "name": "ActionFormData",
+    "prototype": ["constructor", "show", "button", "title", "body"]
+  },
+  "ActionFormResponse": {
+    "name": "ActionFormResponse",
+    "prototype": ["constructor", "isCanceled", "selection"]
+  },
+  "FormResponse": {
+    "name": "FormResponse",
+    "prototype": ["constructor", "isCanceled"]
+  },
+  "MessageFormData": {
+    "name": "MessageFormData",
+    "prototype": ["constructor", "show", "button1", "button2", "title", "body"]
+  },
+  "MessageFormResponse": {
+    "name": "MessageFormResponse",
+    "prototype": ["constructor", "isCanceled", "selection"]
+  },
+  "ModalFormData": {
+    "name": "ModalFormData",
+    "prototype": [
+      "constructor",
+      "show",
+      "toggle",
+      "slider",
+      "dropdown",
+      "textField",
+      "icon",
+      "title"
+    ]
+  },
+  "ModalFormResponse": {
+    "name": "ModalFormResponse",
+    "prototype": ["constructor", "isCanceled", "formValues"]
+  }
+}
